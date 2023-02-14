@@ -10,7 +10,7 @@
 
 .field.field--name-field-title.field--type-string.field--label-hidden.field__item {
     position: absolute;
-    line-height: 300%;
+    line-height: 300%; 
     font-weight: 7;
     bottom: 3%;
     color: white;
