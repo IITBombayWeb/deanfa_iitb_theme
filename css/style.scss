@@ -113,7 +113,7 @@ header {
 }
 
 .about-us-homepage{
-    .contextual-region{
+    .row{
         display: grid;
         grid-template-columns: 1fr 400px;
         grid-gap: 70px;
@@ -127,7 +127,7 @@ header {
             &:nth-child(1){
                img{
                 max-width: 100%;
-                height: auto;
+                height: auto;  
                }
             }
         }
