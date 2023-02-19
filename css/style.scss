@@ -287,9 +287,9 @@ header {
 .apply-iitp-section {
     padding: 100px 0px;
     background-attachment: fixed;
-
+    font-size: 1.3rem;
     h2 {
-        @include section-heading(var(--bs-white), center, 3.5rem, 30px);
+        @include section-heading(var(--bs-white), center, 3.2rem, 30px);
         margin-top: 20px;
     }
 
@@ -299,10 +299,37 @@ header {
         margin-top: 50px;
         padding: 16px 50px;
         box-shadow:none;
+        color: var(--bs-white);
         &:hover{
             background-color: var(--bs-white);
             color: var(--bs-primary);
-            
+        }
+    }
+}
+.homepage-news{
+    padding: 70px 0px;
+    h2 {
+        @include section-heading(var(--bs-primary), center, 3.2rem, 0px);
+
+    }
+
+    hr {
+        margin-top: 0px;
+        width: 100px;
+        border-width: 3px;
+        margin-bottom: 40px;
+        border-color: #003863;
+        opacity: 100;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card{
+        .card-body{
+            &:nth-child(1){
+                background-color: #00a4a2;
+                color: #fff;
+            }
         }
     }
 }
