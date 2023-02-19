@@ -207,18 +207,24 @@ header {
     }
 
     .card {
+        .card-img{
+            border-radius: 0px !important;
+        }
         .card-img-overlay {
-            background: linear-gradient(180deg, #003863, #0078d3);
+            background-color: #003863;
             position: relative;
             border: 0px;
             text-align: center;
+            color: #fff;
+            border-radius: 0px;
 
             .field--name-field-designation {
-                margin-bottom: 25px;
+                margin-bottom: 22px;
             }
 
             .fac-name {
-                font-size: 1rem;
+                font-size: 1.2rem;
+                font-weight: 500;
             }
 
             a {
@@ -226,7 +232,36 @@ header {
                 text-decoration: none;
                 border: 1px solid #fff;
                 padding: 5px 15px;
+                border-radius: 4px;
             }
         }
+    }
+    .on-the-gray .quicktabs-tabpage{
+        padding: 2em 2em 1em;
+    }
+    .view-footer{
+        a{
+            @include deanfa-btn(var(--bs-primary), none, var(--bs-primary) ,1.2rem );
+            font-weight: 500;
+            border-radius: 4px;
+            text-align: center;
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid #003863;
+            transition: all 1s;
+            &:hover{
+                background-color: var(--bs-primary);
+                color: var(--bs-white);
+            }
+        }
+    }
+    .list-group-item.active{
+        border-color: var(--bs-primary);
+    }
+    .on-the-gray .quicktabs-tabs > li > a:hover, .on-the-gray .quicktabs-tabs > li.active > a{
+        background-color: var(--bs-primary);
+        color: var(--bs-white);
     }
 }
