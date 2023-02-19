@@ -36,8 +36,8 @@ body {
 @mixin section-heading($color, $align, $size, $mb) {
     color: $color;
     font-size: $size;
-    text-align: left;
-    margin-bottom: $mb;
+    text-align: $align;
+    margin-bottom: $mb; 
 }
 
 @mixin deanfa-btn($color, $bgColor, $borderColor, $fsize) {

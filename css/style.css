@@ -169,7 +169,7 @@ header .header-row .item-navigation .bg-light ul li a {
 .homepage-faculty-tabs h2 {
   color: var(--bs-primary);
   font-size: 3.2rem;
-  text-align: left;
+  text-align: center;
   margin-bottom: 0px;
 }
 
