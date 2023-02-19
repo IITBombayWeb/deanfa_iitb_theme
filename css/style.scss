@@ -188,7 +188,7 @@ header {
 
 .homepage-faculty-tabs {
     padding: 70px 0px;
-    background-color: var(--bs-light);
+    background-color: #f0f0f0;
 
     h2 {
         @include section-heading(var(--bs-primary), center, 3.2rem, 0px);
@@ -238,6 +238,7 @@ header {
     }
     .on-the-gray .quicktabs-tabpage{
         padding: 2em 2em 1em;
+        background-color: var(--bs-white);
     }
     .view-footer{
         a{
@@ -263,5 +264,10 @@ header {
     .on-the-gray .quicktabs-tabs > li > a:hover, .on-the-gray .quicktabs-tabs > li.active > a{
         background-color: var(--bs-primary);
         color: var(--bs-white);
+    }
+
+    .on-the-gray .quicktabs-tabs > li > a{
+        background-color: var(--bs-white);
+        font-size: 1.2rem;
     }
 }
