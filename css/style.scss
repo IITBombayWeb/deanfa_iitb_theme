@@ -30,7 +30,7 @@ header {
     width: 100%;
     z-index: 100;
     padding: 10px 0px;
-
+    background-image: linear-gradient(to bottom,#21212157,#00000000);
     .header-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -48,7 +48,7 @@ header {
 
                         a {
                             font-size: 1.2rem;
-                            padding: 0px 18px;
+                          
                             color: #fff;
                         }
                     }
@@ -60,14 +60,15 @@ header {
             .bg-light {
                 background-color: transparent !important;
                 box-shadow: none;
-
+                background-image: none;
                 ul {
                     li {
 
 
                         a {
                             font-size: 1.2rem;
-                            padding: 0px 15px;
+                            padding: 0px 18px;
+                            color: #fff;
                         }
 
                     }
@@ -85,15 +86,16 @@ header {
     .field--name-field-title {
         position: absolute;
         line-height: 300%;
-        font-weight: 7;
-        bottom: 3%;
+        font-weight: 600;
+       
         color: white;
         padding: 8px 18px;
         border-radius: 4px;
         background-color: rgba(0,0,0,0);
-        font-size: 28px;
+        font-size:3rem;
         background-image: linear-gradient(to top,#000000,#00000000);
         width: 100%;
         text-align: center; 
+        bottom: 0px;
     }
 }
