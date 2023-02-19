@@ -25,6 +25,10 @@
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+body {
+  font-size: 1.1rem;
+}
+
 header {
   position: absolute;
   width: 100%;
@@ -124,5 +128,9 @@ header .header-row .item-navigation .bg-light ul li a {
 .about-us-homepage .row div:nth-child(1) img {
   max-width: 100%;
   height: auto;
+}
+
+.default-learn-more a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
