@@ -1,5 +1,5 @@
 :root {
-    --bs-blue: #0d6efd;
+    --bs-blue: #003863;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --bs-pink: #d63384;
@@ -12,7 +12,7 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #0d6efd;
+    --bs-primary: #003863;
     --bs-secondary: #6c757d;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
@@ -24,7 +24,8 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
-body{
+
+body {
     font-size: 1.1rem;
 }
 
@@ -35,13 +36,14 @@ body{
     margin-bottom: $mb;
 }
 
-@mixin deanfa-btn($color,$bgColor,$borderColor, $fsize) {
+@mixin deanfa-btn($color, $bgColor, $borderColor, $fsize) {
     background-color: $bgColor;
     color: $color;
     border-color: $borderColor;
     font-size: $fsize;
-    border-radius: 10px;
-    border: 1px solid;
+    border-radius: 4px;
+    border: 2px solid;
+    padding: 10px 30px;
 }
 
 
@@ -51,11 +53,13 @@ header {
     width: 100%;
     z-index: 100;
     padding: 10px 0px;
-    background-image: linear-gradient(to bottom,#21212157,#00000000);
+    background-image: linear-gradient(to bottom, #21212157, #00000000);
+
     .header-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
+
         .item-logo {
             .region-top-header {
                 display: grid;
@@ -69,8 +73,8 @@ header {
                         font-weight: 500;
 
                         a {
-                          
-                          text-decoration: none;
+
+                            text-decoration: none;
                             color: #fff;
                         }
                     }
@@ -83,6 +87,7 @@ header {
                 background-color: transparent !important;
                 box-shadow: none;
                 background-image: none;
+
                 ul {
                     li {
 
@@ -110,50 +115,58 @@ header {
         position: absolute;
         line-height: 300%;
         font-weight: 600;
-       
+
         color: white;
         padding: 8px 18px;
         border-radius: 4px;
-        background-color: rgba(0,0,0,0);
-        font-size:3rem;
-        background-image: linear-gradient(to top,#000000,#00000000);
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 3rem;
+        background-image: linear-gradient(to top, #000000, #00000000);
         width: 100%;
-        text-align: center; 
+        text-align: center;
         bottom: 0px;
     }
 }
 
-.about-us-homepage{
-    .row{
+.about-us-homepage {
+    .row {
         display: grid;
         grid-template-columns: 1fr 500px;
-    grid-gap: 70px;
-    align-items: center;
+        grid-gap: 70px;
+        align-items: center;
 
-        div{
-            &:nth-child(1){
-                h2{
-                   @include section-heading(var(--bs-primary),left,2.5rem,20px);
-                   &::after{
-                    content: '';
-                    height: 2px;
-                    background-color: #0d6efd;
-                    width: 100px;                    
-                   }
+        div {
+            &:nth-child(1) {
+                h2 {
+                    @include section-heading(var(--bs-primary), left, 3.2rem, 20px);
+
+                    &::after {
+                        content: '';
+                        height: 2px;
+                        background-color: #0d6efd;
+                        width: 100px;
+                    }
                 }
             }
-            &:nth-child(1){
-               img{
-                max-width: 100%;
-                height: auto;  
-               }
+
+            &:nth-child(1) {
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
             }
         }
     }
 }
 
-.default-learn-more{
-    a{
-      @include deanfa-btn(var(--bs-primary),none ,var(--bs-primary) ,  1rem );
+.default-learn-more {
+    a {
+        @include deanfa-btn(#8f8f8f, none, #8f8f8f, 1.1rem);
+        text-decoration: none;
+
+        &:hover {
+            background-color: var(--bs-blue);
+            color: var(--bs-white);
+        }
     }
 }

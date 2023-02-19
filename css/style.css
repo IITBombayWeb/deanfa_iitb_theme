@@ -1,5 +1,5 @@
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #003863;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -12,7 +12,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: #0d6efd;
+  --bs-primary: #003863;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -113,7 +113,7 @@ header .header-row .item-navigation .bg-light ul li a {
 
 .about-us-homepage .row div:nth-child(1) h2 {
   color: var(--bs-primary);
-  font-size: 2.5rem;
+  font-size: 3.2rem;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -132,10 +132,17 @@ header .header-row .item-navigation .bg-light ul li a {
 
 .default-learn-more a {
   background-color: none;
-  color: var(--bs-primary);
-  border-color: var(--bs-primary);
-  font-size: 1rem;
-  border-radius: 10px;
-  border: 1px solid;
+  color: #8f8f8f;
+  border-color: #8f8f8f;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  border: 2px solid;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.default-learn-more a:hover {
+  background-color: var(--bs-blue);
+  color: var(--bs-white);
 }
 /*# sourceMappingURL=style.css.map */
