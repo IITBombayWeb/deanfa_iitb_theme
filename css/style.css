@@ -62,8 +62,11 @@ header .header-row .item-navigation .bg-light {
           box-shadow: none;
 }
 
-header .header-row .item-navigation .bg-light .navbar-nav li {
-  font-size: 1.2rem;
+header .header-row .item-navigation .bg-light ul li {
   padding: 0px 0px;
+}
+
+header .header-row .item-navigation .bg-light ul li a {
+  font-size: 1.2rem;
 }
 /*# sourceMappingURL=style.css.map */
