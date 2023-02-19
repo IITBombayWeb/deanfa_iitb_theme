@@ -47,8 +47,9 @@ header {
                         color: #fff;
 
                         a {
+                            font-size: 1.2rem;
+                            padding: 0px 18px;
                             color: #fff;
-                            text-decoration: none;
                         }
                     }
                 }
@@ -91,7 +92,7 @@ header {
         border-radius: 4px;
         background-color: rgba(0,0,0,0);
         font-size: 28px;
-        
+        background-image: linear-gradient(to top,#000000,#00000000);
         width: 100%;
         text-align: center; 
     }

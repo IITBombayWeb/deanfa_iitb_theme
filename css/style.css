@@ -52,8 +52,9 @@ header .header-row .item-logo .region-top-header .block-block-content h1 {
 }
 
 header .header-row .item-logo .region-top-header .block-block-content h1 a {
+  font-size: 1.2rem;
+  padding: 0px 18px;
   color: #fff;
-  text-decoration: none;
 }
 
 header .header-row .item-navigation .bg-light {
@@ -81,6 +82,8 @@ header .header-row .item-navigation .bg-light ul li a {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0);
   font-size: 28px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#000000), to(#00000000));
+  background-image: linear-gradient(to top, #000000, #00000000);
   width: 100%;
   text-align: center;
 }
