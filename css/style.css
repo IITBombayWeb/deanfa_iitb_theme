@@ -131,6 +131,11 @@ header .header-row .item-navigation .bg-light ul li a {
 }
 
 .default-learn-more a {
-  text-decoration: none;
+  background-color: none;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid;
 }
 /*# sourceMappingURL=style.css.map */
