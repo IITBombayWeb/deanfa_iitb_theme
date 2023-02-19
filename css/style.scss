@@ -28,7 +28,7 @@
 
 @mixin section-heading($color, $align, $size, $mb) {
     color: $color;
-    size: $size;
+    font-size: $size;
     text-align: left;
     margin-bottom: $mb;
 }
@@ -115,13 +115,20 @@ header {
 .about-us-homepage{
     .row{
         display: grid;
-        grid-template-columns: 1fr 400px;
-        grid-gap: 70px;
+        grid-template-columns: 1fr 500px;
+    grid-gap: 70px;
+    align-items: center;
 
         div{
             &:nth-child(1){
                 h2{
-                   @include section-heading(var(--bs-primary),left,2.5rem,20px)
+                   @include section-heading(var(--bs-primary),left,2.5rem,20px);
+                   &::after{
+                    content: '';
+                    height: 2px;
+                    background-color: #0d6efd;
+                    width: 100px;                    
+                   }
                 }
             }
             &:nth-child(1){
