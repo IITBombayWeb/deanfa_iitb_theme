@@ -129,37 +129,42 @@ header {
 }
 
 .about-us-homepage {
-    .row {
+    padding: 70px 0px;
+    .about-row {
         display: grid;
         grid-template-columns: 1fr 500px;
         grid-gap: 70px;
         align-items: center;
 
-        div {
-            &:nth-child(1) {
-                h2 {
-                    @include section-heading(var(--bs-primary), left, 3.2rem, 20px);
+        .about-us-text {
+            h2 {
+                @include section-heading(var(--bs-primary), left, 3.2rem, 20px);
 
-                    &::after {
-                        content: '';
-                        height: 2px;
-                        background-color: #0d6efd;
-                        width: 100px;
-                    }
-                }
-            }
-
-            &:nth-child(1) {
-                img {
-                    max-width: 100%;
-                    height: auto;
+                &::after {
+                    content: '';
+                    height: 2px;
+                    background-color: #0d6efd;
+                    width: 100px;
                 }
             }
         }
+
+        .about-us-image {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+
     }
+
 }
 
 .default-learn-more {
+    margin-top: 35px;
+    float: left;
+
     a {
         @include deanfa-btn(#8f8f8f, none, #8f8f8f, 1.1rem);
         text-decoration: none;
@@ -169,4 +174,9 @@ header {
             color: var(--bs-white);
         }
     }
+}
+
+.homepage-faculty-tabs{
+    padding: 70px 0px;
+    background-color: var(--bs-light);
 }
