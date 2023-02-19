@@ -123,7 +123,7 @@ header .header-row .item-navigation .bg-light ul li a {
   color: var(--bs-primary);
   font-size: 3.2rem;
   text-align: left;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 
 .about-us-homepage .about-row .about-us-text hr {
@@ -170,7 +170,7 @@ header .header-row .item-navigation .bg-light ul li a {
   color: var(--bs-primary);
   font-size: 3.2rem;
   text-align: left;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 
 .homepage-faculty-tabs hr {

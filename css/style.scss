@@ -143,7 +143,7 @@ header {
 
         .about-us-text {
             h2 {
-                @include section-heading(var(--bs-primary), left, 3.2rem, 35px);
+                @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
 
 
             }
@@ -191,7 +191,7 @@ header {
     background-color: var(--bs-light);
 
     h2 {
-        @include section-heading(var(--bs-primary), center, 3.2rem, 35px);
+        @include section-heading(var(--bs-primary), center, 3.2rem, 0px);
 
     }
 
@@ -200,7 +200,7 @@ header {
         width: 100px;
         border-width: 3px;
         margin-bottom: 40px;
-        border-color: #003863;
-        opacity: 100;
+        border-color: #003863; 
+        opacity: 100;        
     }
 }
