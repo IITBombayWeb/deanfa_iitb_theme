@@ -1,11 +1,14 @@
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
 header .header-row {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  position: absolute;
-  width: 100%;
-  z-index: 100;
 }
 
 header .header-row .item-logo .region-top-header {
@@ -15,7 +18,8 @@ header .header-row .item-logo .region-top-header {
       grid-template-columns: 100px 1fr;
 }
 
-header .header-row .item-logo .region-top-header .block-block-content h1, header .header-row .item-logo .region-top-header .block-block-content h2 {
+header .header-row .item-logo .region-top-header .block-block-content h1,
+header .header-row .item-logo .region-top-header .block-block-content h2 {
   font-size: 1rem;
 }
 

@@ -1,25 +1,29 @@
-header{
-   
-    .header-row{
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+
+    .header-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        position: absolute;
-        width: 100%;
-        z-index: 100;
-        .item-logo{
-            .region-top-header{
+
+        .item-logo {
+            .region-top-header {
                 display: grid;
                 grid-template-columns: 100px 1fr;
 
-                .block-block-content{
-                    h1,h2{
+                .block-block-content {
+
+                    h1,
+                    h2 {
                         font-size: 1rem;
                     }
                 }
             }
         }
-        .item-navigation{
-            .bg-light{
+
+        .item-navigation {
+            .bg-light {
                 background-color: transparent !important;
                 box-shadow: none;
             }
