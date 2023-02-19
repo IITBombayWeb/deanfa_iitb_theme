@@ -62,11 +62,12 @@ header .header-row .item-navigation .bg-light {
           box-shadow: none;
 }
 
-header .header-row .item-navigation .bg-light ul li {
-  padding: 0px 0px;
-}
-
 header .header-row .item-navigation .bg-light ul li a {
   font-size: 1.2rem;
+  padding: 0px 15px;
+}
+
+.homepage-slideshow .field--type-entity-reference {
+  margin: 0px !important;
 }
 /*# sourceMappingURL=style.css.map */
