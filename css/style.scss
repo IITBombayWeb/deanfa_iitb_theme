@@ -25,6 +25,16 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+
+@mixin section-heading($color, $align, $size, $mb) {
+    color: $color;
+    size: $size;
+    text-align: left;
+    margin-bottom: $mb;
+}
+
+
+
 header {
     position: absolute;
     width: 100%;
@@ -34,7 +44,7 @@ header {
     .header-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
-
+        align-items: center;
         .item-logo {
             .region-top-header {
                 display: grid;
@@ -99,5 +109,27 @@ header {
         width: 100%;
         text-align: center; 
         bottom: 0px;
+    }
+}
+
+.about-us-homepage{
+    .contextual-region{
+        display: grid;
+        grid-template-columns: 1fr 400px;
+        grid-gap: 70px;
+
+        div{
+            &:nth-child(1){
+                h2{
+                   @include section-heading(var(--bs-primary),left,2.5rem,20px)
+                }
+            }
+            &:nth-child(1){
+               img{
+                max-width: 100%;
+                height: auto;
+               }
+            }
+        }
     }
 }
