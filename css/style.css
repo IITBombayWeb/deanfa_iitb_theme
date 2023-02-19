@@ -1,30 +1,11 @@
-/**
- * @file
- * Subtheme specific CSS.
- */
-
-.slick-list .slide .field--name-field-slide-image img {
-    width: 100%;
-    border-radius: 1em;
+header {
+  background-color: red;
 }
 
-.field.field--name-field-title.field--type-string.field--label-hidden.field__item {
-    position: absolute;
-    line-height: 300%; 
-    font-weight: 7;
-    bottom: 3%;
-    color: white;
-    padding: 8px 18px;
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 28px;
-    background-image: linear-gradient(to top, rgb(0 0 0), rgb(0 0 0 / 0%));
-    width: 100%;
-    text-align: center;
+header .header-row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 400px 1fr;
+      grid-template-columns: 400px 1fr;
 }
-
-@media (max-width: 430px) {
-    .field.field--name-field-title.field--type-string.field--label-hidden.field__item {
-        font-size: 15px !important;
-    }
-}
+/*# sourceMappingURL=style.css.map */

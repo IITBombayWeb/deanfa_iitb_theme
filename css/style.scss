@@ -1,0 +1,7 @@
+header{
+    background-color: red;
+    .header-row{
+        display: grid;
+        grid-template-columns: 400px 1fr;
+    }
+}
