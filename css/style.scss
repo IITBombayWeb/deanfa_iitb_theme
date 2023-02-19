@@ -1,7 +1,24 @@
 header{
-    background-color: red;
+   
     .header-row{
         display: grid;
-        grid-template-columns: 400px 1fr;
+        grid-template-columns: 1fr 1fr;
+        .item-logo{
+            .region-top-header{
+                display: grid;
+                grid-template-columns: 100px 1fr;
+
+                .block-block-content{
+                    h1,h2{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        .item-navigation{
+            .bg-light{
+                background-color: transparent !important;
+            }
+        }
     }
 }
