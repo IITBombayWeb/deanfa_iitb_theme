@@ -126,10 +126,13 @@ header .header-row .item-navigation .bg-light ul li a {
   margin-bottom: 35px;
 }
 
-.about-us-homepage .about-row .about-us-text h2 hr {
-  height: 3px;
-  background-color: #003863;
+.about-us-homepage .about-row .about-us-text hr {
+  margin-top: 0px;
   width: 100px;
+  border-width: 3px;
+  margin-bottom: 40px;
+  border-color: #003863;
+  opacity: 100;
 }
 
 .about-us-homepage .about-row .about-us-image img {
@@ -170,12 +173,12 @@ header .header-row .item-navigation .bg-light ul li a {
   margin-bottom: 35px;
 }
 
-.homepage-faculty-tabs h2 hr {
-  content: '';
-  height: 3px;
-  background-color: #003863;
+.homepage-faculty-tabs hr {
+  margin-top: 0px;
   width: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  border-width: 3px;
+  margin-bottom: 40px;
+  border-color: #003863;
+  opacity: 100;
 }
 /*# sourceMappingURL=style.css.map */

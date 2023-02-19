@@ -145,13 +145,17 @@ header {
             h2 {
                 @include section-heading(var(--bs-primary), left, 3.2rem, 35px);
 
-                hr {
 
-                    height: 3px;
-                    background-color: #003863;
-                    width: 100px;
+            }
 
-                }
+            hr {
+                margin-top: 0px;
+                width: 100px;
+                border-width: 3px;
+                margin-bottom: 40px;
+                border-color: #003863;
+                opacity: 100;
+
             }
         }
 
@@ -189,13 +193,14 @@ header {
     h2 {
         @include section-heading(var(--bs-primary), center, 3.2rem, 35px);
 
-        hr {
-            content: '';
-            height: 3px;
-            background-color: #003863;
-            width: 100px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    }
+
+    hr {
+        margin-top: 0px;
+        width: 100px;
+        border-width: 3px;
+        margin-bottom: 40px;
+        border-color: #003863;
+        opacity: 100;
     }
 }
