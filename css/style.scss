@@ -207,9 +207,10 @@ header {
     }
 
     .card {
-        .card-img{
+        .card-img {
             border-radius: 0px !important;
         }
+
         .card-img-overlay {
             background-color: #003863;
             position: relative;
@@ -236,13 +237,15 @@ header {
             }
         }
     }
-    .on-the-gray .quicktabs-tabpage{
+
+    .on-the-gray .quicktabs-tabpage {
         padding: 2em 2em 1em;
         background-color: var(--bs-white);
     }
-    .view-footer{
-        a{
-            @include deanfa-btn(var(--bs-primary), none, var(--bs-primary) ,1.2rem );
+
+    .view-footer {
+        a {
+            @include deanfa-btn(var(--bs-primary), none, var(--bs-primary), 1.2rem);
             font-weight: 500;
             border-radius: 4px;
             text-align: center;
@@ -252,22 +255,54 @@ header {
             padding: 10px;
             border: 1px solid #003863;
             transition: all 1s;
-            &:hover{
+
+            &:hover {
                 background-color: var(--bs-primary);
                 color: var(--bs-white);
             }
         }
     }
-    .list-group-item.active{
+
+    .list-group-item.active {
         border-color: var(--bs-primary);
     }
-    .on-the-gray .quicktabs-tabs > li > a:hover, .on-the-gray .quicktabs-tabs > li.active > a{
+
+    .on-the-gray .quicktabs-tabs>li>a:hover,
+    .on-the-gray .quicktabs-tabs>li.active>a {
         background-color: var(--bs-primary);
         color: var(--bs-white);
     }
 
-    .on-the-gray .quicktabs-tabs > li > a{
+    .on-the-gray .quicktabs-tabs>li>a {
         background-color: var(--bs-white);
         font-size: 1.2rem;
+    }
+
+    .block-column>.grid,
+    .item-list>.block-column>.grid {
+        border-radius: 0px;
+    }
+}
+
+.apply-iitp-section {
+    padding: 100px 0px;
+    background-attachment: fixed;
+
+    h2 {
+        @include section-heading(var(--bs-white), center, 3.5rem, 30px);
+        margin-top: 20px;
+    }
+
+    .btn-outline-black {
+        border: 2px solid #fff;
+        font-size: 1.2rem;
+        margin-top: 50px;
+        padding: 16px 50px;
+        box-shadow:none;
+        &:hover{
+            background-color: var(--bs-white);
+            color: var(--bs-primary);
+            
+        }
     }
 }
