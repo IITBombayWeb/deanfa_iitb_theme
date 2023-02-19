@@ -37,7 +37,7 @@ body {
     color: $color;
     font-size: $size;
     text-align: $align;
-    margin-bottom: $mb; 
+    margin-bottom: $mb;
 }
 
 @mixin deanfa-btn($color, $bgColor, $borderColor, $fsize) {
@@ -200,7 +200,33 @@ header {
         width: 100px;
         border-width: 3px;
         margin-bottom: 40px;
-        border-color: #003863; 
-        opacity: 100;        
+        border-color: #003863;
+        opacity: 100;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        .card-img-overlay {
+            background: linear-gradient(180deg, #003863, #0078d3);
+            position: relative;
+            border: 0px;
+            text-align: center;
+
+            .field--name-field-designation {
+                margin-bottom: 25px;
+            }
+
+            .fac-name {
+                font-size: 1rem;
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                border: 1px solid #fff;
+                padding: 5px 15px;
+            }
+        }
     }
 }

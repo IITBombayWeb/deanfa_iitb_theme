@@ -180,5 +180,30 @@ header .header-row .item-navigation .bg-light ul li a {
   margin-bottom: 40px;
   border-color: #003863;
   opacity: 100;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homepage-faculty-tabs .card .card-img-overlay {
+  background: -webkit-gradient(linear, left top, left bottom, from(#003863), to(#0078d3));
+  background: linear-gradient(180deg, #003863, #0078d3);
+  position: relative;
+  border: 0px;
+  text-align: center;
+}
+
+.homepage-faculty-tabs .card .card-img-overlay .field--name-field-designation {
+  margin-bottom: 25px;
+}
+
+.homepage-faculty-tabs .card .card-img-overlay .fac-name {
+  font-size: 1rem;
+}
+
+.homepage-faculty-tabs .card .card-img-overlay a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 5px 15px;
 }
 /*# sourceMappingURL=style.css.map */
