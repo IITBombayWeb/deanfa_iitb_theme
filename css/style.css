@@ -324,7 +324,7 @@ header .header-row .item-navigation .bg-light ul li a {
   background-color: #f1f1f1;
 }
 
-.homepage-news .card .card-body:nth-child(2) a {
+.homepage-news .card .card-body a {
   border: 1px solid #000;
   color: #000;
   padding: 4px 15px;
