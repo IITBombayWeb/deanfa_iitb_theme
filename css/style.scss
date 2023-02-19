@@ -30,6 +30,7 @@ header {
     width: 100%;
     z-index: 100;
     padding: 10px 0px;
+
     .header-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -41,11 +42,12 @@ header {
 
                 .block-block-content {
 
-                    h1{
+                    h1 {
                         font-size: 1.5rem;
-                        color: #fff; 
-                        a{
-                            color:#fff;
+                        color: #fff;
+
+                        a {
+                            color: #fff;
                             text-decoration: none;
                         }
                     }
@@ -58,21 +60,39 @@ header {
                 background-color: transparent !important;
                 box-shadow: none;
 
-               ul{
-                    li{
-                        
-                        
-                        a{
+                ul {
+                    li {
+
+
+                        a {
                             font-size: 1.2rem;
                             padding: 0px 15px;
                         }
-                        
+
                     }
                 }
             }
         }
     }
 }
-.homepage-slideshow .field--type-entity-reference{
-    margin: 0px !important;
+
+.homepage-slideshow {
+    .field--type-entity-reference {
+        margin: 0px !important;
+    }
+
+    .field--name-field-title {
+        position: absolute;
+        line-height: 300%;
+        font-weight: 7;
+        bottom: 3%;
+        color: white;
+        padding: 8px 18px;
+        border-radius: 4px;
+        background-color: rgba(0,0,0,0);
+        font-size: 28px;
+        
+        width: 100%;
+        text-align: center; 
+    }
 }

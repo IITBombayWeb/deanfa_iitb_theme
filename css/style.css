@@ -70,4 +70,18 @@ header .header-row .item-navigation .bg-light ul li a {
 .homepage-slideshow .field--type-entity-reference {
   margin: 0px !important;
 }
+
+.homepage-slideshow .field--name-field-title {
+  position: absolute;
+  line-height: 300%;
+  font-weight: 7;
+  bottom: 3%;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 28px;
+  width: 100%;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
