@@ -364,8 +364,12 @@ header .header-row .item-navigation .bg-light ul li a {
 .about-iitb-section h2 {
   color: var(--bs-primary);
   font-size: 3.2rem;
-  text-align: center;
+  text-align: left;
   margin-bottom: 0px;
+}
+
+.about-iitb-section .col-12 {
+  padding: 0px;
 }
 
 .about-iitb-section hr {
@@ -380,7 +384,9 @@ header .header-row .item-navigation .bg-light ul li a {
 }
 
 .about-iitb-section .about-iitb-desc {
-  background-color: var(--bs-white);
-  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.859);
+  padding: 100px 220px;
+  -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
 }
 /*# sourceMappingURL=style.css.map */
