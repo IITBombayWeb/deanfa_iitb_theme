@@ -374,7 +374,7 @@ header {
 
 .about-iitb-section {
     padding: 100px 0px;
-
+    background-attachment: fixed;
     h2 {
         @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
     }
@@ -404,6 +404,12 @@ header {
             padding: 10px 25px;
             transition: all 1s;
             border: 1px solid;
+            margin-top: 30px;
+            float: left;
+            &:hover{
+                background-color: var(--bs-primary);
+                color: var(--bs-white);
+            }
         }
     }
 }
