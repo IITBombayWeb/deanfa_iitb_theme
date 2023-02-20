@@ -67,14 +67,15 @@ header {
         .item-logo {
             .region-top-header {
                 display: grid;
-                grid-template-columns: 100px 1fr;
-
+                grid-template-columns: 90px 1fr;
+                align-items: center;
                 .block-block-content {
 
                     h1 {
-                        font-size: 1.7rem;
+                        font-size: 1.5rem;
                         color: #fff;
-                        font-weight: 500;
+                        font-weight: 500;  
+                        margin: 0px;
 
                         a {
 
@@ -384,7 +385,7 @@ header {
 
     hr {
         margin-top: 0px;
-        width: 100px;
+        width: 190px;
         border-width: 3px;
         margin-bottom: 40px;
         border-color: #003863;
