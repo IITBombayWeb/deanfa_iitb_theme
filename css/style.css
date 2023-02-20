@@ -105,7 +105,7 @@ header .header-row .item-navigation .bg-light ul li a {
 }
 
 .about-us-homepage {
-  padding: 70px 0px;
+  padding: 100px 0px;
 }
 
 .about-us-homepage .about-row {
@@ -162,7 +162,7 @@ header .header-row .item-navigation .bg-light ul li a {
 }
 
 .homepage-faculty-tabs {
-  padding: 70px 0px;
+  padding: 100px 0px;
   background-color: #f0f0f0;
 }
 
@@ -294,7 +294,7 @@ header .header-row .item-navigation .bg-light ul li a {
 }
 
 .homepage-news {
-  padding: 70px 0px;
+  padding: 100px 0px;
 }
 
 .homepage-news h2 {
@@ -355,5 +355,32 @@ header .header-row .item-navigation .bg-light ul li a {
 .homepage-news .view-footer a:hover {
   background-color: #00a4a2;
   color: var(--bs-white);
+}
+
+.about-iitb-section {
+  padding: 100px 0px;
+}
+
+.about-iitb-section h2 {
+  color: var(--bs-primary);
+  font-size: 3.2rem;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.about-iitb-section hr {
+  margin-top: 0px;
+  width: 100px;
+  border-width: 3px;
+  margin-bottom: 40px;
+  border-color: #003863;
+  opacity: 100;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-iitb-section .about-iitb-desc {
+  background-color: var(--bs-white);
+  padding: 40px;
 }
 /*# sourceMappingURL=style.css.map */
