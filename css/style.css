@@ -416,4 +416,25 @@ header .header-row .item-navigation .bg-light ul li a {
   background-color: var(--bs-primary);
   color: var(--bs-white);
 }
+
+.awards-ann-section {
+  padding: 100px 0px;
+  background-color: var(--bs-light);
+}
+
+.awards-ann-section h2 {
+  color: var(--bs-primary);
+  font-size: 3.2rem;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.awards-ann-section hr {
+  margin-top: 0px;
+  width: 190px;
+  border-width: 3px;
+  margin-bottom: 40px;
+  border-color: #003863;
+  opacity: 100;
+}
 /*# sourceMappingURL=style.css.map */
