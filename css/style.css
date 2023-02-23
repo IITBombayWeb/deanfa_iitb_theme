@@ -437,4 +437,19 @@ header .header-row .item-navigation .bg-light ul li a {
   border-color: #003863;
   opacity: 100;
 }
+
+.awards-ann-section .award-section .view-content .views-row {
+  padding: 8px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.awards-ann-section .award-section .view-content .views-row .field-content a {
+  text-decoration: none;
+  color: #000;
+}
+
+.awards-ann-section .award-section .view-content .views-row .field-content a::before {
+  content: "\f154";
+  position: relative;
+}
 /*# sourceMappingURL=style.css.map */

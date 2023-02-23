@@ -433,4 +433,24 @@ header {
         opacity: 100;  
         
     }
+
+    .award-section{
+        .view-content{
+            .views-row{
+                padding: 8px 0px; 
+                border-bottom: 1px solid #ccc;
+                .field-content{
+                    a{
+                        text-decoration: none;
+                       color: #000;
+                        &::before{
+                            content: "\f154";
+                            position: relative; 
+
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
