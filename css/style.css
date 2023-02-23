@@ -89,6 +89,12 @@ header .header-row .item-navigation .bg-light ul li a {
   font-weight: 500;
 }
 
+header .navbar-nav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
 .homepage-slideshow .field--type-entity-reference {
   margin: 0px !important;
 }
