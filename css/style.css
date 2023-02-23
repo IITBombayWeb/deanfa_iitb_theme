@@ -476,6 +476,16 @@ header .header-row .item-navigation .bg-light ul li a {
 
 .deanfa-mes-section {
   padding: 100px 0px;
+  position: relative;
+}
+
+.deanfa-mes-section::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.581);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .deanfa-mes-section h2 {
