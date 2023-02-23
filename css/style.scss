@@ -497,12 +497,12 @@ header {
         width: 100%;
         top: 0;
         left: 0;
-        position: absolute;
-        z-index: 10;
+        position: absolute;          
+        z-index: 10;   
     }
 
     h2 {
-        @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
+        @include section-heading(var(--bs-primary), left, 3.2rem, 0px); 
     }
 
 
@@ -521,5 +521,26 @@ header {
         padding: 50px;
         position: relative;
         z-index: 100;
+    }
+}
+
+.faculty-work-section{
+    padding: 100px 0px;
+    position: relative;
+
+  
+    h2 {
+        @include section-heading(var(--bs-primary), left, 3.2rem, 0px); 
+    }
+
+
+    hr {
+        margin-top: 0px;
+        width: 190px;
+        border-width: 3px;
+        margin-bottom: 40px;
+        border-color: #003863;
+        opacity: 100;
+
     }
 }
