@@ -445,26 +445,8 @@ header {
                 padding: 12px 0px;
                 border-bottom: 1px solid #ccc;
 
-                .card {
-                    overflow: hidden;
-
-                    .card-body {
-                        a {
-                            border: 1px solid #000;
-                            color: #000;
-                            padding: 4px 15px;
-                            text-decoration: none;
-                            border-radius: 4px;
-                            transition: all 0.5s;
-
-                            &:hover {
-                                background-color: #000;
-                                color: #fff;
-                            }
-                        }
-                    }
-                }
-
+               
+             
                 .field-content {
                     a {
                         text-decoration: none;
@@ -475,6 +457,27 @@ header {
                             position: relative;
                             font-family: bootstrap-icons !important;
                             margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .announcement-single{
+            .card {
+                overflow: hidden;
+
+                .card-body {
+                    a {
+                        border: 1px solid #000;
+                        color: #000;
+                        padding: 4px 15px;
+                        text-decoration: none;
+                        border-radius: 4px;
+                        transition: all 0.5s;
+
+                        &:hover {
+                            background-color: #000;
+                            color: #fff;
                         }
                     }
                 }
@@ -494,6 +497,8 @@ header {
         width: 100%;
         top: 0;
         left: 0;
+        position: absolute;
+        z-index: 10;
     }
 
     h2 {
@@ -514,5 +519,7 @@ header {
     .dean-fa-box {
         background-color: rgba(255, 255, 255, 0.786);
         padding: 50px;
+        position: relative;
+        z-index: 100;
     }
 }
