@@ -533,4 +533,24 @@ header .header-row .item-navigation .bg-light ul li a {
   border-color: #003863;
   opacity: 100;
 }
+
+.faculty-work-section .card .card-body a {
+  border: 1px solid #000;
+  color: #000;
+  padding: 4px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.faculty-work-section .card .card-body a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.faculty-work-section .card-img,
+.faculty-work-section .card-img-top {
+  border-radius: 0px;
+}
 /*# sourceMappingURL=style.css.map */
