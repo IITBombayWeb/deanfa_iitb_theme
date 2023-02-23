@@ -492,7 +492,7 @@ header {
 .deanfa-mes-section {
     padding: 100px 0px;
     position: relative;
-
+    background-attachment: fixed;
     &::before {
         content: '';
         background-color: rgba(0, 0, 0, 0.581);
@@ -658,6 +658,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
             background-color:#015692;
         }
         .navbar-nav{
+            margin-top: 40px;
             li{
                 padding:5px 0px;
             }

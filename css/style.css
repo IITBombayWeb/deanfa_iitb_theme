@@ -478,6 +478,7 @@ header .header-row .item-navigation .bg-light ul li a {
 .deanfa-mes-section {
   padding: 100px 0px;
   position: relative;
+  background-attachment: fixed;
 }
 
 .deanfa-mes-section::before {
@@ -629,6 +630,9 @@ header .header-row .item-navigation .bg-light ul li a {
   }
   header .offcanvas {
     background-color: #015692;
+  }
+  header .navbar-nav {
+    margin-top: 40px;
   }
   header .navbar-nav li {
     padding: 5px 0px;
