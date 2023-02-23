@@ -443,16 +443,28 @@ header .header-row .item-navigation .bg-light ul li a {
   border-bottom: 1px solid #ccc;
 }
 
-.awards-ann-section .award-section .view-content .views-row .car {
+.awards-ann-section .award-section .view-content .views-row .card {
   overflow: hidden;
 }
 
-.awards-ann-section .award-section .view-content .views-row .field-content a {
+.awards-ann-section .award-section .view-content .views-row .card .card-body a {
   border: 1px solid #000;
   color: #000;
   padding: 4px 15px;
   text-decoration: none;
   border-radius: 4px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.awards-ann-section .award-section .view-content .views-row .card .card-body a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.awards-ann-section .award-section .view-content .views-row .field-content a {
+  text-decoration: none;
+  color: #000;
 }
 
 .awards-ann-section .award-section .view-content .views-row .field-content a::before {
@@ -460,5 +472,30 @@ header .header-row .item-navigation .bg-light ul li a {
   position: relative;
   font-family: bootstrap-icons !important;
   margin-right: 5px;
+}
+
+.deanfa-mes-section {
+  padding: 100px 0px;
+}
+
+.deanfa-mes-section h2 {
+  color: var(--bs-primary);
+  font-size: 3.2rem;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.deanfa-mes-section hr {
+  margin-top: 0px;
+  width: 190px;
+  border-width: 3px;
+  margin-bottom: 40px;
+  border-color: #003863;
+  opacity: 100;
+}
+
+.deanfa-mes-section .dean-fa-box {
+  background-color: rgba(255, 255, 255, 0.786);
+  padding: 50px;
 }
 /*# sourceMappingURL=style.css.map */

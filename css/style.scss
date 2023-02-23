@@ -69,12 +69,13 @@ header {
                 display: grid;
                 grid-template-columns: 90px 1fr;
                 align-items: center;
+
                 .block-block-content {
 
                     h1 {
                         font-size: 1.5rem;
                         color: #fff;
-                        font-weight: 500;  
+                        font-weight: 500;
                         margin: 0px;
 
                         a {
@@ -376,10 +377,12 @@ header {
 .about-iitb-section {
     padding: 100px 0px;
     background-attachment: fixed;
+
     h2 {
         @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
     }
-    .col-12{
+
+    .col-12 {
         padding: 0px;
     }
 
@@ -390,7 +393,7 @@ header {
         margin-bottom: 40px;
         border-color: #003863;
         opacity: 100;
-        
+
     }
 
     .about-iitb-desc {
@@ -398,8 +401,8 @@ header {
         padding: 100px 220px;
         clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
 
-        .btn-readmore{
-            @include deanfa-btn(var(--bs-primary), none , var(--bs-primary) , 1.2rem);
+        .btn-readmore {
+            @include deanfa-btn(var(--bs-primary), none, var(--bs-primary), 1.2rem);
             font-weight: 500;
             border-radius: 4px;
             padding: 10px 25px;
@@ -408,7 +411,8 @@ header {
             margin-top: 30px;
             float: left;
             text-decoration: none;
-            &:hover{
+
+            &:hover {
                 background-color: var(--bs-primary);
                 color: var(--bs-white);
             }
@@ -416,13 +420,14 @@ header {
     }
 }
 
-.awards-ann-section{
+.awards-ann-section {
     padding: 100px 0px;
     background-color: var(--bs-light);
+
     h2 {
         @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
     }
-  
+
 
     hr {
         margin-top: 0px;
@@ -430,26 +435,42 @@ header {
         border-width: 3px;
         margin-bottom: 40px;
         border-color: #003863;
-        opacity: 100;  
-        
+        opacity: 100;
+
     }
 
-    .award-section{
-        .view-content{
-            .views-row{
-                padding: 12px 0px; 
+    .award-section {
+        .view-content {
+            .views-row {
+                padding: 12px 0px;
                 border-bottom: 1px solid #ccc;
-               .car{
-                overflow: hidden;
-               }
-                .field-content{
-                    a{
-                        border: 1px solid #000;
-                        color: #000;
-                        padding: 4px 15px;
+
+                .card {
+                    overflow: hidden;
+
+                    .card-body {
+                        a {
+                            border: 1px solid #000;
+                            color: #000;
+                            padding: 4px 15px;
+                            text-decoration: none;
+                            border-radius: 4px;
+                            transition: all 0.5s;
+
+                            &:hover {
+                                background-color: #000;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+                .field-content {
+                    a {
                         text-decoration: none;
-                        border-radius: 4px;
-                        &::before{
+                        color: #000;
+
+                        &::before {
                             content: "\f154";
                             position: relative;
                             font-family: bootstrap-icons !important;
@@ -459,5 +480,29 @@ header {
                 }
             }
         }
+    }
+}
+
+.deanfa-mes-section {
+    padding: 100px 0px;
+
+    h2 {
+        @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
+    }
+
+
+    hr {
+        margin-top: 0px;
+        width: 190px;
+        border-width: 3px;
+        margin-bottom: 40px;
+        border-color: #003863;
+        opacity: 100;
+
+    }
+
+    .dean-fa-box {
+        background-color: rgba(255, 255, 255, 0.786);
+        padding: 50px;
     }
 }
