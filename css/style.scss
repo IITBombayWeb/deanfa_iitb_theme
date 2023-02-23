@@ -658,15 +658,18 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
             background-color:#015692;
         }
         .navbar-nav{
-            ul{
-                li{
-                    padding:5px 0px;
-                }
+            li{
+                padding:5px 0px;
             }
+        }
+        .offcanvas-header{
+            position: absolute;
+            right: 0px;
         }
     }
     .homepage-slideshow .field--name-field-title{
         font-size:1rem;
     }
+   
 
 }

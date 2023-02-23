@@ -630,8 +630,12 @@ header .header-row .item-navigation .bg-light ul li a {
   header .offcanvas {
     background-color: #015692;
   }
-  header .navbar-nav ul li {
+  header .navbar-nav li {
     padding: 5px 0px;
+  }
+  header .offcanvas-header {
+    position: absolute;
+    right: 0px;
   }
   .homepage-slideshow .field--name-field-title {
     font-size: 1rem;
