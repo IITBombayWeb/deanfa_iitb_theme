@@ -451,5 +451,6 @@ header .header-row .item-navigation .bg-light ul li a {
 .awards-ann-section .award-section .view-content .views-row .field-content a::before {
   content: "\f154";
   position: relative;
+  font-family: bootstrap-icons !important;
 }
 /*# sourceMappingURL=style.css.map */

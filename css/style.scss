@@ -445,8 +445,8 @@ header {
                        color: #000;
                         &::before{
                             content: "\f154";
-                            position: relative; 
-
+                            position: relative;
+                            font-family: bootstrap-icons !important;
                         }
                     }
                 }
