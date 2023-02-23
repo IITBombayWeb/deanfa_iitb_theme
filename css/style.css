@@ -593,7 +593,7 @@ header .header-row .item-navigation .bg-light ul li a {
     -ms-grid-columns: 70px 1fr;
         grid-template-columns: 70px 1fr;
   }
-  header .header-row, .about-us-homepage .about-row {
+  .about-us-homepage .about-row {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }

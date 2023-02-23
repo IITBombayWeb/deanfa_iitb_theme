@@ -610,7 +610,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     header .header-row .item-logo .region-top-header{
         grid-template-columns: 70px 1fr;
     }
-    header .header-row, .about-us-homepage .about-row {
+     .about-us-homepage .about-row {
         grid-template-columns: 1fr;
     }
     .about-iitb-section .about-iitb-desc{
