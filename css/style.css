@@ -553,4 +553,59 @@ header .header-row .item-navigation .bg-light ul li a {
 .faculty-work-section .card-img-top {
   border-radius: 0px;
 }
+
+.faculty-work-section .view-footer a {
+  background-color: none;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  font-size: 1.2rem;
+  border-radius: 4px;
+  border: 2px solid;
+  padding: 10px 30px;
+  font-weight: 500;
+  border-radius: 4px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid #003863;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.faculty-work-section .view-footer a:hover {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  header {
+    position: relative;
+    background-color: #1b73c5;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  header .header-row .item-navigation {
+    background-color: #013c78;
+  }
+  header .header-row, .about-us-homepage .about-row {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .about-iitb-section .about-iitb-desc {
+    padding: 12px;
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  .awards-ann-section .award-section .view-content .views-row {
+    padding: 12px 12px;
+  }
+  .on-the-gray ul.quicktabs-tabs li {
+    display: block;
+  }
+  header .header-row .item-logo .region-top-header .block-block-content h1 {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

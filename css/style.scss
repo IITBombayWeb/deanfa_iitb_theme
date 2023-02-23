@@ -557,7 +557,7 @@ header {
                 -webkit-transition: all 0.5s;
                 transition: all 0.5s;
 
-                &:hover{
+                &:hover {
                     background-color: #000;
                     color: #fff;
                 }
@@ -568,5 +568,61 @@ header {
     .card-img,
     .card-img-top {
         border-radius: 0px;
+    }
+
+    .view-footer {
+        a {
+            @include deanfa-btn(var(--bs-primary), none, var(--bs-primary), 1.2rem);
+            font-weight: 500;
+            border-radius: 4px;
+            text-align: center;
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid #003863;
+            transition: all 1s;
+
+            &:hover {
+                background-color: var(--bs-primary);
+                color: var(--bs-white);
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px),
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
+only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px),
+only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px),
+only screen and (min-resolution: 192dpi) and (max-width: 1024px),
+only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+    header{
+        position: relative;
+        background-color: #1b73c5;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        .header-row{
+            .item-navigation{
+                background-color:rgb(1, 60, 120);
+            }
+        }
+    }
+    header .header-row, .about-us-homepage .about-row {
+        grid-template-columns: 1fr;
+    }
+    .about-iitb-section .about-iitb-desc{
+        padding: 12px;
+        clip-path:none;
+    }
+    .awards-ann-section .award-section .view-content .views-row{
+        padding:12px 12px
+    }
+    .on-the-gray ul.quicktabs-tabs li{
+        display: block;
+    }
+    header .header-row .item-logo .region-top-header .block-block-content h1{
+        font-size: 1rem;
     }
 }
