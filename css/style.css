@@ -586,8 +586,13 @@ header .header-row .item-navigation .bg-light ul li a {
     padding-top: 10px;
     padding-bottom: 0px;
   }
-  header .header-row .item-navigation {
-    background-color: #013c78;
+  header .header-row {
+    -ms-grid-columns: 1fr 71px;
+        grid-template-columns: 1fr 71px;
+  }
+  header .header-row .item-logo .region-top-header {
+    -ms-grid-columns: 70px 1fr;
+        grid-template-columns: 70px 1fr;
   }
   header .header-row, .about-us-homepage .about-row {
     -ms-grid-columns: 1fr;

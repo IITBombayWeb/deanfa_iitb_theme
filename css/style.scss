@@ -604,10 +604,12 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         padding-top: 10px;
         padding-bottom: 0px;
         .header-row{
-            .item-navigation{
-                background-color:rgb(1, 60, 120);
-            }
+            grid-template-columns: 1fr 71px;
+           
         }
+    }
+    header .header-row .item-logo .region-top-header{
+        grid-template-columns: 70px 1fr;
     }
     header .header-row, .about-us-homepage .about-row {
         grid-template-columns: 1fr;
