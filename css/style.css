@@ -448,8 +448,11 @@ header .header-row .item-navigation .bg-light ul li a {
 }
 
 .awards-ann-section .award-section .view-content .views-row .field-content a {
-  text-decoration: none;
+  border: 1px solid #000;
   color: #000;
+  padding: 4px 15px;
+  text-decoration: none;
+  border-radius: 4px;
 }
 
 .awards-ann-section .award-section .view-content .views-row .field-content a::before {

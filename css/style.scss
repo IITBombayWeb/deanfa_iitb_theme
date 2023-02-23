@@ -444,8 +444,11 @@ header {
                }
                 .field-content{
                     a{
+                        border: 1px solid #000;
+                        color: #000;
+                        padding: 4px 15px;
                         text-decoration: none;
-                       color: #000;
+                        border-radius: 4px;
                         &::before{
                             content: "\f154";
                             position: relative;
