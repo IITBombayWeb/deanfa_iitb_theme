@@ -437,8 +437,11 @@ header {
     .award-section{
         .view-content{
             .views-row{
-                padding: 8px 0px; 
+                padding: 12px 0px; 
                 border-bottom: 1px solid #ccc;
+               .car{
+                overflow: hidden;
+               }
                 .field-content{
                     a{
                         text-decoration: none;
@@ -447,6 +450,7 @@ header {
                             content: "\f154";
                             position: relative;
                             font-family: bootstrap-icons !important;
+                            margin-right: 5px;
                         }
                     }
                 }

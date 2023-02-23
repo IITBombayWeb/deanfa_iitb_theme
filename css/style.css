@@ -439,8 +439,12 @@ header .header-row .item-navigation .bg-light ul li a {
 }
 
 .awards-ann-section .award-section .view-content .views-row {
-  padding: 8px 0px;
+  padding: 12px 0px;
   border-bottom: 1px solid #ccc;
+}
+
+.awards-ann-section .award-section .view-content .views-row .car {
+  overflow: hidden;
 }
 
 .awards-ann-section .award-section .view-content .views-row .field-content a {
@@ -452,5 +456,6 @@ header .header-row .item-navigation .bg-light ul li a {
   content: "\f154";
   position: relative;
   font-family: bootstrap-icons !important;
+  margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */
