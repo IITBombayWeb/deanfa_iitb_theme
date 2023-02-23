@@ -611,5 +611,20 @@ header .header-row .item-navigation .bg-light ul li a {
   header .header-row .item-logo .region-top-header .block-block-content h1 {
     font-size: 0.7rem;
   }
+  .about-us-homepage,
+  .homepage-faculty-tabs,
+  .apply-iitp-section,
+  .homepage-news,
+  .about-iitb-section,
+  .awards-ann-section,
+  .deanfa-mes-section, .faculty-work-section {
+    padding: 20px 0px;
+  }
+  .awards-ann-section .ps-5 {
+    padding-left: 13px;
+  }
+  .deanfa-mes-section .dean-fa-box {
+    padding: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

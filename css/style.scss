@@ -598,32 +598,59 @@ only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px),
 only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min-resolution: 192dpi) and (max-width: 1024px),
 only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
-    header{
+    header {
         position: relative;
         background-color: #1b73c5;
-       padding: 0px;
-        .header-row{
+        padding: 0px;
+
+        .header-row {
             grid-template-columns: 1fr 71px;
-           
+
         }
     }
-    header .header-row .item-logo .region-top-header{
+
+    header .header-row .item-logo .region-top-header {
         grid-template-columns: 70px 1fr;
     }
-     .about-us-homepage .about-row {
+
+    .about-us-homepage .about-row {
         grid-template-columns: 1fr;
     }
-    .about-iitb-section .about-iitb-desc{
+
+    .about-iitb-section .about-iitb-desc {
         padding: 12px;
-        clip-path:none;
+        clip-path: none;
     }
-    .awards-ann-section .award-section .view-content .views-row{
-        padding:12px 12px
+
+    .awards-ann-section .award-section .view-content .views-row {
+        padding: 12px 12px
     }
-    .on-the-gray ul.quicktabs-tabs li{
+
+    .on-the-gray ul.quicktabs-tabs li {
         display: block;
     }
-    header .header-row .item-logo .region-top-header .block-block-content h1{
+
+    header .header-row .item-logo .region-top-header .block-block-content h1 {
         font-size: 0.7rem;
     }
+
+    .about-us-homepage,
+    .homepage-faculty-tabs,
+    .apply-iitp-section,
+    .homepage-news,
+    .about-iitb-section,
+    .awards-ann-section,
+    .deanfa-mes-section, .faculty-work-section {
+        padding: 20px 0px;
+    }
+
+    .awards-ann-section {
+        .ps-5 {
+            padding-left: 13px;
+        }
+    }
+    .deanfa-mes-section .dean-fa-box{
+        padding: 15px;
+    }
+
 }
