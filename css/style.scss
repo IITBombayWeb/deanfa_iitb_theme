@@ -601,8 +601,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     header{
         position: relative;
         background-color: #1b73c5;
-        padding-top: 10px;
-        padding-bottom: 0px;
+       padding: 0px;
         .header-row{
             grid-template-columns: 1fr 71px;
            

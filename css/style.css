@@ -583,8 +583,7 @@ header .header-row .item-navigation .bg-light ul li a {
   header {
     position: relative;
     background-color: #1b73c5;
-    padding-top: 10px;
-    padding-bottom: 0px;
+    padding: 0px;
   }
   header .header-row {
     -ms-grid-columns: 1fr 71px;
