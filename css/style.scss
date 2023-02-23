@@ -407,10 +407,30 @@ header {
             border: 1px solid;
             margin-top: 30px;
             float: left;
+            text-decoration: none;
             &:hover{
                 background-color: var(--bs-primary);
                 color: var(--bs-white);
             }
         }
+    }
+}
+
+.awards-ann-section{
+    padding: 100px 0px;
+    background-color: var(--bs-light);
+    h2 {
+        @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
+    }
+  
+
+    hr {
+        margin-top: 0px;
+        width: 190px;
+        border-width: 3px;
+        margin-bottom: 40px;
+        border-color: #003863;
+        opacity: 100;
+        
     }
 }

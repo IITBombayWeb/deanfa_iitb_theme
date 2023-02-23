@@ -409,6 +409,7 @@ header .header-row .item-navigation .bg-light ul li a {
   border: 1px solid;
   margin-top: 30px;
   float: left;
+  text-decoration: none;
 }
 
 .about-iitb-section .about-iitb-desc .btn-readmore:hover {
