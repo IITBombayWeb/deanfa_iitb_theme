@@ -31,6 +31,7 @@
 
 body {
     font-size: 1.1rem;
+    padding: 0px!important;
 }
 
 @mixin section-heading($color, $align, $size, $mb) {
@@ -604,7 +605,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         padding: 0px;
 
         .header-row {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 71px;
 
         }
     }
@@ -651,6 +652,21 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     }
     .deanfa-mes-section .dean-fa-box{
         padding: 15px;
+    }
+    header{
+        .offcanvas{
+            background-color:#015692;
+        }
+        .navbar-nav{
+            ul{
+                li{
+                    padding:5px 0px;
+                }
+            }
+        }
+    }
+    .homepage-slideshow .field--name-field-title{
+        font-size:1rem;
     }
 
 }
