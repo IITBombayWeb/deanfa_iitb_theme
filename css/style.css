@@ -1,5 +1,5 @@
 :root {
-  --bs-blue: #003863 !important;
+  --bs-blue: #072e4c !important;
   --bs-indigo: #6610f2 !important;
   --bs-purple: #6f42c1 !important;
   --bs-pink: #d63384 !important;
@@ -12,7 +12,7 @@
   --bs-white: #fff !important;
   --bs-gray: #6c757d !important;
   --bs-gray-dark: #343a40 !important;
-  --bs-primary: #003863 !important;
+  --bs-primary: #072e4c !important;
   --bs-secondary: #6c757d !important;
   --bs-success: #198754 !important;
   --bs-info: #0dcaf0 !important;
@@ -585,6 +585,52 @@ header .navbar-nav {
 .faculty-work-section .view-footer a:hover {
   background-color: var(--bs-primary);
   color: var(--bs-white);
+}
+
+footer .region-footer-second .footer-site-name {
+  margin-top: 50px;
+  float: left;
+  display: block;
+}
+
+footer .region-footer-third .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+footer .region-footer-third .row .navbar-nav ul {
+  padding: 0px 0px;
+}
+
+footer .region-footer-third .row .navbar-nav ul li {
+  padding: 5px 0px;
+  display: block;
+}
+
+footer .region-footer-third .row .navbar-nav ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer .region-footer-third .block-social-media-links ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+footer .region-footer-third .block-social-media-links ul li {
+  float: left;
+  padding: 0px 7px;
+}
+
+footer .region-footer-third .block-social-media-links ul li:first-child {
+  padding-left: 0px;
+}
+
+footer .region-footer-third .block-social-media-links ul li:last-child {
+  padding-right: 0px;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
