@@ -600,9 +600,13 @@ header {
 footer {
     .region-footer-second {
         .footer-site-name {
-            margin-top: 50px;
+            margin-top: 20px;
             float: left;
             display: block;
+            font-weight: 700;
+        }
+        .site-footer h2{
+            font-size: 1.2rem;
         }
     }
 
@@ -612,17 +616,14 @@ footer {
             grid-template-columns: repeat(3, 1fr);
 
             .navbar-nav {
-                ul {
-                    padding: 0px 0px;
+                padding: 0px 0px;
+                li {
+                    padding: 5px 0px;
+                    display: block;
 
-                    li {
-                        padding: 5px 0px;
-                        display: block;
-
-                        a {
-                            color: #ccc;
-                            text-decoration: none;
-                        }
+                    a {
+                        color: rgb(246, 246, 246);
+                        text-decoration: none;
                     }
                 }
             }
@@ -650,7 +651,10 @@ footer {
             }
         }
     }
-} 
+    nav{
+        border: 0px;
+    }
+}
 
 
 

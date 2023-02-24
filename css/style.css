@@ -588,9 +588,14 @@ header .navbar-nav {
 }
 
 footer .region-footer-second .footer-site-name {
-  margin-top: 50px;
+  margin-top: 20px;
   float: left;
   display: block;
+  font-weight: 700;
+}
+
+footer .region-footer-second .site-footer h2 {
+  font-size: 1.2rem;
 }
 
 footer .region-footer-third .row {
@@ -600,17 +605,17 @@ footer .region-footer-third .row {
       grid-template-columns: repeat(3, 1fr);
 }
 
-footer .region-footer-third .row .navbar-nav ul {
+footer .region-footer-third .row .navbar-nav {
   padding: 0px 0px;
 }
 
-footer .region-footer-third .row .navbar-nav ul li {
+footer .region-footer-third .row .navbar-nav li {
   padding: 5px 0px;
   display: block;
 }
 
-footer .region-footer-third .row .navbar-nav ul li a {
-  color: #ccc;
+footer .region-footer-third .row .navbar-nav li a {
+  color: #f6f6f6;
   text-decoration: none;
 }
 
@@ -631,6 +636,10 @@ footer .region-footer-third .block-social-media-links ul li:first-child {
 
 footer .region-footer-third .block-social-media-links ul li:last-child {
   padding-right: 0px;
+}
+
+footer nav {
+  border: 0px;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
