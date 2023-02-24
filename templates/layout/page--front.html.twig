@@ -139,29 +139,33 @@
           {% endif %}
           {% if page.footer_second or page.footer_third %}
             <div class="row site-footer__middle">
-              <div class="col-md-12 col-lg-6">
+              <div class="col-md-12 col-lg-3 region-footer-second">
                 {{ page.footer_second }}
               </div>
-              <div class="col-md-12 col-lg-6">
+              <div class="col-md-12 col-lg-9 region-footer-third">
                 {{ page.footer_third }}
               </div>
             </div>
           {% endif %}
-          {% if page.footer_fourth or page.footer_fifth %}
-            <div class="row site-footer__bottom">
-              {% if page.footer_fourth %}
-                <div class="col-sm-12 col-md-9 col-lg-10">
+        {% if page.footer_fourth or page.footer_fifth %}
+          <div class="row site-footer__bottom">
+            {% if page.footer_fourth %}
+              <div class="col-sm-12 col-md-9 col-lg-10">
+                <div class="{{ container }} region-footer-fourth">
                   {{ page.footer_fourth }}
                 </div>
-              {% endif %}
-              {% if page.footer_fifth %}
-                <div class="col">
+              </div>
+            {% endif %}
+          </div>
+        </div>
+            {% if page.footer_fifth %}
+              <div class="col footer-region-fifth">
+                <div class="{{ container }}">
                   {{ page.footer_fifth }}
                 </div>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
+              </div>
+            {% endif %}
+        {% endif %}
       {% endblock %}
     </footer>
   </div>
