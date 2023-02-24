@@ -618,12 +618,13 @@ footer {
             .navbar-nav {
                 padding: 0px 0px;
                 li {
-                    padding: 5px 0px;
+                    padding: 10px 0px;
                     display: block;
 
                     a {
                         color: rgb(246, 246, 246);
                         text-decoration: none;
+                        padding: 0px;
                     }
                 }
             }
@@ -633,12 +634,13 @@ footer {
                     margin: 0px;
                     list-style-type: none;
                     .nav-item{
-                        padding: 5px 0px;
+                        padding: 10px 0px;
                         display: block;
-    
+                        width: 100%;
                         a {
                             color: rgb(246, 246, 246);
                             text-decoration: none;
+                            padding: 0px;
                         }
                     }
                 }

@@ -610,13 +610,14 @@ footer .region-footer-third .row .navbar-nav {
 }
 
 footer .region-footer-third .row .navbar-nav li {
-  padding: 5px 0px;
+  padding: 10px 0px;
   display: block;
 }
 
 footer .region-footer-third .row .navbar-nav li a {
   color: #f6f6f6;
   text-decoration: none;
+  padding: 0px;
 }
 
 footer .region-footer-third .row .menu--important-links .nav {
@@ -626,13 +627,15 @@ footer .region-footer-third .row .menu--important-links .nav {
 }
 
 footer .region-footer-third .row .menu--important-links .nav .nav-item {
-  padding: 5px 0px;
+  padding: 10px 0px;
   display: block;
+  width: 100%;
 }
 
 footer .region-footer-third .row .menu--important-links .nav .nav-item a {
   color: #f6f6f6;
   text-decoration: none;
+  padding: 0px;
 }
 
 footer .region-footer-third .block-social-media-links ul {
