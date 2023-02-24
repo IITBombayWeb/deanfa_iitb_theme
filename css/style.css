@@ -733,5 +733,8 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .awards-ann-section .ps-5 {
+    padding-left: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
