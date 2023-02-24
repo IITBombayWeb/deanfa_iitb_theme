@@ -598,6 +598,10 @@ footer .region-footer-second .site-footer h2 {
   font-size: 1.2rem;
 }
 
+footer .region-footer-third nav {
+  border: 0px !important;
+}
+
 footer .region-footer-third .row {
   display: -ms-grid;
   display: grid;
@@ -655,10 +659,6 @@ footer .region-footer-third .block-social-media-links ul li:first-child {
 
 footer .region-footer-third .block-social-media-links ul li:last-child {
   padding-right: 0px;
-}
-
-footer .site-footer .block {
-  border: 0px !important;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
