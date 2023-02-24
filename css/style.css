@@ -587,7 +587,7 @@ header .navbar-nav {
   color: var(--bs-white);
 }
 
-footer .region-footer-second .site-footer .block {
+footer .region-footer-second .block {
   border: 0px !important;
 }
 
@@ -602,7 +602,7 @@ footer .region-footer-second .site-footer h2 {
   font-size: 1.2rem;
 }
 
-footer .region-footer-third nav, footer .region-footer-third .site-footer .block {
+footer .region-footer-third nav, footer .region-footer-third .block {
   border: 0px !important;
 }
 

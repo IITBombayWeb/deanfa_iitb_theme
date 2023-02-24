@@ -599,7 +599,7 @@ header {
 
 footer {
     .region-footer-second {
-        .site-footer .block{
+        .block{
             border: 0px !important;
         }
         .footer-site-name {
@@ -614,7 +614,7 @@ footer {
     }
 
     .region-footer-third {
-        nav, .site-footer .block{
+        nav, .block{
             border: 0px !important;
         }
         .row {
