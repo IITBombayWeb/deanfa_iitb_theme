@@ -708,7 +708,7 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
     padding: 20px 0px;
   }
   .awards-ann-section .ps-5 {
-    padding-left: 13px;
+    padding-left: 13px !important;
   }
   .deanfa-mes-section .dean-fa-box {
     padding: 15px;
@@ -732,9 +732,6 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   footer .region-footer-third .row {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-  }
-  .awards-ann-section .ps-5 {
-    padding-left: 15px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -736,7 +736,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
     .awards-ann-section {
         .ps-5 {
-            padding-left: 13px;
+            padding-left: 13px !important;
         }
     }
 
@@ -769,10 +769,6 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     footer .region-footer-third .row{
         grid-template-columns: 1fr;
     }
-    .awards-ann-section{
-        .ps-5{
-            padding-left: 15px;
-        }
-    }
+   
 
 }
