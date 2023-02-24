@@ -671,7 +671,8 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   .homepage-news,
   .about-iitb-section,
   .awards-ann-section,
-  .deanfa-mes-section, .faculty-work-section {
+  .deanfa-mes-section,
+  .faculty-work-section {
     padding: 20px 0px;
   }
   .awards-ann-section .ps-5 {

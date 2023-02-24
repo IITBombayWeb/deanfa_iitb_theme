@@ -31,7 +31,7 @@
 
 body {
     font-size: 1.1rem;
-    padding: 0px!important;
+    padding: 0px !important;
 }
 
 @mixin section-heading($color, $align, $size, $mb) {
@@ -112,8 +112,8 @@ header {
         }
     }
 
-    .navbar-nav{
-        justify-content:end;
+    .navbar-nav {
+        justify-content: end;
     }
 }
 
@@ -497,6 +497,7 @@ header {
     padding: 100px 0px;
     position: relative;
     background-attachment: fixed;
+
     &::before {
         content: '';
         background-color: rgba(0, 0, 0, 0.581);
@@ -596,26 +597,29 @@ header {
     }
 }
 
-footer{
-    .region-footer-second{
-        .footer-site-name{
+footer {
+    .region-footer-second {
+        .footer-site-name {
             margin-top: 50px;
             float: left;
             display: block;
         }
     }
-    .region-footer-third{
-        .row{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr); 
 
-            .navbar-nav{
-                ul{
+    .region-footer-third {
+        .row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            .navbar-nav {
+                ul {
                     padding: 0px 0px;
-                    li{
+
+                    li {
                         padding: 5px 0px;
                         display: block;
-                        a{
+
+                        a {
                             color: #ccc;
                             text-decoration: none;
                         }
@@ -623,18 +627,22 @@ footer{
                 }
             }
         }
-        .block-social-media-links{
-            ul{
+
+        .block-social-media-links {
+            ul {
                 padding: 0px;
-                margin:0px;
+                margin: 0px;
                 list-style: none;
-                li{
+
+                li {
                     float: left;
                     padding: 0px 7px;
-                    &:first-child{
+
+                    &:first-child {
                         padding-left: 0px;
                     }
-                    &:last-child{
+
+                    &:last-child {
                         padding-right: 0px;
                     }
 
@@ -642,7 +650,9 @@ footer{
             }
         }
     }
-}
+} 
+
+
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
@@ -693,7 +703,8 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .homepage-news,
     .about-iitb-section,
     .awards-ann-section,
-    .deanfa-mes-section, .faculty-work-section {
+    .deanfa-mes-section,
+    .faculty-work-section {
         padding: 20px 0px;
     }
 
@@ -702,27 +713,33 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
             padding-left: 13px;
         }
     }
-    .deanfa-mes-section .dean-fa-box{
+
+    .deanfa-mes-section .dean-fa-box {
         padding: 15px;
     }
-    header{
-        .offcanvas{
-            background-color:#015692;
+
+    header {
+        .offcanvas {
+            background-color: #015692;
         }
-        .navbar-nav{
+
+        .navbar-nav {
             margin-top: 40px;
-            li{
-                padding:5px 0px;
+
+            li {
+                padding: 5px 0px;
             }
         }
-        .offcanvas-header{
+
+        .offcanvas-header {
             position: absolute;
             right: 0px;
         }
     }
-    .homepage-slideshow .field--name-field-title{
-        font-size:1rem;
+
+    .homepage-slideshow .field--name-field-title {
+        font-size: 1rem;
     }
-   
+
 
 }
