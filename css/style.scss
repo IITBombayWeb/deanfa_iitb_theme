@@ -766,6 +766,8 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .homepage-slideshow .field--name-field-title {
         font-size: 1rem;
     }
-
+    footer .region-footer-third .row{
+        grid-template-columns: 1fr;
+    }
 
 }

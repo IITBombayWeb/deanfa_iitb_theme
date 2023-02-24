@@ -729,5 +729,9 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   .homepage-slideshow .field--name-field-title {
     font-size: 1rem;
   }
+  footer .region-footer-third .row {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 /*# sourceMappingURL=style.css.map */
