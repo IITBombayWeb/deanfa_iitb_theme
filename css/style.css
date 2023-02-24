@@ -619,6 +619,22 @@ footer .region-footer-third .row .navbar-nav li a {
   text-decoration: none;
 }
 
+footer .region-footer-third .row .menu--important-links .nav {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+footer .region-footer-third .row .menu--important-links .nav .nav-item {
+  padding: 5px 0px;
+  display: block;
+}
+
+footer .region-footer-third .row .menu--important-links .nav .nav-item a {
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
 footer .region-footer-third .block-social-media-links ul {
   padding: 0px;
   margin: 0px;

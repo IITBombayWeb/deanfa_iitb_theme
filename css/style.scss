@@ -627,6 +627,22 @@ footer {
                     }
                 }
             }
+            .menu--important-links{
+                .nav{
+                    padding: 0px;
+                    margin: 0px;
+                    list-style-type: none;
+                    .nav-item{
+                        padding: 5px 0px;
+                        display: block;
+    
+                        a {
+                            color: rgb(246, 246, 246);
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
         }
 
         .block-social-media-links {
