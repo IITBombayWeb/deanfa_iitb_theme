@@ -115,20 +115,102 @@
         {% endif %}
       {% endblock %}
     </header>
-    <div id="main-wrapper" class="layout-main-wrapper clearfix dean-full-width">
+    {% if page.highlighted %}
+      <div class="highlighted">
+        <aside class="{{ container }} section clearfix" role="complementary">
+          {{ page.highlighted }}
+        </aside>
+      </div>
+    {% endif %}
+    {% if page_banner_media_field or page_banner_field %}
+      <div class="deanfa-banner">
+        <div class="deanfa-banner-image">
+          {{ page_banner_field }}
+          {{ page_banner_media_field }}
+        </div>
+        <div class="deanfa-banner-content">
+          <div class="field--name-field-title"> 
+            {{ page_title }}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {% if page.featured_top %}
+      {% block featured %}
+        <div class="featured-top">
+          <aside class="featured-top__inner section clearfix container" role="complementary">
+            {{ page.featured_top }}
+          </aside>
+        </div>
+      {% endblock %}
+    {% endif %}
+    <div id="main-wrapper" class="layout-main-wrapper clearfix container">
       {% block content %}
         <div id="main">
+          {% if page.breadcrumb %}
+            {{ page.breadcrumb }}
+          {% else %}
+            {# <div class="mt-5"></div> #} <!-- Was included for a space if the breadcrumb is not there for a page -->
+          {% endif %}
           <div class="row row-offcanvas row-offcanvas-left clearfix">
+            {% if page.sidebar_first %}
+              <div{{ sidebar_first_attributes }}>
+                <aside class="section" role="complementary">
+                  {{ page.sidebar_first }}
+                </aside>
+              </div>
+            {% endif %}
               <main {{ content_attributes }}>
                 <section class="section">
                   <a id="main-content" tabindex="-1"></a>
                   {{ page.content }}
                 </section>
               </main>
+            {% if page.sidebar_second %}
+              <div{{ sidebar_second_attributes }}>
+                <aside class="section" role="complementary">
+                  {{ page.sidebar_second }}
+                </aside>
+              </div>
+            {% endif %}
           </div>
         </div>
       {% endblock %}
     </div>
+    {% if page.featured_bottom_first %}
+      <div class="featured-bottom">
+        <aside>
+            <div class="featured-bottom-first featured-bottom-first-bg container">
+              <div class="{{ container }} clearfix" role="complementary">
+                {{ page.featured_bottom_first }}
+              </div>
+            </div>
+        </aside>
+      </div>
+      {% endif %}
+    {% if page.featured_bottom_second or page.featured_bottom_third %}
+      <div class="container featured-bottom-last {% if page.footer_first %}overlapped{% endif %} 
+      {% if page.featured_bottom_second and not page.featured_bottom_third %}featured-bottom-second-bg{% endif %}
+      {% if page.featured_bottom_third and not page.featured_bottom_second %}featured-bottom-third-bg{% endif %}
+      {% if page.featured_bottom_second and page.featured_bottom_third %}featured-bottom-third-bg{% endif %}">
+        <aside>
+          {% if page.featured_bottom_second %}
+            <div class="featured-bottom-second featured-bottom-second-bg">
+              <div class="{{ container }} clearfix" role="complementary">
+                {{ page.featured_bottom_second }}
+              </div>
+            </div>
+          {% endif %}
+          {% if page.featured_bottom_third %}
+            <div class="featured-bottom-third featured-bottom-third-bg">
+              <div class="{{ container }} clearfix" role="complementary">
+                {{ page.featured_bottom_third }}
+              </div>
+            </div>
+          {% endif %}
+        </aside>
+      </div>
+    {% endif %}
     <footer class="site-footer {% if page.footer_first %} overlapped {% endif %}">
       {% block footer %}
         <div class="{{ container }}">
@@ -139,33 +221,29 @@
           {% endif %}
           {% if page.footer_second or page.footer_third %}
             <div class="row site-footer__middle">
-              <div class="col-md-12 col-lg-3 region-footer-second">
+              <div class="col-md-12 col-lg-6">
                 {{ page.footer_second }}
               </div>
-              <div class="col-md-12 col-lg-9 region-footer-third">
+              <div class="col-md-12 col-lg-6">
                 {{ page.footer_third }}
               </div>
             </div>
           {% endif %}
-        {% if page.footer_fourth or page.footer_fifth %}
-          <div class="row site-footer__bottom">
-            {% if page.footer_fourth %}
-              <div class="col-sm-12 col-md-9 col-lg-10">
-                <div class="{{ container }} region-footer-fourth">
+          {% if page.footer_fourth or page.footer_fifth %}
+            <div class="row site-footer__bottom">
+              {% if page.footer_fourth %}
+                <div class="col-sm-12 col-md-9 col-lg-10">
                   {{ page.footer_fourth }}
                 </div>
-              </div>
-            {% endif %}
-          </div>
-        </div>
-            {% if page.footer_fifth %}
-              <div class="col footer-region-fifth">
-                <div class="{{ container }}">
+              {% endif %}
+              {% if page.footer_fifth %}
+                <div class="col">
                   {{ page.footer_fifth }}
                 </div>
-              </div>
-            {% endif %}
-        {% endif %}
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
       {% endblock %}
     </footer>
   </div>
