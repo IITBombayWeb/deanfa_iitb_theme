@@ -54,10 +54,7 @@ body {
 
 
 header {
-  
-    padding: 10px 0px;
-    background-image: linear-gradient(to bottom, #21212157, #00000000);
-
+  background-color: #005494;
     h1 {
         font-size: 1.5rem;
         color: #fff;
@@ -68,6 +65,14 @@ header {
 
             text-decoration: none;
             color: #fff;
+        }
+    }
+    nav{
+        background-color: #005494 !important;
+        .navbar-brand{
+            img{
+                height: 70px;
+            }
         }
     }
 }

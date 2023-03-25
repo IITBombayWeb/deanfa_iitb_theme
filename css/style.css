@@ -35,9 +35,7 @@ body {
 }
 
 header {
-  padding: 10px 0px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#21212157), to(#00000000));
-  background-image: linear-gradient(to bottom, #21212157, #00000000);
+  background-color: #005494;
 }
 
 header h1 {
@@ -50,6 +48,14 @@ header h1 {
 header h1 a {
   text-decoration: none;
   color: #fff;
+}
+
+header nav {
+  background-color: #005494 !important;
+}
+
+header nav .navbar-brand img {
+  height: 70px;
 }
 
 .homepage-slideshow .field--type-entity-reference {
