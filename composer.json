@@ -5,6 +5,7 @@
     "require": {
         "drupal/bootstrap_barrio": "^5.5",
         "drupal/bootstrap_layout_builder": "^2.1",
+        "drupal/conditional_fields": "^4.0@alpha",
         "drupal/datetimehideseconds": "^1.2",
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/gin": "^3.0@RC",
