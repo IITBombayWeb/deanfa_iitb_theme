@@ -20,6 +20,7 @@
         "drupal/quick_node_clone": "^1.15",
         "drupal/redirect": "^1.8",
         "drupal/slick_entityreference": "^2.1",
-        "drupal/social_media_links": "^2.9"
+        "drupal/social_media_links": "^2.9",
+        "drupal/views_infinite_scroll": "^2.0"
     }
 }
