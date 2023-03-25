@@ -58,60 +58,17 @@ header {
     padding: 10px 0px;
     background-image: linear-gradient(to bottom, #21212157, #00000000);
 
-    .header-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
+    h1 {
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: 500;
+        margin: 0px;
 
-        .item-logo {
-            .region-top-header {
-                display: grid;
-                grid-template-columns: 90px 1fr;
-                align-items: center;
+        a {
 
-                .block-block-content {
-
-                    h1 {
-                        font-size: 1.5rem;
-                        color: #fff;
-                        font-weight: 500;
-                        margin: 0px;
-
-                        a {
-
-                            text-decoration: none;
-                            color: #fff;
-                        }
-                    }
-                }
-            }
+            text-decoration: none;
+            color: #fff;
         }
-
-        .item-navigation {
-            .bg-light {
-                background-color: transparent !important;
-                box-shadow: none;
-                background-image: none;
-
-                ul {
-                    li {
-
-
-                        a {
-                            font-size: 1.2rem;
-                            padding: 0px 23px;
-                            color: #fff;
-                            font-weight: 500;
-                        }
-
-                    }
-                }
-            }
-        }
-    }
-
-    .navbar-nav {
-        justify-content: end;
     }
 }
 
