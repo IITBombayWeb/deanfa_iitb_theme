@@ -35,9 +35,6 @@ body {
 }
 
 header {
-  position: absolute;
-  width: 100%;
-  z-index: 100;
   padding: 10px 0px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#21212157), to(#00000000));
   background-image: linear-gradient(to bottom, #21212157, #00000000);
