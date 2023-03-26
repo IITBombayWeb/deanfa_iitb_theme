@@ -145,32 +145,34 @@
     <div id="main-wrapper" class="layout-main-wrapper clearfix {{ container_class }}">
       {% block content %}
         <div id="main">
-          {% if page.breadcrumb %}
-            {{ page.breadcrumb }}
-          {% else %}
-            {# <div class="mt-5"></div> #} <!-- Was included for a space if the breadcrumb is not there for a page -->
-          {% endif %}
-          <div class="row row-offcanvas row-offcanvas-left clearfix">
-            {% if page.sidebar_first %}
-              <div{{ sidebar_first_attributes }}>
-                <aside class="section" role="complementary">
-                  {{ page.sidebar_first }}
-                </aside>
-              </div>
+          <div id="container">
+            {% if page.breadcrumb %}
+              {{ page.breadcrumb }}
+            {% else %}
+              {# <div class="mt-5"></div> #} <!-- Was included for a space if the breadcrumb is not there for a page -->
             {% endif %}
-              <main {{ content_attributes }}>
-                <section class="section">
-                  <a id="main-content" tabindex="-1"></a>
-                  {{ page.content }}
-                </section>
-              </main>
-            {% if page.sidebar_second %}
-              <div{{ sidebar_second_attributes }}>
-                <aside class="section" role="complementary">
-                  {{ page.sidebar_second }}
-                </aside>
-              </div>
-            {% endif %}
+            <div class="row row-offcanvas row-offcanvas-left clearfix">
+              {% if page.sidebar_first %}
+                <div{{ sidebar_first_attributes }}>
+                  <aside class="section" role="complementary">
+                    {{ page.sidebar_first }}
+                  </aside>
+                </div>
+              {% endif %}
+                <main {{ content_attributes }}>
+                  <section class="section">
+                    <a id="main-content" tabindex="-1"></a>
+                    {{ page.content }}
+                  </section>
+                </main>
+              {% if page.sidebar_second %}
+                <div{{ sidebar_second_attributes }}>
+                  <aside class="section" role="complementary">
+                    {{ page.sidebar_second }}
+                  </aside>
+                </div>
+              {% endif %}
+            </div>
           </div>
         </div>
       {% endblock %}
