@@ -39,15 +39,15 @@ header {
 }
 
 header h1 {
-  font-size: 1rem;
-  color: #fff;
+  font-size: 1.5rem;
+  color: black;
   font-weight: 500;
   margin: 0px;
 }
 
 header h1 a {
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 header .navbar-expand-md {
