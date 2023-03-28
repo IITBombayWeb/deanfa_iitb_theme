@@ -62,6 +62,7 @@ header .navbar-expand-md .navbar-brand img {
 header .navbar-expand-md .menu--main .nav-link {
   color: #ffffff8c;
   padding: 0px 1rem;
+  font-size: 0.8rem;
 }
 
 header .navbar-expand-md .menu--main .nav-link.active {
