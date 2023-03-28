@@ -39,7 +39,7 @@ header {
 }
 
 header h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fff;
   font-weight: 500;
   margin: 0px;
@@ -60,7 +60,13 @@ header .navbar-expand-md .navbar-brand img {
 }
 
 header .navbar-expand-md .menu--main .nav-link {
-  color: #ffffff8c !important;
+  color: #ffffff8c;
+  padding: 0px 1rem;
+}
+
+header .navbar-expand-md .menu--main .nav-link.active {
+  color: #ffffffe6 !important;
+  font-size: 0.8rem;
 }
 
 .homepage-slideshow .field--type-entity-reference {
