@@ -97,8 +97,19 @@ header {
             }
 
             .nav-link.active {
-                color: #000000e6 !important;              
+                color: #000000 !important;
                 border-bottom: 2px solid rgb(0, 72, 155);
+            }
+
+            .dropdown-menu {
+                ul{
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: #000;
+                        }
+                    }
+                }
             }
         }
     }
@@ -284,7 +295,7 @@ header {
     font-size: 1.3rem;
 
     h2 {
-        @include section-heading(var(--bs-white), center, 3.2rem, 30px);
+        @include section-heading(var(--bs-white), center, 2.8rem, 30px);
         margin-top: 20px;
     }
 
@@ -300,6 +311,11 @@ header {
             background-color: var(--bs-white);
             color: var(--bs-primary);
         }
+    }
+
+    .block-layout-builder {
+        background-color: #1961a9;
+        padding: 40px;
     }
 }
 
@@ -367,7 +383,7 @@ header {
 }
 
 .about-iitb-section {
-    padding: 100px 0px;
+    
     background-attachment: fixed;
 
     h2 {
@@ -389,10 +405,8 @@ header {
     }
 
     .about-iitb-desc {
-        background-color: rgba(255, 255, 255, 0.859);
+        background-color: rgba(235, 235, 235, 0.859);
         padding: 100px 220px;
-        clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
-
         .btn-readmore {
             @include deanfa-btn(var(--bs-primary), none, var(--bs-primary), 1.2rem);
             font-weight: 500;
