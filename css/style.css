@@ -50,6 +50,19 @@ header h1 a {
   color: black;
 }
 
+header .region-top-header {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .region-top-header .navbar-brand {
+  width: 65px;
+  padding: 0px;
+}
+
 header .navbar-expand-md {
   background-color: #ececec !important;
   padding: 0px;
@@ -60,14 +73,14 @@ header .navbar-expand-md .navbar-brand img {
 }
 
 header .navbar-expand-md .menu--main .nav-link {
-  color: #0000008c;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 header .navbar-expand-md .menu--main .nav-link.active {
   color: #000000e6 !important;
-  font-size: 0.8rem;
-  border-bottom: 1px solid #00489b;
+  border-bottom: 2px solid #00489b;
 }
 
 .homepage-slideshow .field--type-entity-reference {
@@ -577,7 +590,8 @@ footer .region-footer-second .site-footer h2 {
   font-size: 1.2rem;
 }
 
-footer .region-footer-third nav, footer .region-footer-third .block {
+footer .region-footer-third nav,
+footer .region-footer-third .block {
   border: 0px !important;
 }
 

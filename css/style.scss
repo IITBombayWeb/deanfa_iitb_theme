@@ -54,9 +54,10 @@ body {
 
 
 header {
-  background-color: #005494;
+    background-color: #005494;
+
     h1 {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
         color: rgb(0, 0, 0);
         font-weight: 500;
         margin: 0px;
@@ -64,27 +65,40 @@ header {
         a {
 
             text-decoration: none;
-            color: rgb(0, 0, 0); 
+            color: rgb(0, 0, 0);
         }
     }
-    .navbar-expand-md{
+
+    .region-top-header {
+        flex-wrap: nowrap;
+        align-items: center;
+
+        .navbar-brand {
+            width: 65px;
+            padding: 0px;
+        }
+    }
+
+    .navbar-expand-md {
         background-color: #ececec !important;
         padding: 0px;
-        .navbar-brand{
-            img{
+
+        .navbar-brand {
+            img {
                 height: 70px;
             }
         }
 
-        .menu--main{
-            .nav-link{
-                color: #0000008c;              
-                font-size: 0.8rem; 
+        .menu--main {
+            .nav-link {
+                font-size: 1.1rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
             }
-           .nav-link.active{
-                color: #000000e6 !important; 
-                font-size: 0.8rem;
-                border-bottom: 1px solid rgb(0, 72, 155); 
+
+            .nav-link.active {
+                color: #000000e6 !important;              
+                border-bottom: 2px solid rgb(0, 72, 155);
             }
         }
     }
@@ -98,7 +112,7 @@ header {
     .field--name-field-title {
         position: absolute;
         line-height: 300%;
-        font-weight: 600; 
+        font-weight: 600;
 
         color: white;
         padding: 8px 18px;
@@ -572,30 +586,36 @@ header {
 
 footer {
     .region-footer-second {
-        .block{
-            border: 0px !important; 
+        .block {
+            border: 0px !important;
         }
+
         .footer-site-name {
             margin-top: 20px;
             float: left;
             display: block;
             font-weight: 700;
         }
-        .site-footer h2{
+
+        .site-footer h2 {
             font-size: 1.2rem;
         }
     }
 
     .region-footer-third {
-        nav, .block{
+
+        nav,
+        .block {
             border: 0px !important;
         }
+
         .row {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
 
             .navbar-nav {
                 padding: 0px 0px;
+
                 li {
                     padding: 10px 0px;
                     display: block;
@@ -607,15 +627,18 @@ footer {
                     }
                 }
             }
-            .menu--important-links{
-                .nav{
+
+            .menu--important-links {
+                .nav {
                     padding: 0px;
                     margin: 0px;
                     list-style-type: none;
-                    .nav-item{
+
+                    .nav-item {
                         padding: 10px 0px;
                         display: block;
                         width: 100%;
+
                         a {
                             color: rgb(246, 246, 246);
                             text-decoration: none;
@@ -648,7 +671,7 @@ footer {
             }
         }
     }
-   
+
 }
 
 
@@ -739,9 +762,10 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .homepage-slideshow .field--name-field-title {
         font-size: 1rem;
     }
-    footer .region-footer-third .row{
+
+    footer .region-footer-third .row {
         grid-template-columns: 1fr;
     }
-   
+
 
 }
