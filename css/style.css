@@ -24,9 +24,11 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
+
 p {
   text-align: justify;
 }
+
 .deanfa-primary-color {
   color: var(--bs-primary);
 }
@@ -88,6 +90,13 @@ header .navbar-expand-md .menu--main .nav-link.active {
 header .navbar-expand-md .menu--main .dropdown-menu ul li a {
   text-decoration: none !important;
   color: #000 !important;
+}
+
+header .navbar-expand-md .navbar-collapse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .homepage-slideshow .field--type-entity-reference {

@@ -24,9 +24,11 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
+
 p {
     text-align: justify;
 }
+
 .deanfa-primary-color {
     color: var(--bs-primary);
 }
@@ -104,16 +106,20 @@ header {
             }
 
             .dropdown-menu {
-                ul{
-                    li{
-                        a{
-                            text-decoration: none !important; 
+                ul {
+                    li {
+                        a {
+                            text-decoration: none !important;
                             color: #000 !important;
                         }
                     }
                 }
             }
         }
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        flex-direction: column; 
     }
 }
 
@@ -385,7 +391,7 @@ header {
 }
 
 .about-iitb-section {
-    
+
     background-attachment: fixed;
 
     h2 {
@@ -409,6 +415,7 @@ header {
     .about-iitb-desc {
         background-color: rgba(235, 235, 235, 0.859);
         padding: 100px 220px;
+
         .btn-readmore {
             @include deanfa-btn(var(--bs-primary), none, var(--bs-primary), 1.2rem);
             font-weight: 500;
