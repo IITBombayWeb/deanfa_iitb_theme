@@ -98,6 +98,22 @@ header .navbar-expand-md .navbar-collapse {
           justify-content: center !important;
 }
 
+header .dropdown-menu {
+  border-radius: 0px;
+}
+
+header .dropdown-menu .dropdown-item .nav-link--deanfadev-faq {
+  color: #000;
+  text-decoration: none;
+}
+
+header .dropdown-item.active, header .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #005494;
+  background-image: var(--bs-gradient);
+}
+
 .homepage-slideshow .field--type-entity-reference {
   margin: 0px !important;
 }
