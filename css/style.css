@@ -93,10 +93,9 @@ header .navbar-expand-md .menu--main .dropdown-menu ul li a {
 }
 
 header .navbar-expand-md .navbar-collapse {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 .homepage-slideshow .field--type-entity-reference {
