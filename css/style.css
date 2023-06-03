@@ -103,6 +103,7 @@ header .navbar-expand-md .navbar-brand img {
 header .navbar-expand-md .menu--main .nav-link {
   font-size: 1.1rem;
   padding: 15px 32px;
+  font-family: 'Poppins-Medium';
 }
 
 header .navbar-expand-md .menu--main .nav-link.active {
