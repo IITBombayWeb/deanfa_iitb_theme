@@ -939,7 +939,7 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  padding-right: 36px;
+  padding-right: 0;
 }
 
 .block-views-exposed-filter-blocksearch-page-1 .row .form-control {

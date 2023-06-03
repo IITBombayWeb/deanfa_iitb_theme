@@ -961,7 +961,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 195px;
         align-items: end;
-        padding-right: 36px;
+        padding-right: 0;
 
         .form-control {
             border: 1px solid #000000 !important;
