@@ -839,13 +839,13 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 .default-sidebar-menu .nav .nav-item {
   border-bottom: 1px solid #ccc;
   position: relative;
-  font-family: 'Poppins-Medium';
 }
 
 .default-sidebar-menu .nav .nav-item a {
   color: #2b2b2b;
   -webkit-transition: all 0.5ms;
   transition: all 0.5ms;
+  font-family: 'Poppins-Medium';
 }
 
 .default-sidebar-menu .nav .nav-item a.is-active {
@@ -874,9 +874,22 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   right: 6px;
 }
 
-.block-field-blocknodepagetitle h1 {
+.block-field-blocknodepagetitle {
   font-family: 'Poppins-Medium' !important;
   border-width: 2px !important;
+}
+
+.breadcrumb .breadcrumb-item a {
+  color: var(--bs-primary);
+  text-decoration: none;
+}
+
+.breadcrumb .breadcrumb-item:hover a {
+  border-bottom: 1px solid #DD4625;
+}
+
+.breadcrumb .breadcrumb-item.active a {
+  color: #DD4625;
 }
 
 .search-form-faculty .row {

@@ -857,13 +857,15 @@ footer {
         .nav-item {
             border-bottom: 1px solid #ccc;
             position: relative;
-            font-family: 'Poppins-Medium';
-            a { 
+
+            a {
                 color: rgb(43, 43, 43);
                 transition: all 0.5ms;
-                &.is-active{
-                    color: #DD4625;  
-                }               
+                font-family: 'Poppins-Medium';
+
+                &.is-active {
+                    color: #DD4625;
+                }
             }
 
             &:last-child {
@@ -876,16 +878,17 @@ footer {
                 position: absolute;
                 right: 10px;
                 top: 9px;
-                transition:all 0.5s;
+                transition: all 0.5s;
             }
 
             &:hover {
                 a {
                     color: #DD4625;
-                   
+
                 }
-                &::after {                   
-                    right: 6px;                    
+
+                &::after {
+                    right: 6px;
                 }
             }
 
@@ -894,9 +897,28 @@ footer {
 }
 
 .block-field-blocknodepagetitle {
-    h1 {
-        font-family: 'Poppins-Medium' !important;
-        border-width: 2px !important;
+    font-family: 'Poppins-Medium' !important;
+    border-width: 2px !important;
+}
+
+.breadcrumb {
+    .breadcrumb-item {
+        a {
+            color: var(--bs-primary);
+            text-decoration: none;
+        }
+
+        &:hover {
+            a {
+                border-bottom: 1px solid #DD4625;
+            }
+        }
+
+        &.active {
+            a {
+                color: #DD4625;
+            }
+        }
     }
 }
 
