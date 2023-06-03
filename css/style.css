@@ -192,6 +192,7 @@ header .dropdown-item:hover a {
   font-size: 3.2rem;
   text-align: left;
   margin-bottom: 0px;
+  font-family: 'Poppins-SemiBold';
 }
 
 .about-us-homepage .about-row .about-us-text hr {
@@ -239,6 +240,7 @@ header .dropdown-item:hover a {
   font-size: 3.2rem;
   text-align: center;
   margin-bottom: 0px;
+  font-family: 'Poppins-SemiBold';
 }
 
 .homepage-faculty-tabs hr {
@@ -343,6 +345,7 @@ header .dropdown-item:hover a {
   font-size: 2.8rem;
   text-align: center;
   margin-bottom: 30px;
+  font-family: 'Poppins-SemiBold';
   margin-top: 20px;
 }
 
@@ -375,6 +378,7 @@ header .dropdown-item:hover a {
   font-size: 3.2rem;
   text-align: center;
   margin-bottom: 0px;
+  font-family: 'Poppins-SemiBold';
 }
 
 .homepage-news hr {
@@ -439,6 +443,7 @@ header .dropdown-item:hover a {
   font-size: 3.2rem;
   text-align: left;
   margin-bottom: 0px;
+  font-family: 'Poppins-SemiBold';
 }
 
 .about-iitb-section .col-12 {
@@ -493,6 +498,7 @@ header .dropdown-item:hover a {
   font-size: 3.2rem;
   text-align: left;
   margin-bottom: 0px;
+  font-family: 'Poppins-SemiBold';
 }
 
 .awards-ann-section hr {
@@ -562,6 +568,7 @@ header .dropdown-item:hover a {
   font-size: 3.2rem;
   text-align: left;
   margin-bottom: 0px;
+  font-family: 'Poppins-SemiBold';
 }
 
 .deanfa-mes-section hr {
@@ -590,6 +597,7 @@ header .dropdown-item:hover a {
   font-size: 3.2rem;
   text-align: left;
   margin-bottom: 0px;
+  font-family: 'Poppins-SemiBold';
 }
 
 .faculty-work-section hr {
@@ -736,8 +744,33 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 }
 
 .default-listing-view .ds-2col-fluid .group-left {
-  width: none;
+  width: 100%;
   float: none;
+}
+
+.default-listing-view .ds-2col-fluid .group-right {
+  width: 100%;
+  float: none;
+}
+
+.default-listing-view .ds-2col-fluid .group-right h2 {
+  font-family: 'Poppins-SemiBold';
+}
+
+.default-listing-view .ds-2col-fluid .group-right h2 a {
+  color: var(--bs-primary);
+  text-decoration: none;
+}
+
+.default-listing-view .ds-2col-fluid .group-right h6 {
+  margin-bottom: 20px;
+  font-family: 'Poppins-SemiBold';
+}
+
+.default-listing-view .ds-2col-fluid .group-right .default-learn-more {
+  border-top: 2px solid var(--bs-primary);
+  text-decoration: none;
+  color: var(--bs-primary);
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
