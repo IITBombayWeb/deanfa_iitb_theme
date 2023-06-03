@@ -776,7 +776,7 @@ footer {
             .group-right {
                 width: 100%;
                 float: none;
-
+                position: relative;
                 h2 {
                     a {
                         color: var(--bs-primary);
@@ -799,7 +799,9 @@ footer {
                     position: relative;
                     z-index: 100;
                     border-radius: 3px;
-                    overflow: hidden;               
+                    overflow: hidden;     
+                    position: absolute;
+                    bottom: 0px;          
                    
 
                     &::before {
@@ -833,6 +835,25 @@ footer {
         }
     }
 
+}
+
+.menu--faculty-category{
+    h2{
+        font-family: 'Poppins-Medium';
+    }
+    .nav{
+        flex-direction: column;
+        .nav-item{
+            border-bottom: 1px solid #ccc;
+            a{
+                color: rgb(43, 43, 43);
+                
+            }
+            &:last-child{
+                border-bottom: 0px;
+            }
+        }
+    }
 }
 
 @media all and (max-width: 768px),

@@ -760,6 +760,7 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 .default-listing-view .views-row .ds-2col-fluid .group-right {
   width: 100%;
   float: none;
+  position: relative;
 }
 
 .default-listing-view .views-row .ds-2col-fluid .group-right h2 a {
@@ -783,6 +784,8 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   z-index: 100;
   border-radius: 3px;
   overflow: hidden;
+  position: absolute;
+  bottom: 0px;
 }
 
 .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more::before {
@@ -813,6 +816,29 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 
 .default-listing-view .views-row:last-child {
   margin-bottom: 0px;
+}
+
+.menu--faculty-category h2 {
+  font-family: 'Poppins-Medium';
+}
+
+.menu--faculty-category .nav {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu--faculty-category .nav .nav-item {
+  border-bottom: 1px solid #ccc;
+}
+
+.menu--faculty-category .nav .nav-item a {
+  color: #2b2b2b;
+}
+
+.menu--faculty-category .nav .nav-item:last-child {
+  border-bottom: 0px;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
