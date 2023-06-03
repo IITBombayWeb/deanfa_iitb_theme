@@ -754,7 +754,7 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 }
 
 .default-listing-view .ds-2col-fluid .group-right h2 {
-  font-family: 'Poppins-SemiBold';
+  font-family: 'Poppins-Medium' !important;
 }
 
 .default-listing-view .ds-2col-fluid .group-right h2 a {
@@ -768,9 +768,10 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 }
 
 .default-listing-view .ds-2col-fluid .group-right .default-learn-more {
-  border-top: 2px solid var(--bs-primary);
+  border: 2px solid var(--bs-primary);
   text-decoration: none;
   color: var(--bs-primary);
+  padding: 5px 20px;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {

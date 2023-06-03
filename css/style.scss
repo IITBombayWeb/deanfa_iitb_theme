@@ -770,7 +770,7 @@ footer {
             float: none;
 
             h2 {
-                font-family: 'Poppins-SemiBold';
+                font-family: 'Poppins-Medium' !important;
 
                 a {
                     color: var(--bs-primary);
@@ -784,9 +784,10 @@ footer {
             }
 
             .default-learn-more {
-                border-top: 2px solid var(--bs-primary);
+                border: 2px solid var(--bs-primary);
                 text-decoration: none;
                 color: var(--bs-primary);
+                padding: 5px 20px;
             }
         }
     }
