@@ -99,6 +99,7 @@ header .navbar-expand-md .navbar-collapse {
 
 header .dropdown-menu {
   border-radius: 0px;
+  background-color: #ededed;
 }
 
 header .dropdown-menu .dropdown-item {

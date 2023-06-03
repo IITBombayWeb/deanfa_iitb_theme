@@ -121,6 +121,7 @@ header {
 
     .dropdown-menu {
         border-radius: 0px;
+        background-color: #ededed;
         .dropdown-item {
             padding: 11px 15px;
             border-bottom: 1px solid #eaeaea;
@@ -140,7 +141,7 @@ header {
         background-image: none;
 
         a{
-            color: #fff !important;
+            color: #fff !important;    
         }
         
     }
