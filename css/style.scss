@@ -25,6 +25,27 @@
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+@font-face {
+    font-family:'Poppins-Light';
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family:'Poppins-Medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family:'Poppins-Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Poppins-SemiBold';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+body{
+    font-family:'Poppins-Regular' !important;    
+}
+
 p {
     text-align: justify;
 }
