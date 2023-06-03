@@ -122,6 +122,11 @@ header {
     .dropdown-menu {
         border-radius: 0px;
         .dropdown-item {
+            padding: 11px 15px;
+            border-bottom: 1px solid #eaeaea;
+            &:last-child{
+                border-bottom: 0px;
+            }
             .nav-link--deanfadev-faq {
                 color: #000;
                 text-decoration: none;
@@ -129,9 +134,13 @@ header {
         }
     }
     .dropdown-item.active, .dropdown-item:hover{
-        color: #fff;
+        
         text-decoration: none;
         background-color: #005494;
+
+        a{
+            color: #fff;
+        }
         
     }
 
