@@ -106,11 +106,10 @@ header .dropdown-menu .dropdown-item .nav-link--deanfadev-faq {
   text-decoration: none;
 }
 
-header .dropdown-item.active, header .dropdown-item:active {
+header .dropdown-item.active, header .dropdown-item:hover {
   color: #fff;
   text-decoration: none;
   background-color: #005494;
-  background-image: var(--bs-gradient);
 }
 
 .homepage-slideshow .field--type-entity-reference {

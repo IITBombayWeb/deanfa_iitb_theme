@@ -128,11 +128,11 @@ header {
             }
         }
     }
-    .dropdown-item.active, .dropdown-item:active{
+    .dropdown-item.active, .dropdown-item:hover{
         color: #fff;
         text-decoration: none;
         background-color: #005494;
-        background-image: var(--bs-gradient);
+        
     }
 
 }
