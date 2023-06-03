@@ -136,10 +136,11 @@ header {
     .dropdown-item.active, .dropdown-item:hover{
         
         text-decoration: none;
-        background-color: #005494;
+        background-color: #2d9aed;
+        background-image: none;
 
         a{
-            color: #fff;
+            color: #fff !important;
         }
         
     }

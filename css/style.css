@@ -117,11 +117,12 @@ header .dropdown-menu .dropdown-item .nav-link--deanfadev-faq {
 
 header .dropdown-item.active, header .dropdown-item:hover {
   text-decoration: none;
-  background-color: #005494;
+  background-color: #2d9aed;
+  background-image: none;
 }
 
 header .dropdown-item.active a, header .dropdown-item:hover a {
-  color: #fff;
+  color: #fff !important;
 }
 
 .homepage-slideshow .field--type-entity-reference {
