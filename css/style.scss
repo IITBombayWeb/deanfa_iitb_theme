@@ -857,10 +857,10 @@ footer {
         .nav-item {
             border-bottom: 1px solid #ccc;
             position: relative;
-
-            a {
+            font-family: 'Poppins-Medium';
+            a { 
                 color: rgb(43, 43, 43);
-                transition: all 0.5;
+                transition: all 0.5ms;
                 &.is-active{
                     color: #DD4625;  
                 }               
@@ -876,7 +876,7 @@ footer {
                 position: absolute;
                 right: 10px;
                 top: 9px;
-                transition:all 0.5ms;
+                transition:all 0.5s;
             }
 
             &:hover {
@@ -884,12 +884,8 @@ footer {
                     color: #DD4625;
                    
                 }
-                &::after {
-                    content: "\f285";
-                    font-family: bootstrap-icons !important;
-                    position: absolute;
-                    right: 6px;
-                    top: 9px;
+                &::after {                   
+                    right: 6px;                    
                 }
             }
 

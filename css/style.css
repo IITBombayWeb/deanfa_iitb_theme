@@ -839,12 +839,13 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 .default-sidebar-menu .nav .nav-item {
   border-bottom: 1px solid #ccc;
   position: relative;
+  font-family: 'Poppins-Medium';
 }
 
 .default-sidebar-menu .nav .nav-item a {
   color: #2b2b2b;
-  -webkit-transition: all 0.5;
-  transition: all 0.5;
+  -webkit-transition: all 0.5ms;
+  transition: all 0.5ms;
 }
 
 .default-sidebar-menu .nav .nav-item a.is-active {
@@ -861,8 +862,8 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   position: absolute;
   right: 10px;
   top: 9px;
-  -webkit-transition: all 0.5ms;
-  transition: all 0.5ms;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .default-sidebar-menu .nav .nav-item:hover a {
@@ -870,11 +871,7 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 }
 
 .default-sidebar-menu .nav .nav-item:hover::after {
-  content: "\f285";
-  font-family: bootstrap-icons !important;
-  position: absolute;
   right: 6px;
-  top: 9px;
 }
 
 .block-field-blocknodepagetitle h1 {
