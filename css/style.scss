@@ -96,8 +96,7 @@ header {
         .menu--main {
             .nav-link {
                 font-size: 1.1rem;
-                padding-left: 1rem;
-                padding-right: 1rem;
+                padding: 15px 32px;
             }
 
             .nav-link.active {
@@ -106,12 +105,10 @@ header {
             }
 
             .dropdown-menu {
-                ul {
-                    li {
-                        a {
-                            text-decoration: none !important;
-                            color: #000 !important;
-                        }
+                li {
+                    a {
+                        text-decoration: none !important;
+                        color: #000 !important;
                     }
                 }
             }

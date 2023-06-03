@@ -78,8 +78,7 @@ header .navbar-expand-md .navbar-brand img {
 
 header .navbar-expand-md .menu--main .nav-link {
   font-size: 1.1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 15px 32px;
 }
 
 header .navbar-expand-md .menu--main .nav-link.active {
@@ -87,7 +86,7 @@ header .navbar-expand-md .menu--main .nav-link.active {
   border-bottom: 2px solid #00489b;
 }
 
-header .navbar-expand-md .menu--main .dropdown-menu ul li a {
+header .navbar-expand-md .menu--main .dropdown-menu li a {
   text-decoration: none !important;
   color: #000 !important;
 }
