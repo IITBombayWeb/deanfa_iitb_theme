@@ -753,44 +753,54 @@ footer {
 }
 
 .default-listing-view {
-    .ds-2col-fluid {
-        display: grid;
-        grid-template-columns: 302px 1fr;
-        grid-gap: 40px;
-        border: 1px solid #ccc;
-        padding: 20px;
-
-        .group-left {
-            width: 100%;
-            float: none;
-        }
-
-        .group-right {
-            width: 100%;
-            float: none;
-
-            h2 {
-                font-family: 'Poppins-Medium' !important;
-
-                a {
-                    color: var(--bs-primary);
+    .views-row{
+        margin: 40px 0px;
+        .ds-2col-fluid {
+            display: grid;
+            grid-template-columns: 302px 1fr;
+            grid-gap: 40px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            row-gap: 0px;    
+            .group-left {
+                width: 100%;
+                float: none;
+            }
+    
+            .group-right {
+                width: 100%;
+                float: none;
+    
+                h2 {
+                    font-family: 'Poppins-Medium' !important;
+    
+                    a {
+                        color: var(--bs-primary);
+                        text-decoration: none;
+                    }
+                }
+    
+                h6 {
+                    margin-bottom: 20px;
+                    font-family: 'Poppins-SemiBold';
+                }
+    
+                .default-learn-more {
+                    border: 2px solid var(--bs-primary);
                     text-decoration: none;
+                    color: var(--bs-primary);
+                    padding: 5px 20px;
                 }
             }
-
-            h6 {
-                margin-bottom: 20px;
-                font-family: 'Poppins-SemiBold';
-            }
-
-            .default-learn-more {
-                border: 2px solid var(--bs-primary);
-                text-decoration: none;
-                color: var(--bs-primary);
-                padding: 5px 20px;
-            }
+        }
+        &:first-child{
+            margin-top: 0px;
+        }
+        &:last-child{
+            margin-bottom: 0px;
         }
     }
+   
 }
 
 @media all and (max-width: 768px),

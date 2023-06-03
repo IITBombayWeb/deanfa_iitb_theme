@@ -733,7 +733,11 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   padding-right: 0px;
 }
 
-.default-listing-view .ds-2col-fluid {
+.default-listing-view .views-row {
+  margin: 40px 0px;
+}
+
+.default-listing-view .views-row .ds-2col-fluid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 302px 1fr;
@@ -741,37 +745,46 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   grid-gap: 40px;
   border: 1px solid #ccc;
   padding: 20px;
+  row-gap: 0px;
 }
 
-.default-listing-view .ds-2col-fluid .group-left {
+.default-listing-view .views-row .ds-2col-fluid .group-left {
   width: 100%;
   float: none;
 }
 
-.default-listing-view .ds-2col-fluid .group-right {
+.default-listing-view .views-row .ds-2col-fluid .group-right {
   width: 100%;
   float: none;
 }
 
-.default-listing-view .ds-2col-fluid .group-right h2 {
+.default-listing-view .views-row .ds-2col-fluid .group-right h2 {
   font-family: 'Poppins-Medium' !important;
 }
 
-.default-listing-view .ds-2col-fluid .group-right h2 a {
+.default-listing-view .views-row .ds-2col-fluid .group-right h2 a {
   color: var(--bs-primary);
   text-decoration: none;
 }
 
-.default-listing-view .ds-2col-fluid .group-right h6 {
+.default-listing-view .views-row .ds-2col-fluid .group-right h6 {
   margin-bottom: 20px;
   font-family: 'Poppins-SemiBold';
 }
 
-.default-listing-view .ds-2col-fluid .group-right .default-learn-more {
+.default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more {
   border: 2px solid var(--bs-primary);
   text-decoration: none;
   color: var(--bs-primary);
   padding: 5px 20px;
+}
+
+.default-listing-view .views-row:first-child {
+  margin-top: 0px;
+}
+
+.default-listing-view .views-row:last-child {
+  margin-bottom: 0px;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
