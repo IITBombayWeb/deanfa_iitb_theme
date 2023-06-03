@@ -820,6 +820,7 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 
 .menu--faculty-category h2 {
   font-family: 'Poppins-Medium';
+  font-weight: normal;
 }
 
 .menu--faculty-category .nav {
@@ -839,6 +840,11 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 
 .menu--faculty-category .nav .nav-item:last-child {
   border-bottom: 0px;
+}
+
+.block-field-blocknodepagetitle h1 {
+  font-family: 'Poppins-Medium';
+  border-width: 2px;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {

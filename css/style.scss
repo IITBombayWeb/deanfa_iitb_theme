@@ -679,7 +679,7 @@ footer {
             font-size: 1.2rem;
         }
     }
-   
+
 
     .region-footer-third {
 
@@ -752,6 +752,7 @@ footer {
     }
 
 }
+
 .site-footer {
     margin-top: 5rem;
 }
@@ -777,6 +778,7 @@ footer {
                 width: 100%;
                 float: none;
                 position: relative;
+
                 h2 {
                     a {
                         color: var(--bs-primary);
@@ -799,10 +801,10 @@ footer {
                     position: relative;
                     z-index: 100;
                     border-radius: 3px;
-                    overflow: hidden;     
+                    overflow: hidden;
                     position: absolute;
-                    bottom: 0px;          
-                   
+                    bottom: 0px;
+
 
                     &::before {
                         content: '';
@@ -816,8 +818,10 @@ footer {
                         transition: all 0.5s;
                         z-index: -1;
                     }
-                    &:hover{
+
+                    &:hover {
                         color: var(--bs-white);
+
                         &::before {
                             width: 100%;
                         }
@@ -837,22 +841,34 @@ footer {
 
 }
 
-.menu--faculty-category{
-    h2{
+.menu--faculty-category {
+    h2 {
         font-family: 'Poppins-Medium';
+        font-weight: normal;
     }
-    .nav{
+
+    .nav {
         flex-direction: column;
-        .nav-item{
+
+        .nav-item {
             border-bottom: 1px solid #ccc;
-            a{
+
+            a {
                 color: rgb(43, 43, 43);
-                
+
             }
-            &:last-child{
+
+            &:last-child {
                 border-bottom: 0px;
             }
         }
+    }
+}
+
+.block-field-blocknodepagetitle {
+    h1 {
+        font-family: 'Poppins-Medium';
+        border-width: 2px;
     }
 }
 
