@@ -818,6 +818,11 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   margin-bottom: 0px;
 }
 
+.default-sidebar-menu {
+  border-bottom: 1px solid var(--bs-primary);
+  padding: 10px;
+}
+
 .default-sidebar-menu h2 {
   font-family: 'Poppins-Medium';
   font-weight: normal;
