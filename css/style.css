@@ -819,7 +819,7 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 }
 
 .default-sidebar-menu {
-  border-bottom: 1px solid var(--bs-primary);
+  border: 1px solid var(--bs-primary);
   padding: 10px;
 }
 
@@ -843,6 +843,8 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 
 .default-sidebar-menu .nav .nav-item a {
   color: #2b2b2b;
+  -webkit-transition: all 0.5;
+  transition: all 0.5;
 }
 
 .default-sidebar-menu .nav .nav-item:last-child {
@@ -854,6 +856,12 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   font-family: bootstrap-icons !important;
   position: absolute;
   right: 10px;
+  top: 9px;
+}
+
+.default-sidebar-menu .nav .nav-item:hover a {
+  color: #DD4625;
+  padding-left: 5px;
 }
 
 .block-field-blocknodepagetitle h1 {

@@ -842,8 +842,9 @@ footer {
 }
 
 .default-sidebar-menu {
-    border-bottom: 1px solid var(--bs-primary);
+    border: 1px solid var(--bs-primary);
     padding: 10px;
+
     h2 {
         font-family: 'Poppins-Medium';
         font-weight: normal;
@@ -859,6 +860,7 @@ footer {
 
             a {
                 color: rgb(43, 43, 43);
+                transition: all 0.5;
             }
 
             &:last-child {
@@ -870,8 +872,16 @@ footer {
                 font-family: bootstrap-icons !important;
                 position: absolute;
                 right: 10px;
+                top: 9px;
             }
-           
+
+            &:hover {
+                a {
+                    color: #DD4625;
+                    padding-left: 5px; 
+                }
+            }
+
         }
     }
 }
