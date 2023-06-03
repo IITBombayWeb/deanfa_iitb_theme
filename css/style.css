@@ -847,6 +847,10 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   transition: all 0.5;
 }
 
+.default-sidebar-menu .nav .nav-item a.is-active {
+  color: #DD4625;
+}
+
 .default-sidebar-menu .nav .nav-item:last-child {
   border-bottom: 0px;
 }
@@ -857,16 +861,25 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   position: absolute;
   right: 10px;
   top: 9px;
+  -webkit-transition: all 0.5ms;
+  transition: all 0.5ms;
 }
 
 .default-sidebar-menu .nav .nav-item:hover a {
   color: #DD4625;
-  padding-left: 5px;
+}
+
+.default-sidebar-menu .nav .nav-item:hover::after {
+  content: "\f285";
+  font-family: bootstrap-icons !important;
+  position: absolute;
+  right: 6px;
+  top: 9px;
 }
 
 .block-field-blocknodepagetitle h1 {
-  font-family: 'Poppins-Medium';
-  border-width: 2px;
+  font-family: 'Poppins-Medium' !important;
+  border-width: 2px !important;
 }
 
 .search-form-faculty .row {
