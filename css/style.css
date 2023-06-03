@@ -104,7 +104,7 @@ header .dropdown-menu {
 
 header .dropdown-menu .dropdown-item {
   padding: 11px 15px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #d0d0d0;
 }
 
 header .dropdown-menu .dropdown-item:last-child {
@@ -116,13 +116,15 @@ header .dropdown-menu .dropdown-item .nav-link--deanfadev-faq {
   text-decoration: none;
 }
 
-header .dropdown-item.active, header .dropdown-item:hover {
+header .dropdown-item.active,
+header .dropdown-item:hover {
   text-decoration: none;
   background-color: #2d9aed;
   background-image: none;
 }
 
-header .dropdown-item.active a, header .dropdown-item:hover a {
+header .dropdown-item.active a,
+header .dropdown-item:hover a {
   color: #fff !important;
 }
 
@@ -697,6 +699,21 @@ footer .region-footer-third .block-social-media-links ul li:first-child {
 
 footer .region-footer-third .block-social-media-links ul li:last-child {
   padding-right: 0px;
+}
+
+.default-listing-view .ds-2col-fluid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 302px 1fr;
+      grid-template-columns: 302px 1fr;
+  grid-gap: 40px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.default-listing-view .ds-2col-fluid .group-left {
+  width: none;
+  float: none;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {

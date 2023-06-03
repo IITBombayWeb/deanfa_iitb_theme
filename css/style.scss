@@ -122,28 +122,33 @@ header {
     .dropdown-menu {
         border-radius: 0px;
         background-color: #ededed;
+
         .dropdown-item {
             padding: 11px 15px;
-            border-bottom: 1px solid #eaeaea;
-            &:last-child{
+            border-bottom: 1px solid #d0d0d0;
+
+            &:last-child {
                 border-bottom: 0px;
             }
+
             .nav-link--deanfadev-faq {
                 color: #000;
                 text-decoration: none;
             }
         }
     }
-    .dropdown-item.active, .dropdown-item:hover{
-        
+
+    .dropdown-item.active,
+    .dropdown-item:hover {
+
         text-decoration: none;
         background-color: #2d9aed;
         background-image: none;
 
-        a{
-            color: #fff !important;    
+        a {
+            color: #fff !important;
         }
-        
+
     }
 
 }
@@ -722,7 +727,19 @@ footer {
 
 }
 
-
+.default-listing-view {
+    .ds-2col-fluid {
+        display: grid;
+        grid-template-columns: 302px 1fr;
+        grid-gap: 40px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        .group-left{
+            width: none;
+            float: none;
+        }
+    }
+}
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
