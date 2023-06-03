@@ -45,7 +45,7 @@
     src: url(../fonts/Poppins-SemiBold.ttf);
 }
 
-body {
+body, p, a, li {
     font-family: 'Poppins-Regular' !important;
 }
 
@@ -857,7 +857,7 @@ footer {
         .nav-item {
             border-bottom: 1px solid #ccc;
             position: relative;
-
+            padding: 10px;
             a {
                 color: rgb(43, 43, 43);
                 transition: all 0.5ms;
@@ -898,7 +898,10 @@ footer {
 
 .block-field-blocknodepagetitle {
     font-family: 'Poppins-Medium' !important;
-    border-width: 2px !important;
+    border-bottom: 1px solid #c8c8c8 !important;
+    box-shadow: none;
+    padding-bottom: 10px;  
+    
 }
 
 .breadcrumb {
@@ -923,6 +926,37 @@ footer {
 }
 
 .search-form-faculty {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 195px;
+        align-items: end;
+        padding-right: 36px;
+
+        .form-control {
+            border: 1px solid #000000 !important;
+            padding: 11px 15px;
+            border-radius: 5px;
+            box-shadow: none;
+        }
+
+        .btn-primary {
+            background-color: var(--bs-primary);
+            width: 100%;
+            transition: all 0.5s;
+            border: 2px solid var(--bs-primary);
+            padding: 10px;
+            background-image: none;
+
+            &:hover {
+                color: var(--bs-primary);
+                border: 2px solid var(--bs-primary);
+                background-color: var(--bs-white);
+            }
+        }
+    }
+}
+
+.block-views-exposed-filter-blocksearch-page-1 {
     .row {
         display: grid;
         grid-template-columns: 1fr 195px;
