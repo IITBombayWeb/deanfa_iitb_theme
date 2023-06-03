@@ -798,8 +798,8 @@ footer {
                     padding: 5px 20px;
                     position: relative;
                     z-index: 100;
-
-                  
+                    border-radius: 3px;
+                    overflow: hidden;               
                    
 
                     &::before {

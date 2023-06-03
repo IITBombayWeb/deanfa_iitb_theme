@@ -781,6 +781,8 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   padding: 5px 20px;
   position: relative;
   z-index: 100;
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more::before {
