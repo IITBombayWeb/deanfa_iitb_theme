@@ -841,7 +841,7 @@ footer {
 
 }
 
-.menu--faculty-category {
+.default-sidebar-menu {
     h2 {
         font-family: 'Poppins-Medium';
         font-weight: normal;
@@ -853,14 +853,21 @@ footer {
 
         .nav-item {
             border-bottom: 1px solid #ccc;
+            position: relative;
 
             a {
                 color: rgb(43, 43, 43);
-
             }
 
             &:last-child {
                 border-bottom: 0px;
+            }
+
+            &::after {
+                content: "\f285";
+                font-family: bootstrap-icons !important;
+                position: absolute;
+                right: 10px;
             }
         }
     }
@@ -892,9 +899,13 @@ footer {
             width: 100%;
             transition: all 0.5s;
             border: 2px solid var(--bs-primary);
+            padding: 10px;
+            background-image: none;
+
             &:hover {
                 color: var(--bs-primary);
                 border: 2px solid var(--bs-primary);
+                background-color: var(--bs-white);
             }
         }
     }
