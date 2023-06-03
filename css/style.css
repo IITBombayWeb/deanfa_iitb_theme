@@ -107,7 +107,7 @@ header .navbar-expand-md .menu--main .nav-link {
 }
 
 header .navbar-expand-md .menu--main .nav-link.active {
-  color: #000000 !important;
+  color: #00489b !important;
   border-bottom: 2px solid #00489b;
 }
 
