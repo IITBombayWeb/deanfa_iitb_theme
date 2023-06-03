@@ -848,6 +848,38 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   border-width: 2px;
 }
 
+.search-form-faculty .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 195px;
+      grid-template-columns: 1fr 195px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  padding-right: 36px;
+}
+
+.search-form-faculty .row .form-control {
+  border: 1px solid #000000 !important;
+  padding: 11px 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.search-form-faculty .row .btn-primary {
+  background-color: var(--bs-primary);
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 2px solid var(--bs-primary);
+}
+
+.search-form-faculty .row .btn-primary:hover {
+  color: var(--bs-primary);
+  border: 2px solid var(--bs-primary);
+}
+
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
   header {
     position: relative;

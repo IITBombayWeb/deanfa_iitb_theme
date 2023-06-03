@@ -873,6 +873,33 @@ footer {
     }
 }
 
+.search-form-faculty {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 195px;
+        align-items: end;
+        padding-right: 36px;
+
+        .form-control {
+            border: 1px solid #000000 !important;
+            padding: 11px 15px;
+            border-radius: 5px;
+            box-shadow: none;
+        }
+
+        .btn-primary {
+            background-color: var(--bs-primary);
+            width: 100%;
+            transition: all 0.5s;
+            border: 2px solid var(--bs-primary);
+            &:hover {
+                color: var(--bs-primary);
+                border: 2px solid var(--bs-primary);
+            }
+        }
+    }
+}
+
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
