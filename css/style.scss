@@ -778,6 +778,7 @@ footer {
                         color: var(--bs-primary);
                         text-decoration: none;
                         font-family: 'Poppins-Medium' !important;
+                        font-weight: normal;
                     }
                 }
 
@@ -792,30 +793,17 @@ footer {
                     color: var(--bs-primary);
                     padding: 5px 20px;
                     position: relative;
-
+                    transition: all 0.5;
                     span{
                         position: relative;
                         z-index: 100;
                     }
                    
 
-                    &::before {
-                        content: '';
-                        position: absolute;
-                        top: 0px;
-                        bottom: 0px;
-                        left: 0px;
-                        right: 0px;
-                        background-color: var(--bs-primary);
-                        width: 0px;
-                        transition: all 0.5s;
-                        z-index: 10;
-                    }
+                 
                     &:hover{
                         color: var(--bs-white);
-                        &::before {
-                            width: 100%;
-                        }
+                       background-color: var(--bs-primary);
                     }
                 }
             }
