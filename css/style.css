@@ -1013,6 +1013,17 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   color: #000;
 }
 
+.admin-process-listing .ui-accordion .ui-accordion-header {
+  margin: 10px 0 0 0;
+  padding: .6em .5em .6em .7em;
+  font-family: 'Poppins-Light';
+  font-size: 1.4rem;
+}
+
+.admin-process-listing .ui-state-default {
+  background-color: #fff;
+}
+
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
   header {
     position: relative;

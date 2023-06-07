@@ -1025,7 +1025,7 @@ footer {
             .file--mime-application-pdf {
                 border: 1px solid #000;
                 border-radius: 50px;
-                padding: 0px 20px; 
+                padding: 0px 20px;
                 background-position: 6px;
 
                 a {
@@ -1037,6 +1037,18 @@ footer {
             }
 
         }
+    }
+}
+
+.admin-process-listing {
+    .ui-accordion .ui-accordion-header {
+        margin: 10px 0 0 0;
+        padding: .6em .5em .6em .7em;
+        font-family: 'Poppins-Light';
+        font-size: 1.4rem; 
+    }
+    .ui-state-default{
+        background-color: #fff;
     }
 }
 
