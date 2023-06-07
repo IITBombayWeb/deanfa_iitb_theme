@@ -1012,6 +1012,7 @@ footer {
     .views-row {
         border: 1px solid #ccc;
         padding: 20px;
+        margin: 20px 0px;
 
         h2 {
             font-family: 'Poppins-Medium';
@@ -1023,8 +1024,12 @@ footer {
 
             .file--mime-application-pdf {
                 border: 1px solid #000;
+                border-radius: 50px;
+                padding: 0px 20px; 
+                background-position: 6px;
+
                 a {
-                   
+
                     text-decoration: none;
                     padding: 8px;
                     color: #000;
