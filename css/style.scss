@@ -45,7 +45,10 @@
     src: url(../fonts/Poppins-SemiBold.ttf);
 }
 
-body, p, a, li {
+body,
+p,
+a,
+li {
     font-family: 'Poppins-Regular' !important;
 }
 
@@ -404,6 +407,10 @@ header {
 
     .card {
         .card-body {
+            h4{
+                font-family: 'Poppins-Medium';
+                font-weight: normal;
+            }
             &:nth-child(1) {
                 background-color: #00a4a2;
                 color: #fff;
@@ -516,7 +523,12 @@ header {
                 padding: 12px 0px;
                 border-bottom: 1px solid #ccc;
 
-
+                .group-right {
+                    h2 {
+                        font-family: 'Poppins-Medium' !important;
+                        font-weight: normal;  
+                    }
+                }
 
                 .field-content {
                     a {
@@ -541,6 +553,11 @@ header {
             overflow: hidden;
 
             .card-body {
+
+                h4{
+                    font-family: 'Poppins-Medium';
+                    font-weight: normal; 
+                }
                 a {
                     border: 1px solid #000;
                     color: #000;
@@ -859,6 +876,7 @@ footer {
             border-bottom: 1px solid #ccc;
             position: relative;
             padding: 10px;
+
             a {
                 color: rgb(43, 43, 43);
                 transition: all 0.5ms;
@@ -901,8 +919,8 @@ footer {
     font-family: 'Poppins-Medium' !important;
     border-bottom: 1px solid #c8c8c8 !important;
     box-shadow: none;
-    padding-bottom: 10px;  
-    
+    padding-bottom: 10px;
+
 }
 
 .breadcrumb {

@@ -45,7 +45,10 @@
   src: url(../fonts/Poppins-SemiBold.ttf);
 }
 
-body, p, a, li {
+body,
+p,
+a,
+li {
   font-family: 'Poppins-Regular' !important;
 }
 
@@ -393,6 +396,11 @@ header .dropdown-item:hover a {
   margin-right: auto;
 }
 
+.homepage-news .card .card-body h4 {
+  font-family: 'Poppins-Medium';
+  font-weight: normal;
+}
+
 .homepage-news .card .card-body:nth-child(1) {
   background-color: #00a4a2;
   color: #fff;
@@ -516,6 +524,11 @@ header .dropdown-item:hover a {
   border-bottom: 1px solid #ccc;
 }
 
+.awards-ann-section .award-section .view-content .views-row .group-right h2 {
+  font-family: 'Poppins-Medium' !important;
+  font-weight: normal;
+}
+
 .awards-ann-section .award-section .view-content .views-row .field-content a {
   text-decoration: none;
   color: #000;
@@ -530,6 +543,11 @@ header .dropdown-item:hover a {
 
 .awards-ann-section .announcement-single .card {
   overflow: hidden;
+}
+
+.awards-ann-section .announcement-single .card .card-body h4 {
+  font-family: 'Poppins-Medium';
+  font-weight: normal;
 }
 
 .awards-ann-section .announcement-single .card .card-body a {
