@@ -1013,14 +1013,24 @@ footer {
         border: 1px solid #ccc;
         padding: 20px;
 
+        h2 {
+            font-family: 'Poppins-Medium';
+            font-weight: normal;
+        }
+
         .form-files>div {
             padding: 10px 0px;
 
-            a {
+            .file--mime-application-pdf {
                 border: 1px solid #000;
-                padding: 8px;
-                color: #000;
+                a {
+                   
+                    text-decoration: none;
+                    padding: 8px;
+                    color: #000;
+                }
             }
+
         }
     }
 }

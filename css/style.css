@@ -990,12 +990,21 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   padding: 20px;
 }
 
+.forms-listing-view .views-row h2 {
+  font-family: 'Poppins-Medium';
+  font-weight: normal;
+}
+
 .forms-listing-view .views-row .form-files > div {
   padding: 10px 0px;
 }
 
-.forms-listing-view .views-row .form-files > div a {
+.forms-listing-view .views-row .form-files > div .file--mime-application-pdf {
   border: 1px solid #000;
+}
+
+.forms-listing-view .views-row .form-files > div .file--mime-application-pdf a {
+  text-decoration: none;
   padding: 8px;
   color: #000;
 }
