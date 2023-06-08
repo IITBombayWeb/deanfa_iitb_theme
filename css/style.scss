@@ -1044,16 +1044,32 @@ footer {
 }
 
 .admin-process-listing {
+
+    .views-row {
+        margin: 40px 0px;
+    }
+
     .ui-accordion-header {
         margin: 10px 0 0 0;
         padding: .6em .5em .6em .7em;
         font-family: 'Poppins-Light';
-        font-size: 1.4rem;  
+        font-size: 1.4rem;
     }
 
-    .ui-state-default {
-        background-color: #fff;
+    .ui-state-default,
+    .ui-widget-content .ui-state-default,
+    .ui-widget-header .ui-state-default,
+    .ui-button,
+    html .ui-button.ui-state-disabled:hover,
+    html .ui-button.ui-state-disabled:active {
+        border: 1px solid #c5c5c5; 
+        background: #ffffff;
+        font-weight: normal;
+        color: #454545;
+    }
 
+    .ui-icon-plusthick {
+        margin-right: 10px;
     }
 }
 

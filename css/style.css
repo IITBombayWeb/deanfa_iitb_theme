@@ -1019,6 +1019,10 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   color: #000;
 }
 
+.admin-process-listing .views-row {
+  margin: 40px 0px;
+}
+
 .admin-process-listing .ui-accordion-header {
   margin: 10px 0 0 0;
   padding: .6em .5em .6em .7em;
@@ -1026,8 +1030,20 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   font-size: 1.4rem;
 }
 
-.admin-process-listing .ui-state-default {
-  background-color: #fff;
+.admin-process-listing .ui-state-default,
+.admin-process-listing .ui-widget-content .ui-state-default,
+.admin-process-listing .ui-widget-header .ui-state-default,
+.admin-process-listing .ui-button,
+.admin-process-listing html .ui-button.ui-state-disabled:hover,
+.admin-process-listing html .ui-button.ui-state-disabled:active {
+  border: 1px solid #c5c5c5;
+  background: #ffffff;
+  font-weight: normal;
+  color: #454545;
+}
+
+.admin-process-listing .ui-icon-plusthick {
+  margin-right: 10px;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
