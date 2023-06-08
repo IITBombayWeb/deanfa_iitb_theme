@@ -673,6 +673,14 @@ header .dropdown-item:hover a {
   color: var(--bs-white);
 }
 
+footer {
+  text-align: center;
+}
+
+footer .region-footer-first {
+  width: 100%;
+}
+
 .site-footer__top .content li a {
   text-indent: 0;
 }
@@ -680,8 +688,9 @@ header .dropdown-item:hover a {
 .site-footer .block {
   border: 0;
   width: 100%;
-  border: 1px solid #444;
+  border: 0px solid #444;
   border-color: rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #444;
 }
 
 .site-footer {
