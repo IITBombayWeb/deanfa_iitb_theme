@@ -898,8 +898,11 @@ footer {
                 font-family: bootstrap-icons !important;
                 position: absolute;
                 right: 10px;
-                top: 9px;
+                top: 0px;
+                bottom: 0;
                 transition: all 0.5s;
+                display: grid;
+                align-items: center;
             }
 
             &:hover {
@@ -1045,11 +1048,12 @@ footer {
         margin: 10px 0 0 0;
         padding: .6em .5em .6em .7em;
         font-family: 'Poppins-Light';
-        font-size: 1.4rem; 
+        font-size: 1.4rem;
     }
-    .ui-state-default{
+
+    .ui-state-default {
         background-color: #fff;
-       
+
     }
 }
 
