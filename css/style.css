@@ -673,6 +673,17 @@ header .dropdown-item:hover a {
   color: var(--bs-white);
 }
 
+.site-footer__top .content li a {
+  text-indent: 0;
+}
+
+.site-footer .block {
+  border: 0;
+  width: 100%;
+  border: 1px solid #444;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
 .site-footer {
   margin-top: 5rem;
 }
