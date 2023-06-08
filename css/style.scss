@@ -780,6 +780,8 @@ footer {
 
 .site-footer__top .content li a {
     text-indent: 0;
+    border: 0px;
+    padding: 0px 15px;
 }
 
 .site-footer__top .region{
@@ -792,6 +794,9 @@ footer {
     border: 0px solid #444;
     border-color: rgba(255, 255, 255, 0.1);  
     border-bottom: 1px solid #444;
+}
+.site-footer .block{
+    margin: 0px;
 }
 
 .site-footer {
