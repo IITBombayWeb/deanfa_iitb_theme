@@ -673,85 +673,6 @@ header .dropdown-item:hover a {
   color: var(--bs-white);
 }
 
-footer .region-footer-second .block {
-  border: 0px !important;
-}
-
-footer .region-footer-second .footer-site-name {
-  margin-top: 20px;
-  float: left;
-  display: block;
-  font-weight: 700;
-}
-
-footer .region-footer-second .site-footer h2 {
-  font-size: 1.2rem;
-}
-
-footer .region-footer-third nav,
-footer .region-footer-third .block {
-  border: 0px !important;
-}
-
-footer .region-footer-third .row {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-}
-
-footer .region-footer-third .row .navbar-nav {
-  padding: 0px 0px;
-}
-
-footer .region-footer-third .row .navbar-nav li {
-  padding: 10px 0px;
-  display: block;
-}
-
-footer .region-footer-third .row .navbar-nav li a {
-  color: #f6f6f6;
-  text-decoration: none;
-  padding: 0px;
-}
-
-footer .region-footer-third .row .menu--important-links .nav {
-  padding: 0px;
-  margin: 0px;
-  list-style-type: none;
-}
-
-footer .region-footer-third .row .menu--important-links .nav .nav-item {
-  padding: 10px 0px;
-  display: block;
-  width: 100%;
-}
-
-footer .region-footer-third .row .menu--important-links .nav .nav-item a {
-  color: #f6f6f6;
-  text-decoration: none;
-  padding: 0px;
-}
-
-footer .region-footer-third .block-social-media-links ul {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
-
-footer .region-footer-third .block-social-media-links ul li {
-  float: left;
-  padding: 0px 7px;
-}
-
-footer .region-footer-third .block-social-media-links ul li:first-child {
-  padding-left: 0px;
-}
-
-footer .region-footer-third .block-social-media-links ul li:last-child {
-  padding-right: 0px;
-}
-
 .site-footer {
   margin-top: 5rem;
 }
@@ -780,6 +701,11 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   width: 100%;
   float: none;
   position: relative;
+}
+
+.default-listing-view .views-row .ds-2col-fluid .group-right h2 {
+  font-family: 'Poppins-Medium' !important;
+  font-weight: normal;
 }
 
 .default-listing-view .views-row .ds-2col-fluid .group-right h2 a {
@@ -1021,6 +947,14 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 
 .admin-process-listing .view-content > .views-row {
   margin: 40px 0px;
+}
+
+.admin-process-listing .view-content > .views-row:first-child {
+  margin-top: 0px;
+}
+
+.admin-process-listing .view-content > .views-row:last-child {
+  margin-bottom: 0px;
 }
 
 .admin-process-listing .view-content > .views-row h3 {

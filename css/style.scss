@@ -683,93 +683,93 @@ header {
 }
 
 footer {
-    .region-footer-second {
-        .block {
-            border: 0px !important;
-        }
+    // .region-footer-second {
+    //     .block {
+    //         border: 0px !important;
+    //     }
 
-        .footer-site-name {
-            margin-top: 20px;
-            float: left;
-            display: block;
-            font-weight: 700;
-        }
+    //     .footer-site-name {
+    //         margin-top: 20px;
+    //         float: left;
+    //         display: block;
+    //         font-weight: 700;
+    //     }
 
-        .site-footer h2 {
-            font-size: 1.2rem;
-        }
-    }
+    //     .site-footer h2 {
+    //         font-size: 1.2rem;
+    //     }
+    // }
 
 
-    .region-footer-third {
+    // .region-footer-third {
 
-        nav,
-        .block {
-            border: 0px !important;
-        }
+    //     nav,
+    //     .block {
+    //         border: 0px !important;
+    //     }
 
-        .row {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+    //     .row {
+    //         display: grid;
+    //         grid-template-columns: repeat(3, 1fr);
 
-            .navbar-nav {
-                padding: 0px 0px;
+    //         .navbar-nav {
+    //             padding: 0px 0px;
 
-                li {
-                    padding: 10px 0px;
-                    display: block;
+    //             li {
+    //                 padding: 10px 0px;
+    //                 display: block;
 
-                    a {
-                        color: rgb(246, 246, 246);
-                        text-decoration: none;
-                        padding: 0px;
-                    }
-                }
-            }
+    //                 a {
+    //                     color: rgb(246, 246, 246);
+    //                     text-decoration: none;
+    //                     padding: 0px;
+    //                 }
+    //             }
+    //         }
 
-            .menu--important-links {
-                .nav {
-                    padding: 0px;
-                    margin: 0px;
-                    list-style-type: none;
+    //         .menu--important-links {
+    //             .nav {
+    //                 padding: 0px;
+    //                 margin: 0px;
+    //                 list-style-type: none;
 
-                    .nav-item {
-                        padding: 10px 0px;
-                        display: block;
-                        width: 100%;
+    //                 .nav-item {
+    //                     padding: 10px 0px;
+    //                     display: block;
+    //                     width: 100%;
 
-                        a {
-                            color: rgb(246, 246, 246);
-                            text-decoration: none;
-                            padding: 0px;
-                        }
-                    }
-                }
-            }
-        }
+    //                     a {
+    //                         color: rgb(246, 246, 246);
+    //                         text-decoration: none;
+    //                         padding: 0px;
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
 
-        .block-social-media-links {
-            ul {
-                padding: 0px;
-                margin: 0px;
-                list-style: none;
+    //     .block-social-media-links {
+    //         ul {
+    //             padding: 0px;
+    //             margin: 0px;
+    //             list-style: none;
 
-                li {
-                    float: left;
-                    padding: 0px 7px;
+    //             li {
+    //                 float: left;
+    //                 padding: 0px 7px;
 
-                    &:first-child {
-                        padding-left: 0px;
-                    }
+    //                 &:first-child {
+    //                     padding-left: 0px;
+    //                 }
 
-                    &:last-child {
-                        padding-right: 0px;
-                    }
+    //                 &:last-child {
+    //                     padding-right: 0px;
+    //                 }
 
-                }
-            }
-        }
-    }
+    //             }
+    //         }
+    //     }
+    // }
 
 }
 
@@ -800,6 +800,8 @@ footer {
                 position: relative;
 
                 h2 {
+                    font-family: 'Poppins-Medium' !important;
+                    font-weight: normal;
                     a {
                         color: var(--bs-primary);
                         text-decoration: none;
@@ -1046,6 +1048,12 @@ footer {
 .admin-process-listing {
     .view-content>.views-row {
         margin: 40px 0px;
+        &:first-child{
+            margin-top: 0px;
+        }
+        &:last-child{
+            margin-bottom: 0px;
+        }
 
         h3 {
             font-family: 'Poppins-Medium';
