@@ -1047,7 +1047,7 @@ footer {
     .view-content>.views-row {
         margin: 40px 0px;
 
-        h3 { 
+        h3 {
             font-family: 'Poppins-Medium';
         }
     }
@@ -1074,6 +1074,10 @@ footer {
 
     .ui-icon-plusthick {
         margin-right: 10px;
+        width: 19px;
+        height: 19px;
+        border-radius: 50px;
+        border: 1px solid black; 
     }
 }
 

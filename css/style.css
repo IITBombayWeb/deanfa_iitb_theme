@@ -1048,6 +1048,10 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 
 .admin-process-listing .ui-icon-plusthick {
   margin-right: 10px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50px;
+  border: 1px solid black;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
