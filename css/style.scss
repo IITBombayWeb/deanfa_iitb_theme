@@ -1067,7 +1067,7 @@ footer {
     html .ui-button.ui-state-disabled:hover,
     html .ui-button.ui-state-disabled:active {
         border: 1px solid #c5c5c5;
-        background: #ffffff;
+       
         font-weight: normal;
         color: #454545;
     }
@@ -1078,6 +1078,20 @@ footer {
         height: 19px;
         border-radius: 50px;
         border: 1px solid black; 
+    }
+    .ui-icon{
+        margin-top: -0.1em;
+    }
+    .ui-state-active{
+        background: #3673b4;
+        color: #fff !important;
+    }
+    .ui-icon-minusthick{
+        margin-right: 10px;
+        width: 19px;
+        height: 19px;
+        border-radius: 50px;
+        border: 1px solid rgb(255, 255, 255); 
     }
 }
 

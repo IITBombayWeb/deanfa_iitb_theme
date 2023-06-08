@@ -1041,7 +1041,6 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
 .admin-process-listing html .ui-button.ui-state-disabled:hover,
 .admin-process-listing html .ui-button.ui-state-disabled:active {
   border: 1px solid #c5c5c5;
-  background: #ffffff;
   font-weight: normal;
   color: #454545;
 }
@@ -1052,6 +1051,23 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   height: 19px;
   border-radius: 50px;
   border: 1px solid black;
+}
+
+.admin-process-listing .ui-icon {
+  margin-top: -0.1em;
+}
+
+.admin-process-listing .ui-state-active {
+  background: #3673b4;
+  color: #fff !important;
+}
+
+.admin-process-listing .ui-icon-minusthick {
+  margin-right: 10px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50px;
+  border: 1px solid white;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
