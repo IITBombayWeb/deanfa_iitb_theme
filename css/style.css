@@ -1019,8 +1019,12 @@ footer .region-footer-third .block-social-media-links ul li:last-child {
   color: #000;
 }
 
-.admin-process-listing .views-row {
+.admin-process-listing .view-content > .views-row {
   margin: 40px 0px;
+}
+
+.admin-process-listing .view-content > .views-row h3 {
+  font-family: 'Poppins-Medium';
 }
 
 .admin-process-listing .ui-accordion-header {

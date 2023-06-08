@@ -1044,10 +1044,14 @@ footer {
 }
 
 .admin-process-listing {
-
-    .views-row {
+    .view-content>.views-row {
         margin: 40px 0px;
+
+        h3 { 
+            font-family: 'Poppins-Medium';
+        }
     }
+
 
     .ui-accordion-header {
         margin: 10px 0 0 0;
@@ -1062,7 +1066,7 @@ footer {
     .ui-button,
     html .ui-button.ui-state-disabled:hover,
     html .ui-button.ui-state-disabled:active {
-        border: 1px solid #c5c5c5; 
+        border: 1px solid #c5c5c5;
         background: #ffffff;
         font-weight: normal;
         color: #454545;
