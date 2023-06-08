@@ -685,9 +685,7 @@ header {
 footer {
     text-align: center;
 
-    .region-footer-first{
-       width: 100% !important;
-    }
+   
 
     // .region-footer-second {
     //     .block {
@@ -782,6 +780,10 @@ footer {
 
 .site-footer__top .content li a {
     text-indent: 0;
+}
+
+.site-footer__top .region{
+    width: 100%;
 }
 
 .site-footer .block {

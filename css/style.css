@@ -677,12 +677,12 @@ footer {
   text-align: center;
 }
 
-footer .region-footer-first {
-  width: 100% !important;
-}
-
 .site-footer__top .content li a {
   text-indent: 0;
+}
+
+.site-footer__top .region {
+  width: 100%;
 }
 
 .site-footer .block {
