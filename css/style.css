@@ -1099,6 +1099,7 @@ footer {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .homepage-news h2,
   .awards-ann-section h2,
   .about-iitb-section h2,
   .faculty-work-section h2,
