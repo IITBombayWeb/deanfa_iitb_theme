@@ -685,7 +685,7 @@ header {
 footer {
     text-align: center;
 
-   
+
 
     // .region-footer-second {
     //     .block {
@@ -784,7 +784,7 @@ footer {
     padding: 0px 15px;
 }
 
-.site-footer__top .region{
+.site-footer__top .region {
     width: 100%;
 }
 
@@ -792,10 +792,11 @@ footer {
     border: 0;
     width: 100%;
     border: 0px solid #444;
-    border-color: rgba(255, 255, 255, 0.1);  
+    border-color: rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid #444;
 }
-.site-footer .block{
+
+.site-footer .block {
     margin: 0px;
 }
 
@@ -829,6 +830,7 @@ footer {
                     font-family: 'Poppins-Semibold' !important;
                     font-weight: normal;
                     font-size: 1.7rem;
+
                     a {
                         color: var(--bs-primary);
                         text-decoration: none;
@@ -1224,6 +1226,14 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
     footer .region-footer-third .row {
         grid-template-columns: 1fr;
+    }
+
+    .awards-ann-section h2,
+    .about-iitb-section h2,
+    .faculty-work-section h2,
+    .apply-iitp-section h2,
+    .homepage-news h2 {
+        font-size: 2rem;
     }
 
 
