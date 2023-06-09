@@ -1107,5 +1107,12 @@ footer {
   .homepage-news h2 {
     font-size: 2rem;
   }
+  .site-footer__top .content li a {
+    padding: 0px 7px;
+  }
+  .block-views-exposed-filter-blocksearch-page-1 .row {
+    -ms-grid-columns: 1fr 93px;
+        grid-template-columns: 1fr 93px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
