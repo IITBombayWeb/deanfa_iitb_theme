@@ -1032,7 +1032,12 @@ footer {
 }
 
 .global-search-form .views-row {
-  margin: 40px 0px;
+  padding: 40px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.global-search-form .views-row:last-child {
+  border-bottom: 0px;
 }
 
 .global-search-form .views-row .group-right h2 a {
