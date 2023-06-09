@@ -1114,5 +1114,37 @@ footer {
     -ms-grid-columns: 1fr 93px;
         grid-template-columns: 1fr 93px;
   }
+  header h1 {
+    font-size: 0.8rem;
+  }
+  header .region-top-header .navbar-brand {
+    width: 37px;
+  }
+  .block-views-exposed-filter-blocksearch-page-1 .row .form-control {
+    padding: 4px 15px;
+  }
+  .block-views-exposed-filter-blocksearch-page-1 .row .btn-primary {
+    padding: 4px;
+  }
+  header .region-top-header {
+    padding: 11px 10px;
+  }
+  header .navbar {
+    padding: 0px;
+  }
+  header .navbar-expand-md {
+    background-color: #e8e8e8 !important;
+    padding: 6px 0px;
+  }
+  header h1 {
+    font-size: 0.9rem;
+  }
+  header .region-top-header {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50px 1fr;
+        grid-template-columns: 50px 1fr;
+    border: 1px solid;
+  }
 }
 /*# sourceMappingURL=style.css.map */
