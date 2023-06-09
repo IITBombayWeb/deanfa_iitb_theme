@@ -1137,6 +1137,22 @@ footer {
     }
 }
 
+.global-search-form {
+    .views-row {
+        margin: 40px 0px;
+
+        .group-right {
+            h2 {
+                a {
+                    color: #000;
+                    font-family: 'Poppins-Medium';
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
@@ -1275,10 +1291,12 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         background-color: #e8e8e8 !important;
         padding: 6px 0px;
     }
-    header h1{
+
+    header h1 {
         font-size: 0.9rem;
     }
-    header .region-top-header{
+
+    header .region-top-header {
         display: grid;
         grid-template-columns: 50px 1fr;
         border: 1px solid;
