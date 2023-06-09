@@ -1159,7 +1159,6 @@ footer {
     display: grid;
     -ms-grid-columns: 50px 1fr;
         grid-template-columns: 50px 1fr;
-    border: 1px solid;
   }
 }
 /*# sourceMappingURL=style.css.map */

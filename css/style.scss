@@ -1301,8 +1301,8 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
     header .region-top-header {
         display: grid;
-        grid-template-columns: 50px 1fr;
-        border: 1px solid;
+        grid-template-columns: 50px 1fr; 
+       
     }
 
 }
