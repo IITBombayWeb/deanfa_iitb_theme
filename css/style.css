@@ -1126,7 +1126,7 @@ footer {
 }
 
 .horizonal-cards .view-footer a {
-  background-color: none;
+  background-color: #fff;
   color: var(--bs-primary);
   border-color: var(--bs-primary);
   font-size: 1.2rem;
@@ -1143,6 +1143,9 @@ footer {
   border: 1px solid #003863;
   -webkit-transition: all 1s;
   transition: all 1s;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-image: none;
 }
 
 .horizonal-cards .view-footer a:hover {
