@@ -1086,6 +1086,12 @@ footer {
   border-radius: 50px;
   padding: 0px 20px;
   background-position: 6px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  font-size: 0.8rem;
+  margin: 8px 0px;
+  display: block;
 }
 
 .horizonal-cards .node--view-mode-image-node-card .node__content .file--mime-application-pdf a {
