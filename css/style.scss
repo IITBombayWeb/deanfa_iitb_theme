@@ -1160,24 +1160,30 @@ footer {
 
 .horizonal-cards {
 
-    h2{
+    h2 {
         font-family: 'Poppins-SemiBold';
-       
+        font-size: 2rem;
     }
+
     .list-group {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 15px;
+
+        li{
+            border-radius: 7px;
+            box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+        }
     }
 
     .node--view-mode-image-node-card {
         header {
             padding: 15px;
             min-height: 92px;
-
+            background-color: var(--bs-primary);
             h2 {
                 font-family: 'Poppins-Light' !important;
-                text-decoration: none;
+                text-decoration: none; 
                 font-size: 1.6rem;
                 font-weight: normal;
                 color: #fff;
@@ -1198,9 +1204,10 @@ footer {
         .node__content {
             padding: 15px;
 
-            .field--type-entity-reference{
+            .field--type-entity-reference {
                 margin-bottom: 0px;
             }
+
             .file--mime-application-pdf {
                 border: 1px solid #000;
                 border-radius: 50px;
@@ -1222,10 +1229,18 @@ footer {
             }
         }
     }
-    .view-footer{
+
+    .view-footer {
         text-align: center;
         margin-bottom: 50px;
         margin-top: 20px;
+    }
+
+    &:last-child {
+        .view-footer {
+
+            margin-bottom: 0px;
+        }
     }
 
 }

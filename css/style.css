@@ -1048,6 +1048,7 @@ footer {
 
 .horizonal-cards h2 {
   font-family: 'Poppins-SemiBold';
+  font-size: 2rem;
 }
 
 .horizonal-cards .list-group {
@@ -1058,9 +1059,16 @@ footer {
   grid-gap: 15px;
 }
 
+.horizonal-cards .list-group li {
+  border-radius: 7px;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
 .horizonal-cards .node--view-mode-image-node-card header {
   padding: 15px;
   min-height: 92px;
+  background-color: var(--bs-primary);
 }
 
 .horizonal-cards .node--view-mode-image-node-card header h2 {
@@ -1113,6 +1121,10 @@ footer {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 20px;
+}
+
+.horizonal-cards:last-child .view-footer {
+  margin-bottom: 0px;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
