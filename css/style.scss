@@ -1198,7 +1198,9 @@ footer {
         .node__content {
             padding: 15px;
 
-
+            .field--type-entity-reference{
+                margin-bottom: 0px;
+            }
             .file--mime-application-pdf {
                 border: 1px solid #000;
                 border-radius: 50px;

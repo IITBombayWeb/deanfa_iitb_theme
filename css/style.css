@@ -1085,6 +1085,10 @@ footer {
   padding: 15px;
 }
 
+.horizonal-cards .node--view-mode-image-node-card .node__content .field--type-entity-reference {
+  margin-bottom: 0px;
+}
+
 .horizonal-cards .node--view-mode-image-node-card .node__content .file--mime-application-pdf {
   border: 1px solid #000;
   border-radius: 50px;
