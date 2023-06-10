@@ -1141,9 +1141,11 @@ footer {
     .views-row {
         padding: 40px 0px;
         border-bottom: 1px solid #ccc;
-        &:last-child{
+
+        &:last-child {
             border-bottom: 0px;
         }
+
         .group-right {
             h2 {
                 a {
@@ -1152,6 +1154,26 @@ footer {
                     text-decoration: none;
                 }
             }
+        }
+    }
+}
+
+.horizonal-cards {
+    .node--view-mode-image-node-card {
+        header {
+            padding: 15px;
+
+            h2 {
+                a {
+                    font-family: 'Poppins-Medium';
+                    text-decoration: none;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .node__content {
+            padding: 15px;
         }
     }
 }
@@ -1301,8 +1323,8 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
     header .region-top-header {
         display: grid;
-        grid-template-columns: 50px 1fr; 
-       
+        grid-template-columns: 50px 1fr;
+
     }
 
 }

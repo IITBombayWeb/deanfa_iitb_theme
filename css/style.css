@@ -1046,6 +1046,20 @@ footer {
   text-decoration: none;
 }
 
+.horizonal-cards .node--view-mode-image-node-card header {
+  padding: 15px;
+}
+
+.horizonal-cards .node--view-mode-image-node-card header h2 a {
+  font-family: 'Poppins-Medium';
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.horizonal-cards .node--view-mode-image-node-card .node__content {
+  padding: 15px;
+}
+
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
   header {
     position: relative;
