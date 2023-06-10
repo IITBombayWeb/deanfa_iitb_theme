@@ -1163,6 +1163,7 @@ footer {
     h2 {
         font-family: 'Poppins-SemiBold';
         font-size: 2rem;
+
     }
 
     .list-group {
@@ -1170,9 +1171,9 @@ footer {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 15px;
 
-        li{
+        li {
             border-radius: 7px;
-            box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+            box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
         }
     }
 
@@ -1181,9 +1182,10 @@ footer {
             padding: 15px;
             min-height: 92px;
             background-color: var(--bs-primary);
+
             h2 {
                 font-family: 'Poppins-Light' !important;
-                text-decoration: none; 
+                text-decoration: none;
                 font-size: 1.6rem;
                 font-weight: normal;
                 color: #fff;
@@ -1234,12 +1236,30 @@ footer {
         text-align: center;
         margin-bottom: 50px;
         margin-top: 20px;
+
+        a {
+            @include deanfa-btn(var(--bs-primary), none, var(--bs-primary), 1.2rem);
+            font-weight: 500;
+            border-radius: 4px;
+            text-align: center;
+            display: block;
+            width: 100%;
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid #003863;
+            transition: all 1s;
+
+            &:hover {
+                background-color: var(--bs-primary);
+                color: var(--bs-white);
+            }
+        }
     }
 
     &:last-child {
         .view-footer {
 
-            margin-bottom: 0px;
+            margin-bottom: 40px;
         }
     }
 
