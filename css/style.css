@@ -1121,7 +1121,6 @@ footer {
 
 .horizonal-cards .view-footer {
   text-align: center;
-  margin-bottom: 50px;
   margin-top: 20px;
 }
 
@@ -1151,11 +1150,6 @@ footer {
 .horizonal-cards .view-footer a:hover {
   background-color: var(--bs-primary);
   color: var(--bs-white);
-}
-
-.horizonal-cards:last-child .view-footer {
-  margin-bottom: 40px;
-  font-family: 'Poppins-Medium';
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
