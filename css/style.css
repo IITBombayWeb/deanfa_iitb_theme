@@ -1047,8 +1047,10 @@ footer {
 }
 
 .horizonal-cards h2 {
-  font-family: 'Poppins-SemiBold';
   font-size: 2rem;
+  font-family: 'Poppins-Medium';
+  font-weight: normal;
+  margin-bottom: 20px;
 }
 
 .horizonal-cards .list-group {
@@ -1150,6 +1152,7 @@ footer {
 
 .horizonal-cards:last-child .view-footer {
   margin-bottom: 40px;
+  font-family: 'Poppins-Medium';
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
