@@ -1159,15 +1159,32 @@ footer {
 }
 
 .horizonal-cards {
+    .list-group{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+    }
     .node--view-mode-image-node-card {
         header {
             padding: 15px;
+            min-height: 116px;
 
             h2 {
+                font-family: 'Poppins-Light' !important;
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-weight: normal;
+                color: #fff;
+                margin: 0px;
+
                 a {
-                    font-family: 'Poppins-Medium';
+                    font-family: 'Poppins-Light' !important;
                     text-decoration: none;
-                    text-decoration: none;
+                    font-size: 1.6rem;
+                    font-weight: normal;
+                    color: #fff;
+                    margin: 0px;
+
                 }
             }
         }
