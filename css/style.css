@@ -972,6 +972,19 @@ footer {
   color: #000;
 }
 
+.forms-listing-view .views-row .file--mime-application-pdf {
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 0px 20px;
+  background-position: 6px;
+}
+
+.forms-listing-view .views-row .file--mime-application-pdf a {
+  text-decoration: none;
+  padding: 8px;
+  color: #000;
+}
+
 .admin-process-listing .view-content > .views-row {
   margin: 40px 0px;
 }
@@ -1287,6 +1300,9 @@ footer {
     -ms-grid-columns: 50px 1fr;
         grid-template-columns: 50px 1fr;
   }
+  .default-listing-view .views-row .ds-2col-fluid,
+  .default-listing-view .views-row .ds-2col-fluid,
+  .default-listing-view .views-row .ds-2col-fluid,
   .default-listing-view .views-row .ds-2col-fluid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -1299,6 +1315,21 @@ footer {
     font-weight: normal;
     font-size: 1.2rem;
     margin-top: 10px;
+  }
+  .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more,
+  .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more,
+  .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more {
+    position: relative;
+  }
+  .forms-listing-view .views-row .form-files > div .file--mime-application-pdf a {
+    word-break: break-all;
+  }
+  .search-form-faculty .row {
+    padding-right: 0px;
+  }
+  .search-form-faculty .row {
+    -ms-grid-columns: 1fr 105px;
+        grid-template-columns: 1fr 105px;
   }
 }
 /*# sourceMappingURL=style.css.map */
