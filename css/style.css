@@ -1266,6 +1266,7 @@ footer {
   }
   .block-views-exposed-filter-blocksearch-page-1 .row .btn-primary {
     padding: 4px;
+    font-size: 0.9rem;
   }
   header .region-top-header {
     padding: 11px 10px;
@@ -1285,6 +1286,19 @@ footer {
     display: grid;
     -ms-grid-columns: 50px 1fr;
         grid-template-columns: 50px 1fr;
+  }
+  .default-listing-view .views-row .ds-2col-fluid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more {
+    position: relative;
+  }
+  .default-listing-view .views-row .ds-2col-fluid .group-right h2 {
+    font-family: 'Poppins-Semibold' !important;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-top: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
