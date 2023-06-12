@@ -1152,6 +1152,26 @@ footer {
   color: var(--bs-white);
 }
 
+.faculty-detail .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 450px 1fr;
+      grid-template-columns: 450px 1fr;
+}
+
+.faculty-detail .row .col-lg-6 {
+  width: 100%;
+}
+
+.faculty-detail .row .col-lg-6 h2 {
+  font-family: 'Poppins-SemiBold';
+  font-weight: normal;
+}
+
+.faculty-detail .row .col-lg-6 .block-field-blocknodefacultyfield-office-address {
+  margin: 30px 0px;
+}
+
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
   header {
     position: relative;
