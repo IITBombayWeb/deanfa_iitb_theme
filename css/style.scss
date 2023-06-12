@@ -243,20 +243,7 @@ header {
 
 }
 
-.default-learn-more {
-    margin-top: 35px;
-    float: left;
 
-    a {
-        @include deanfa-btn(#8f8f8f, none, #8f8f8f, 1.1rem);
-        text-decoration: none;
-
-        &:hover {
-            background-color: var(--bs-blue);
-            color: var(--bs-white);
-        }
-    }
-}
 
 .homepage-faculty-tabs {
     padding: 100px 0px;
@@ -890,6 +877,33 @@ footer {
         }
     }
 
+    .default-learn-more {
+        margin-top: 35px;
+        float: left;
+
+        a {
+            @include deanfa-btn(#8f8f8f, none, #8f8f8f, 1.1rem);
+            text-decoration: none;
+
+            &:hover {
+                background-color: var(--bs-blue);
+                color: var(--bs-white);
+            }
+        }
+    }
+
+
+}
+
+
+.default-learn-more {
+    @include deanfa-btn(#8f8f8f, none, #8f8f8f, 1.1rem);
+    text-decoration: none;
+    
+    &:hover {
+        background-color: var(--bs-blue);
+        color: var(--bs-white);
+    }
 }
 
 .default-sidebar-menu {
@@ -1071,6 +1085,7 @@ footer {
             }
 
         }
+
         .file--mime-application-pdf {
             border: 1px solid #000;
             border-radius: 50px;
@@ -1469,13 +1484,16 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more {
         position: relative;
     }
-    .forms-listing-view .views-row .form-files>div .file--mime-application-pdf a{
+
+    .forms-listing-view .views-row .form-files>div .file--mime-application-pdf a {
         word-break: break-all;
     }
-    .search-form-faculty .row{
+
+    .search-form-faculty .row {
         padding-right: 0px;
     }
-    .search-form-faculty .row{
+
+    .search-form-faculty .row {
         grid-template-columns: 1fr 105px;
     }
 

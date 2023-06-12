@@ -213,27 +213,6 @@ header .dropdown-item:hover a {
   height: auto;
 }
 
-.default-learn-more {
-  margin-top: 35px;
-  float: left;
-}
-
-.default-learn-more a {
-  background-color: none;
-  color: #8f8f8f;
-  border-color: #8f8f8f;
-  font-size: 1.1rem;
-  border-radius: 4px;
-  border: 2px solid;
-  padding: 10px 30px;
-  text-decoration: none;
-}
-
-.default-learn-more a:hover {
-  background-color: var(--bs-blue);
-  color: var(--bs-white);
-}
-
 .homepage-faculty-tabs {
   padding: 100px 0px;
   background-color: #f0f0f0;
@@ -788,6 +767,43 @@ footer {
 
 .default-listing-view .views-row:last-child {
   margin-bottom: 0px;
+}
+
+.default-listing-view .default-learn-more {
+  margin-top: 35px;
+  float: left;
+}
+
+.default-listing-view .default-learn-more a {
+  background-color: none;
+  color: #8f8f8f;
+  border-color: #8f8f8f;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  border: 2px solid;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.default-listing-view .default-learn-more a:hover {
+  background-color: var(--bs-blue);
+  color: var(--bs-white);
+}
+
+.default-learn-more {
+  background-color: none;
+  color: #8f8f8f;
+  border-color: #8f8f8f;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  border: 2px solid;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.default-learn-more:hover {
+  background-color: var(--bs-blue);
+  color: var(--bs-white);
 }
 
 .default-sidebar-menu {
