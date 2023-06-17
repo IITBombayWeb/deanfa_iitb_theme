@@ -72,11 +72,13 @@ header {
 header h1 {
   font-size: 1.5rem;
   color: black;
-  font-weight: 500;
+  font-weight: normal;
   margin: 0px;
+  font-family: 'Poppins-SemiBold';
 }
 
 header h1 a {
+  font-family: 'Poppins-SemiBold';
   text-decoration: none;
   color: black;
 }
