@@ -371,7 +371,7 @@ header {
 
     .block-layout-builder {
         background-color: #1961a9;
-        padding: 40px 120px; 
+        padding: 40px 120px;
     }
 }
 
@@ -424,28 +424,32 @@ header {
 
             .card {
                 height: 100%;
-              
-                .card-body {
-                    &:nth-child(1) {
 
+                .card-body {
+                    &:first-child(1) {
                         padding: 0px;
                         flex: inherit;
                     }
 
-                    &:nth-child(2) {
+                    &:last-child(2) {
                         background-color: #994848 !important;
                         padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x) 54px;
-                        position: relative;
+                        position: relative; 
                     }
 
                     a {
-                        border: 1px solid #000;
-                        color: #000;
+                        border: 1px solid var(--bs-primary);
+                        color: var(--bs-primary);
                         padding: 4px 15px;
                         text-decoration: none;
                         border-radius: 4px;
                         position: absolute;
                         bottom: 20px;
+
+                        &:hover {
+                            background-color: var(--bs-primary);
+                            color: var(--bs-primary); 
+                        }
                     }
                 }
 
@@ -628,7 +632,7 @@ header {
 }
 
 .faculty-work-section {
-    padding: 70px 0px; 
+    padding: 70px 0px;
     position: relative;
 
 
