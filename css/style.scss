@@ -346,12 +346,12 @@ header {
 }
 
 .apply-iitp-section {
-    padding: 100px 0px;
+    padding: 50px 0px;
     background-attachment: fixed;
     font-size: 1.3rem;
 
     h2 {
-        @include section-heading(var(--bs-white), center, 2.8rem, 30px);
+        @include section-heading(var(--bs-white), center, 1.8em, 30px);
         margin-top: 20px;
     }
 
@@ -371,12 +371,12 @@ header {
 
     .block-layout-builder {
         background-color: #1961a9;
-        padding: 40px;
+        padding: 40px 120px; 
     }
 }
 
 .homepage-news {
-    padding: 100px 0px;
+    padding: 70px 0px;
 
     h2 {
         @include section-heading(var(--bs-primary), center, 3.2rem, 0px);
@@ -418,16 +418,13 @@ header {
     .view-content {
         display: grid;
         grid-template-columns: repeat(4, 1fr) !important;
-
         margin-bottom: 50px;
 
         .views-row {
-          
+
             .card {
                 height: 100%;
-
-
-
+                box-shadow: none;
                 .card-body {
                     &:nth-child(1) {
 

@@ -320,14 +320,14 @@ header .dropdown-item:hover a {
 }
 
 .apply-iitp-section {
-  padding: 100px 0px;
+  padding: 50px 0px;
   background-attachment: fixed;
   font-size: 1.3rem;
 }
 
 .apply-iitp-section h2 {
   color: var(--bs-white);
-  font-size: 2.8rem;
+  font-size: 1.8em;
   text-align: center;
   margin-bottom: 30px;
   font-family: 'Poppins-SemiBold';
@@ -351,11 +351,11 @@ header .dropdown-item:hover a {
 
 .apply-iitp-section .block-layout-builder {
   background-color: #1961a9;
-  padding: 40px;
+  padding: 40px 120px;
 }
 
 .homepage-news {
-  padding: 100px 0px;
+  padding: 70px 0px;
 }
 
 .homepage-news h2 {
@@ -412,6 +412,8 @@ header .dropdown-item:hover a {
 
 .homepage-news .view-content .views-row .card {
   height: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .homepage-news .view-content .views-row .card .card-body:nth-child(1) {
