@@ -565,11 +565,12 @@ header .dropdown-item:hover a {
 .awards-ann-section .award-section .view-footer a {
   border: 1px solid #000;
   color: #000;
-  padding: 4px 15px;
+  padding: 11px 15px;
   text-decoration: none;
   border-radius: 4px;
   width: 100%;
   display: block;
+  text-align: center;
 }
 
 .awards-ann-section .announcement-single .card {
