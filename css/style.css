@@ -444,7 +444,7 @@ header .dropdown-item:hover a {
 
 .homepage-news .view-content .views-row .card .card-body a:hover {
   background-color: var(--bs-primary);
-  color: var(--bs-primary);
+  color: var(--bs-white);
 }
 
 .homepage-news .view-content .views-row .card .card-img {
