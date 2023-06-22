@@ -423,6 +423,9 @@ header .dropdown-item:hover a {
   background-color: #00a4a2;
   color: #fff;
   padding: 0px;
+  -webkit-box-flex: inherit;
+      -ms-flex: inherit;
+          flex: inherit;
 }
 
 .homepage-news .view-content .views-row .card .card-body:nth-child(2) {
