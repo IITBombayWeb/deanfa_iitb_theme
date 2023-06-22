@@ -422,6 +422,7 @@ header .dropdown-item:hover a {
 .homepage-news .view-content .views-row .card .card-body:nth-child(1) {
   background-color: #00a4a2;
   color: #fff;
+  padding: 0px;
 }
 
 .homepage-news .view-content .views-row .card .card-body:nth-child(2) {
@@ -443,10 +444,6 @@ header .dropdown-item:hover a {
 .homepage-news .view-content .views-row .card .card-img h4 {
   font-family: 'Poppins-Medium';
   font-weight: normal;
-}
-
-.homepage-news .view-content .views-row .card-block:nth-child(1) {
-  padding: 0px;
 }
 
 .about-iitb-section {
