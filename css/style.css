@@ -638,12 +638,12 @@ header .dropdown-item:hover a {
 .faculty-work-section ul {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr)[4] !important;
+      grid-template-columns: repeat(4, 1fr) !important;
   grid-gap: 20px;
 }
 
-.faculty-work-section ul li .grid__content {
+.faculty-work-section ul li .card {
   height: 100%;
 }
 

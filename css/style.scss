@@ -653,20 +653,18 @@ header {
 
     ul {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr) !important;
         grid-gap: 20px;
 
         li {
          
 
-            .grid__content {
-                height: 100%;
-            }
-
+          
             .card {
+                height: 100%;
                 .card-body {
                     padding-bottom: 54px;
-                    position: relative;
+                    position: relative;  
 
                     h4 {
                         font-family: 'Poppins-Medium';
@@ -680,7 +678,7 @@ header {
                         text-decoration: none;
                         border-radius: 4px;
                         -webkit-transition: all 0.5s;
-                        transition: all 0.5s;
+                        transition: all 0.5s; 
                         position: absolute;
                         bottom: 20px;
 
