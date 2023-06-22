@@ -432,21 +432,19 @@ header {
 
                 .card-body {
                     &:nth-child(1) {
-                        background-color: #00a4a2;
-                        color: #fff;
+                      
                         padding: 0px;
                         flex: inherit;
                     }
 
                     &:nth-child(2) {
-                        background-color: #f1f1f1 !important;
-                        padding-bottom: 54px !important;
-                        position: relative;
-                        
+                        background-color: #994848 !important;
+                        padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x) 54px; 
+                        position: relative;                        
                     }
 
                     a {
-                        border: 1px solid #000;
+                        border: 1px solid #000; 
                         color: #000;
                         padding: 4px 15px;
                         text-decoration: none;

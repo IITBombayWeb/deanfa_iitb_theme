@@ -420,8 +420,6 @@ header .dropdown-item:hover a {
 }
 
 .homepage-news .view-content .views-row .card .card-body:nth-child(1) {
-  background-color: #00a4a2;
-  color: #fff;
   padding: 0px;
   -webkit-box-flex: inherit;
       -ms-flex: inherit;
@@ -429,8 +427,8 @@ header .dropdown-item:hover a {
 }
 
 .homepage-news .view-content .views-row .card .card-body:nth-child(2) {
-  background-color: #f1f1f1 !important;
-  padding-bottom: 54px !important;
+  background-color: #994848 !important;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x) 54px;
   position: relative;
 }
 
