@@ -381,7 +381,7 @@ header .dropdown-item:hover a {
   height: 100%;
 }
 
-.homepage-news .card .card-body {
+.homepage-news .card .card-block {
   padding: 0px;
 }
 
@@ -442,6 +442,7 @@ header .dropdown-item:hover a {
   -ms-grid-columns: (1fr)[4] !important;
       grid-template-columns: repeat(4, 1fr) !important;
   grid-gap: 20px;
+  margin-bottom: 50px;
 }
 
 .homepage-news .view-content .views-row {
