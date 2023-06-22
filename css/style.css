@@ -412,8 +412,6 @@ header .dropdown-item:hover a {
 
 .homepage-news .view-content .views-row .card {
   height: 100%;
-  -webkit-box-shadow: none;
-          box-shadow: none;
 }
 
 .homepage-news .view-content .views-row .card .card-body:nth-child(1) {
