@@ -895,12 +895,11 @@ footer {
 .search-form-faculty .row {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 195px;
-      grid-template-columns: 1fr 195px;
+  -ms-grid-columns: 1fr 250px 195px;
+      grid-template-columns: 1fr 250px 195px;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
-  padding-right: 36px;
 }
 
 .search-form-faculty .row .form-control {

@@ -998,9 +998,8 @@ footer {
 .search-form-faculty {
     .row {
         display: grid;
-        grid-template-columns: 1fr 195px;
-        align-items: end;
-        padding-right: 36px;
+        grid-template-columns: 1fr 250px 195px;
+        align-items: end;       
 
         .form-control {
             border: 1px solid #000000 !important;
