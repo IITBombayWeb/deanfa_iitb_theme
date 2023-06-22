@@ -429,8 +429,8 @@ header .dropdown-item:hover a {
 }
 
 .homepage-news .view-content .views-row .card .card-body:nth-child(2) {
-  background-color: #f1f1f1;
-  padding-bottom: 54px;
+  background-color: #f1f1f1 !important;
+  padding-bottom: 54px !important;
   position: relative;
 }
 
