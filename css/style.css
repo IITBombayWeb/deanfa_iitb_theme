@@ -424,7 +424,7 @@ header .dropdown-item:hover a {
   color: var(--bs-white);
 }
 
-.homepage-news .view-news {
+.homepage-news .view-content {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4] !important;
@@ -433,7 +433,7 @@ header .dropdown-item:hover a {
   border: 1px solid red;
 }
 
-.homepage-news .view-news .views-row {
+.homepage-news .view-content .views-row {
   padding: 0px !important;
   border: 1px solid red;
 }
