@@ -377,9 +377,12 @@ header .dropdown-item:hover a {
   margin-right: auto;
 }
 
-.homepage-news .card .card-body h4 {
-  font-family: 'Poppins-Medium';
-  font-weight: normal;
+.homepage-news .card {
+  height: 100%;
+}
+
+.homepage-news .card .card-body {
+  padding: 0px;
 }
 
 .homepage-news .card .card-body:nth-child(1) {
@@ -397,6 +400,11 @@ header .dropdown-item:hover a {
   padding: 4px 15px;
   text-decoration: none;
   border-radius: 4px;
+}
+
+.homepage-news .card .card-img h4 {
+  font-family: 'Poppins-Medium';
+  font-weight: normal;
 }
 
 .homepage-news .view-footer a {
@@ -430,12 +438,10 @@ header .dropdown-item:hover a {
   -ms-grid-columns: (1fr)[4] !important;
       grid-template-columns: repeat(4, 1fr) !important;
   grid-gap: 20px;
-  border: 1px solid red;
 }
 
 .homepage-news .view-content .views-row {
   padding: 0px !important;
-  border: 1px solid red;
 }
 
 .about-iitb-section {

@@ -95,10 +95,11 @@ header {
         margin: 0px;
 
         font-family: 'Poppins-SemiBold' !important;
+
         a {
             font-family: 'Poppins-SemiBold' !important;
             text-decoration: none;
-            color: rgb(0, 0, 0); 
+            color: rgb(0, 0, 0);
         }
     }
 
@@ -394,11 +395,11 @@ header {
     }
 
     .card {
+        height: 100%;
+
         .card-body {
-            h4 {
-                font-family: 'Poppins-Medium';
-                font-weight: normal;
-            }
+            padding: 0px;
+
 
             &:nth-child(1) {
                 background-color: #00a4a2;
@@ -417,6 +418,13 @@ header {
                 padding: 4px 15px;
                 text-decoration: none;
                 border-radius: 4px;
+            }
+        }
+
+        .card-img {
+            h4 {
+                font-family: 'Poppins-Medium';
+                font-weight: normal;
             }
         }
     }
@@ -441,14 +449,15 @@ header {
         }
     }
 
-    .view-content{
+    .view-content {
         display: grid;
         grid-template-columns: repeat(4, 1fr) !important;
         grid-gap: 20px;
-        border: 1px solid red;
-        .views-row{
+     
+
+        .views-row {
             padding: 0px !important;
-            border: 1px solid red;
+           
         }
     }
 }
@@ -911,7 +920,7 @@ footer {
 .default-learn-more {
     @include deanfa-btn(#8f8f8f, none, #8f8f8f, 1.1rem);
     text-decoration: none;
-    
+
     &:hover {
         background-color: var(--bs-blue);
         color: var(--bs-white);
@@ -1010,7 +1019,7 @@ footer {
     .row {
         display: grid;
         grid-template-columns: 1fr 350px 195px;
-        align-items: end;       
+        align-items: end;
 
         .form-control {
             border: 1px solid #000000 !important;
@@ -1033,7 +1042,8 @@ footer {
                 background-color: var(--bs-white);
             }
         }
-        .form-select{
+
+        .form-select {
             border: 1px solid #000000 !important;
             padding: 11px 15px;
             background-position: right 7px center;
