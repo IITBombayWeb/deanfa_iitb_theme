@@ -410,10 +410,6 @@ header .dropdown-item:hover a {
   margin-bottom: 50px;
 }
 
-.homepage-news .view-content .views-row {
-  padding: 0px !important;
-}
-
 .homepage-news .view-content .views-row .card {
   height: 100%;
 }
