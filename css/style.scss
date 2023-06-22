@@ -426,16 +426,15 @@ header {
                 height: 100%;
 
                 .card-body {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
                     &:nth-child(1) {
                         padding: 0px !important;
                         flex: inherit;
                     }
 
-                    &:last-child(2) {
-                        background-color: #994848 !important;
-                        padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x) 54px;
-                        position: relative;
-                    }
+                 
 
                     a {
                         border: 1px solid var(--bs-primary);
@@ -443,8 +442,7 @@ header {
                         padding: 4px 15px;
                         text-decoration: none;
                         border-radius: 4px;
-                        position: absolute;
-                        bottom: 20px;
+                    
 
                         &:hover {
                             background-color: var(--bs-primary);
