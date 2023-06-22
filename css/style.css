@@ -636,28 +636,32 @@ header .dropdown-item:hover a {
 }
 
 .faculty-work-section ul {
-  display: -ms-grid;
-  display: grid;
+  display: -ms-grid !important;
+  display: grid !important;
   -ms-grid-columns: (1fr)[4] !important;
       grid-template-columns: repeat(4, 1fr) !important;
   grid-gap: 20px;
 }
 
-.faculty-work-section ul li .card {
+.faculty-work-section ul li .grid__content {
   height: 100%;
 }
 
-.faculty-work-section ul li .card .card-body {
+.faculty-work-section ul li .grid__content .card {
+  height: 100%;
+}
+
+.faculty-work-section ul li .grid__content .card .card-body {
   padding-bottom: 54px;
   position: relative;
 }
 
-.faculty-work-section ul li .card .card-body h4 {
+.faculty-work-section ul li .grid__content .card .card-body h4 {
   font-family: 'Poppins-Medium';
   font-weight: normal;
 }
 
-.faculty-work-section ul li .card .card-body a {
+.faculty-work-section ul li .grid__content .card .card-body a {
   border: 1px solid #000;
   color: #000;
   padding: 4px 15px;
@@ -669,7 +673,7 @@ header .dropdown-item:hover a {
   bottom: 20px;
 }
 
-.faculty-work-section ul li .card .card-body a:hover {
+.faculty-work-section ul li .grid__content .card .card-body a:hover {
   background-color: #000;
   color: #fff;
 }
