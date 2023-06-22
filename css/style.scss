@@ -998,7 +998,7 @@ footer {
 .search-form-faculty {
     .row {
         display: grid;
-        grid-template-columns: 1fr 250px 195px;
+        grid-template-columns: 1fr 350px 195px;
         align-items: end;       
 
         .form-control {
@@ -1021,6 +1021,12 @@ footer {
                 border: 2px solid var(--bs-primary);
                 background-color: var(--bs-white);
             }
+        }
+        .form-select{
+            border: 1px solid #000000 !important;
+            padding: 11px 15px;
+            background-position: right 7px center;
+            border-radius: 5px;
         }
     }
 }

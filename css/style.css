@@ -895,8 +895,8 @@ footer {
 .search-form-faculty .row {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 250px 195px;
-      grid-template-columns: 1fr 250px 195px;
+  -ms-grid-columns: 1fr 350px 195px;
+      grid-template-columns: 1fr 350px 195px;
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
@@ -924,6 +924,13 @@ footer {
   color: var(--bs-primary);
   border: 2px solid var(--bs-primary);
   background-color: var(--bs-white);
+}
+
+.search-form-faculty .row .form-select {
+  border: 1px solid #000000 !important;
+  padding: 11px 15px;
+  background-position: right 7px center;
+  border-radius: 5px;
 }
 
 .block-views-exposed-filter-blocksearch-page-1 .row {
