@@ -643,10 +643,6 @@ header .dropdown-item:hover a {
   grid-gap: 20px;
 }
 
-.faculty-work-section ul li {
-  border: 0px;
-}
-
 .faculty-work-section ul li .grid__content {
   height: 100%;
 }
