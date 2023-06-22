@@ -528,8 +528,9 @@ header .dropdown-item:hover a {
 }
 
 .awards-ann-section .award-section .view-content .views-row {
-  padding: 12px 0px;
+  padding: 10px 0px;
   border-bottom: 1px solid #ccc;
+  padding-left: 32px;
 }
 
 .awards-ann-section .award-section .view-content .views-row .group-right h2 {
@@ -547,6 +548,28 @@ header .dropdown-item:hover a {
   position: relative;
   font-family: bootstrap-icons !important;
   margin-right: 5px;
+  font-size: 2rem;
+  margin-left: -37px;
+  top: 16px;
+  line-height: 0;
+}
+
+.awards-ann-section .award-section .view-content .views-row:last-child {
+  border-bottom: 0px;
+}
+
+.awards-ann-section .award-section .view-footer {
+  margin-top: 25px;
+}
+
+.awards-ann-section .award-section .view-footer a {
+  border: 1px solid #000;
+  color: #000;
+  padding: 4px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  width: 100%;
+  display: block;
 }
 
 .awards-ann-section .announcement-single .card {

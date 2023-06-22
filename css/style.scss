@@ -434,7 +434,7 @@ header {
                     &:last-child(2) {
                         background-color: #994848 !important;
                         padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x) 54px;
-                        position: relative; 
+                        position: relative;
                     }
 
                     a {
@@ -448,7 +448,7 @@ header {
 
                         &:hover {
                             background-color: var(--bs-primary);
-                            color: var(--bs-primary); 
+                            color: var(--bs-primary);
                         }
                     }
                 }
@@ -535,8 +535,9 @@ header {
     .award-section {
         .view-content {
             .views-row {
-                padding: 12px 0px;
+                padding: 10px 0px;
                 border-bottom: 1px solid #ccc;
+                padding-left: 32px;
 
                 .group-right {
                     h2 {
@@ -555,9 +556,31 @@ header {
                             position: relative;
                             font-family: bootstrap-icons !important;
                             margin-right: 5px;
+                            font-size: 2rem;
+                            margin-left: -37px;
+                            top: 16px;
+                            line-height: 0;
                         }
                     }
                 }
+
+                &:last-child {
+                    border-bottom: 0px;
+                }
+            }
+        }
+
+        .view-footer {
+            margin-top: 25px;
+
+            a {
+                border: 1px solid #000;
+                color: #000;
+                padding: 4px 15px;
+                text-decoration: none;
+                border-radius: 4px;
+                width: 100%;
+                display: block;
             }
         }
 
