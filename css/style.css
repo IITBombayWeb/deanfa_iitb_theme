@@ -69,7 +69,7 @@ header {
   background-color: #005494;
 }
 
-header .navbar {
+header #navbar-top {
   padding: 15px 0px !important;
 }
 
