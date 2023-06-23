@@ -1507,6 +1507,10 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
     .block-views-exposed-filter-blocksearch-page-1 .row {
         grid-template-columns: 1fr 93px;
+
+        .js-form-item{
+            margin-bottom: 0px !important;
+        }
     }
 
     header h1 {
