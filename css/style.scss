@@ -87,9 +87,11 @@ body {
 
 header {
     background-color: #005494;
-    #navbar-top{
+
+    #navbar-top {
         padding: 15px 0px !important;
     }
+
     h1 {
         font-size: 1.5rem;
         color: rgb(0, 0, 0);
@@ -431,12 +433,13 @@ header {
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+
                     &:nth-child(1) {
                         padding: 0px !important;
                         flex: inherit;
                     }
 
-                 
+
 
                     a {
                         border: 1px solid var(--bs-primary);
@@ -444,7 +447,7 @@ header {
                         padding: 4px 15px;
                         text-decoration: none;
                         border-radius: 4px;
-                    
+
 
                         &:hover {
                             background-color: var(--bs-primary);
@@ -520,8 +523,8 @@ header {
 }
 
 .awards-ann-section {
-    padding: 100px 0px; 
-  
+    padding: 100px 0px;
+
 
     h2 {
         @include section-heading(var(--bs-primary), left, 2.7rem, 0px);
@@ -1510,8 +1513,9 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .block-views-exposed-filter-blocksearch-page-1 .row {
         grid-template-columns: 1fr 93px;
 
-        .js-form-item{
-            margin-bottom: 0px !important;
+        .js-form-item,
+        .form-actions {
+            margin-bottom: 0px !important; 
         }
     }
 

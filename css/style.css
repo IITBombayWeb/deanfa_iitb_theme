@@ -1385,7 +1385,8 @@ footer {
     -ms-grid-columns: 1fr 93px;
         grid-template-columns: 1fr 93px;
   }
-  .block-views-exposed-filter-blocksearch-page-1 .row .js-form-item {
+  .block-views-exposed-filter-blocksearch-page-1 .row .js-form-item,
+  .block-views-exposed-filter-blocksearch-page-1 .row .form-actions {
     margin-bottom: 0px !important;
   }
   header h1 {
