@@ -1302,9 +1302,43 @@ footer {
   margin: 30px 0px;
 }
 
-.faculty-detail .linkedin-link, .faculty-detail .link-cv, .faculty-detail .web-link, .faculty-detail .google-scholar-link, .faculty-detail .fac-email {
+.faculty-detail .linkedin-link,
+.faculty-detail .link-cv,
+.faculty-detail .web-link,
+.faculty-detail .google-scholar-link,
+.faculty-detail .fac-email {
   float: left;
   margin: 0px 8px;
+}
+
+.faculty-detail .linkedin-link a::before {
+  content: "\f472";
+  font-family: bootstrap-icons !important;
+  margin-right: 8px;
+}
+
+.faculty-detail .link-cv a::before {
+  content: "\f224";
+  font-family: bootstrap-icons !important;
+  margin-right: 8px;
+}
+
+.faculty-detail .web-link a::before {
+  content: "\f3ee";
+  font-family: bootstrap-icons !important;
+  margin-right: 8px;
+}
+
+.faculty-detail .google-scholar-link a::before {
+  content: "\f3f0";
+  font-family: bootstrap-icons !important;
+  margin-right: 8px;
+}
+
+.faculty-detail .fac-email a::before {
+  content: "\f32f";
+  font-family: bootstrap-icons !important;
+  margin-right: 8px;
 }
 
 @media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {

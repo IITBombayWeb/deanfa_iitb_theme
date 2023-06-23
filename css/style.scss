@@ -1405,10 +1405,62 @@ footer {
         }
     }
 }
-.faculty-detail{
-    .linkedin-link, .link-cv, .web-link, .google-scholar-link, .fac-email{
+
+.faculty-detail {
+
+    .linkedin-link,
+    .link-cv,
+    .web-link,
+    .google-scholar-link,
+    .fac-email {
         float: left;
-        margin: 0px 8px; 
+        margin: 0px 8px;
+    }
+
+    .linkedin-link {
+        a {
+            &::before {
+                content: "\f472";
+                font-family: bootstrap-icons !important;
+                margin-right: 8px;
+            }
+        }
+    }
+    .link-cv {
+        a {
+            &::before {
+                content: "\f224";
+                font-family: bootstrap-icons !important;
+                margin-right: 8px;
+            }
+        }
+    }
+    .web-link {
+        a {
+            &::before {
+                content: "\f3ee";
+                font-family: bootstrap-icons !important;
+                margin-right: 8px;
+            }
+        }
+    }
+    .google-scholar-link {
+        a {
+            &::before {
+                content: "\f3f0";
+                font-family: bootstrap-icons !important;
+                margin-right: 8px;
+            }
+        }
+    }
+    .fac-email {
+        a {
+            &::before {
+                content: "\f32f";
+                font-family: bootstrap-icons !important;
+                margin-right: 8px;
+            }
+        }
     }
 }
 
@@ -1522,7 +1574,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
         .js-form-item,
         .form-actions {
-            margin-bottom: 0px !important; 
+            margin-bottom: 0px !important;
         }
     }
 
