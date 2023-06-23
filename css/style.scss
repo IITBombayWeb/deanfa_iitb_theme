@@ -1405,6 +1405,13 @@ footer {
         }
     }
 }
+.faculty-detail{
+    .linkedin-link, .link-cv, .web-link, .google-scholar-link, .fac-email{
+        float: left;
+        margin: 0px 8px; 
+    }
+}
+
 
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
