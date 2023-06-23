@@ -379,7 +379,7 @@ header {
     padding: 70px 0px;
 
     h2 {
-        @include section-heading(var(--bs-primary), center, 3.2rem, 0px);
+        @include section-heading(var(--bs-primary), center, 2.7rem, 0px);
 
     }
 
@@ -477,7 +477,7 @@ header {
     background-attachment: fixed;
 
     h2 {
-        @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
+        @include section-heading(var(--bs-primary), left, 2.7rem, 0px);
     }
 
     .col-12 {
@@ -522,7 +522,7 @@ header {
   
 
     h2 {
-        @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
+        @include section-heading(var(--bs-primary), left, 2.7rem, 0px);
     }
 
 
@@ -637,7 +637,7 @@ header {
     }
 
     h2 {
-        @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
+        @include section-heading(var(--bs-primary), left, 2.7rem, 0px);
     }
 
 
@@ -665,7 +665,7 @@ header {
 
 
     h2 {
-        @include section-heading(var(--bs-primary), left, 3.2rem, 0px);
+        @include section-heading(var(--bs-primary), left, 2.7rem, 0px);
     }
 
 
