@@ -87,7 +87,9 @@ body {
 
 header {
     background-color: #005494;
-
+    .navbar{
+        padding: 15px 0px !important;
+    }
     h1 {
         font-size: 1.5rem;
         color: rgb(0, 0, 0);
