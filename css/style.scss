@@ -1415,6 +1415,9 @@ footer {
     .fac-email {
         float: left;
         margin: 0px 8px;
+        a{
+            text-decoration: none;
+        }
     }
 
     .linkedin-link {
@@ -1423,42 +1426,56 @@ footer {
                 content: "\f472";
                 font-family: bootstrap-icons !important;
                 margin-right: 8px;
+                position: relative;
+                top: 2px;
             }
         }
     }
+
     .link-cv {
         a {
             &::before {
                 content: "\f224";
                 font-family: bootstrap-icons !important;
                 margin-right: 8px;
+                position: relative;
+                top: 2px;
             }
         }
     }
+
     .web-link {
         a {
             &::before {
                 content: "\f3ee";
                 font-family: bootstrap-icons !important;
                 margin-right: 8px;
+                position: relative;
+                top: 2px;
             }
         }
     }
+
     .google-scholar-link {
         a {
             &::before {
                 content: "\f3f0";
                 font-family: bootstrap-icons !important;
                 margin-right: 8px;
+                position: relative;
+                top: 2px;
             }
         }
     }
+
     .fac-email {
         a {
             &::before {
                 content: "\f32f";
                 font-family: bootstrap-icons !important;
                 margin-right: 8px;
+                position: relative;
+                top: 2px;
             }
         }
     }
