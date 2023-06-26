@@ -1426,7 +1426,7 @@ footer {
                 content: "\f472";
                 font-family: bootstrap-icons !important;
                 margin-right: 8px;
-                position: relative;
+                position: relative; 
                 top: 2px;
             }
         }
@@ -1671,6 +1671,9 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
     .search-form-faculty .row {
         grid-template-columns: 1fr 105px;
+    }
+    .homepage-news .view-content, .faculty-work-section ul{
+        grid-template-columns: 1fr; 
     }
 
 }

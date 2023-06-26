@@ -1509,5 +1509,9 @@ footer {
     -ms-grid-columns: 1fr 105px;
         grid-template-columns: 1fr 105px;
   }
+  .homepage-news .view-content, .faculty-work-section ul {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 /*# sourceMappingURL=style.css.map */
