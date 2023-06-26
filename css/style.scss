@@ -1673,7 +1673,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         grid-template-columns: 1fr 105px;
     }
     .homepage-news .view-content, .faculty-work-section ul{
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr !important; 
     }
 
 }
