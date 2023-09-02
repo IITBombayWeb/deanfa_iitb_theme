@@ -588,7 +588,9 @@ header .dropdown-item:hover a {
     border-radius: 4px;
     width: 100%;
     display: block;
-    text-align: center
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .awards-ann-section .award-section .view-footer a:hover {

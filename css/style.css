@@ -89,10 +89,10 @@ header h1 a {
 
 header .region-top-header {
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 header .region-top-header .navbar-brand {
@@ -127,8 +127,8 @@ header .navbar-expand-md .menu--main .dropdown-menu li a {
 
 header .navbar-expand-md .navbar-collapse {
   -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
 }
 
 header .dropdown-menu {
@@ -190,11 +190,11 @@ header .dropdown-item:hover a {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 500px;
-      grid-template-columns: 1fr 500px;
+  grid-template-columns: 1fr 500px;
   grid-gap: 70px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .about-us-homepage .about-row .about-us-text h2 {
@@ -307,19 +307,19 @@ header .dropdown-item:hover a {
   border-color: var(--bs-primary);
 }
 
-.homepage-faculty-tabs .on-the-gray .quicktabs-tabs > li > a:hover,
-.homepage-faculty-tabs .on-the-gray .quicktabs-tabs > li.active > a {
+.homepage-faculty-tabs .on-the-gray .quicktabs-tabs>li>a:hover,
+.homepage-faculty-tabs .on-the-gray .quicktabs-tabs>li.active>a {
   background-color: var(--bs-primary);
   color: var(--bs-white);
 }
 
-.homepage-faculty-tabs .on-the-gray .quicktabs-tabs > li > a {
+.homepage-faculty-tabs .on-the-gray .quicktabs-tabs>li>a {
   background-color: var(--bs-white);
   font-size: 1.2rem;
 }
 
-.homepage-faculty-tabs .block-column > .grid,
-.homepage-faculty-tabs .item-list > .block-column > .grid {
+.homepage-faculty-tabs .block-column>.grid,
+.homepage-faculty-tabs .item-list>.block-column>.grid {
   border-radius: 0px;
 }
 
@@ -344,7 +344,7 @@ header .dropdown-item:hover a {
   margin-top: 50px;
   padding: 16px 50px;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   color: var(--bs-white);
 }
 
@@ -424,18 +424,18 @@ header .dropdown-item:hover a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .homepage-news .view-content .views-row .card .card-body:nth-child(1) {
   padding: 0px !important;
   -webkit-box-flex: inherit;
-      -ms-flex: inherit;
-          flex: inherit;
+  -ms-flex: inherit;
+  flex: inherit;
 }
 
 .homepage-news .view-content .views-row .card .card-body a {
@@ -556,9 +556,11 @@ header .dropdown-item:hover a {
   text-decoration: none;
   color: #000;
 }
-.awards-ann-section .award-section .view-content .views-row .field-content a:hover{
+
+.awards-ann-section .award-section .view-content .views-row .field-content a:hover {
   color: #e90000 !important;
 }
+
 .awards-ann-section .award-section .view-content .views-row .field-content a::before {
   content: "\f154";
   position: relative;
@@ -587,6 +589,8 @@ header .dropdown-item:hover a {
   width: 100%;
   display: block;
   text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .awards-ann-section .award-section .view-footer a:hover {
@@ -685,7 +689,7 @@ header .dropdown-item:hover a {
   display: -ms-grid !important;
   display: grid !important;
   -ms-grid-columns: (1fr)[4] !important;
-      grid-template-columns: repeat(4, 1fr) !important;
+  grid-template-columns: repeat(4, 1fr) !important;
   grid-gap: 20px;
 }
 
@@ -792,7 +796,7 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 302px 1fr;
-      grid-template-columns: 302px 1fr;
+  grid-template-columns: 302px 1fr;
   grid-gap: 40px;
   border: 1px solid #ccc;
   padding: 20px;
@@ -922,8 +926,8 @@ footer {
 .default-sidebar-menu .nav {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .default-sidebar-menu .nav .nav-item {
@@ -959,8 +963,8 @@ footer {
   display: -ms-grid;
   display: grid;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .default-sidebar-menu .nav .nav-item:hover a {
@@ -975,7 +979,7 @@ footer {
   font-family: 'Poppins-Medium' !important;
   border-bottom: 1px solid #c8c8c8 !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   padding-bottom: 10px;
 }
 
@@ -996,10 +1000,10 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 350px 195px;
-      grid-template-columns: 1fr 350px 195px;
+  grid-template-columns: 1fr 350px 195px;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -ms-flex-align: end;
+  align-items: end;
 }
 
 .search-form-faculty .row .form-control {
@@ -1007,7 +1011,7 @@ footer {
   padding: 11px 15px;
   border-radius: 5px;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .search-form-faculty .row .btn-primary {
@@ -1037,10 +1041,10 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 195px;
-      grid-template-columns: 1fr 195px;
+  grid-template-columns: 1fr 195px;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  -ms-flex-align: end;
+  align-items: end;
   padding-right: 0;
 }
 
@@ -1049,7 +1053,7 @@ footer {
   padding: 11px 15px;
   border-radius: 5px;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .block-views-exposed-filter-blocksearch-page-1 .row .btn-primary {
@@ -1079,18 +1083,18 @@ footer {
   font-weight: normal;
 }
 
-.forms-listing-view .views-row .form-files > div {
+.forms-listing-view .views-row .form-files>div {
   padding: 10px 0px;
 }
 
-.forms-listing-view .views-row .form-files > div .file--mime-application-pdf {
+.forms-listing-view .views-row .form-files>div .file--mime-application-pdf {
   border: 1px solid #000;
   border-radius: 50px;
   padding: 0px 20px;
   background-position: 6px;
 }
 
-.forms-listing-view .views-row .form-files > div .file--mime-application-pdf a {
+.forms-listing-view .views-row .form-files>div .file--mime-application-pdf a {
   text-decoration: none;
   padding: 8px;
   color: #000;
@@ -1109,19 +1113,19 @@ footer {
   color: #000;
 }
 
-.admin-process-listing .view-content > .views-row {
+.admin-process-listing .view-content>.views-row {
   margin: 40px 0px;
 }
 
-.admin-process-listing .view-content > .views-row:first-child {
+.admin-process-listing .view-content>.views-row:first-child {
   margin-top: 0px;
 }
 
-.admin-process-listing .view-content > .views-row:last-child {
+.admin-process-listing .view-content>.views-row:last-child {
   margin-bottom: 0px;
 }
 
-.admin-process-listing .view-content > .views-row h3 {
+.admin-process-listing .view-content>.views-row h3 {
   font-family: 'Poppins-Medium';
 }
 
@@ -1194,14 +1198,14 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
 }
 
 .horizonal-cards .list-group li {
   border-radius: 7px;
   -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
 .horizonal-cards .node--view-mode-image-node-card header {
@@ -1255,12 +1259,15 @@ footer {
   color: #000;
   word-break: break-all;
 }
+
 .horizonal-cards .node--view-mode-image-node-card .node__content .file--mime-application-pdf a:hover {
-  color:red !important;
+  color: red !important;
 }
+
 .horizonal-cards .node--view-mode-image-node-card .node__content .file--mime-application-pdf:hover {
-    background: #d6d6dd;
+  background: #d6d6dd;
 }
+
 .horizonal-cards .view-footer {
   text-align: center;
   margin-top: 20px;
@@ -1285,7 +1292,7 @@ footer {
   -webkit-transition: all 1s;
   transition: all 1s;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-image: none;
 }
 
@@ -1298,7 +1305,7 @@ footer {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 450px 1fr;
-      grid-template-columns: 450px 1fr;
+  grid-template-columns: 450px 1fr;
 }
 
 .faculty-detail .row .col-lg-6 {
@@ -1371,38 +1378,51 @@ footer {
   top: 2px;
 }
 
-@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+@media all and (max-width: 768px),
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
+only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
+only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px),
+only screen and (min-resolution: 192dpi) and (max-width: 1024px),
+only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
   header {
     position: relative;
     background-color: #1b73c5;
     padding: 0px;
   }
+
   header .header-row {
     -ms-grid-columns: 1fr 71px;
-        grid-template-columns: 1fr 71px;
+    grid-template-columns: 1fr 71px;
   }
+
   header .header-row .item-logo .region-top-header {
     -ms-grid-columns: 70px 1fr;
-        grid-template-columns: 70px 1fr;
+    grid-template-columns: 70px 1fr;
   }
+
   .about-us-homepage .about-row {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
+
   .about-iitb-section .about-iitb-desc {
     padding: 12px;
     -webkit-clip-path: none;
-            clip-path: none;
+    clip-path: none;
   }
+
   .awards-ann-section .award-section .view-content .views-row {
     padding: 12px 12px 12px 42px;
   }
+
   .on-the-gray ul.quicktabs-tabs li {
     display: block;
   }
+
   header .header-row .item-logo .region-top-header .block-block-content h1 {
     font-size: 0.7rem;
   }
+
   .about-us-homepage,
   .homepage-faculty-tabs,
   .apply-iitp-section,
@@ -1413,32 +1433,41 @@ footer {
   .faculty-work-section {
     padding: 20px 0px;
   }
+
   .awards-ann-section .ps-5 {
     padding-left: 13px !important;
   }
+
   .deanfa-mes-section .dean-fa-box {
     padding: 15px;
   }
+
   header .offcanvas {
     background-color: #015692;
   }
+
   header .navbar-nav {
     margin-top: 40px;
   }
+
   header .navbar-nav li {
     padding: 5px 0px;
   }
+
   header .offcanvas-header {
     position: absolute;
     right: 0px;
   }
+
   .homepage-slideshow .field--name-field-title {
     font-size: 1rem;
   }
+
   footer .region-footer-third .row {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
+
   .homepage-news h2,
   .awards-ann-section h2,
   .about-iitb-section h2,
@@ -1447,89 +1476,113 @@ footer {
   .homepage-news h2 {
     font-size: 2rem;
   }
+
   .site-footer__top .content li a {
     padding: 0px 7px;
   }
+
   .block-views-exposed-filter-blocksearch-page-1 .row {
     -ms-grid-columns: 1fr 93px;
-        grid-template-columns: 1fr 93px;
+    grid-template-columns: 1fr 93px;
   }
+
   .block-views-exposed-filter-blocksearch-page-1 .row .js-form-item,
   .block-views-exposed-filter-blocksearch-page-1 .row .form-actions {
     margin-bottom: 0px !important;
   }
+
   header h1 {
     font-size: 0.8rem;
   }
+
   header .region-top-header .navbar-brand {
     width: 37px;
   }
+
   .block-views-exposed-filter-blocksearch-page-1 .row .form-control {
     padding: 4px 15px;
   }
+
   .block-views-exposed-filter-blocksearch-page-1 .row .btn-primary {
     padding: 4px;
     font-size: 0.9rem;
   }
+
   header .region-top-header {
     padding: 11px 10px;
   }
+
   header .navbar {
     padding: 0px;
   }
+
   header .navbar-expand-md {
     background-color: #e8e8e8 !important;
     padding: 6px 0px;
   }
+
   header h1 {
     font-size: 0.9rem;
   }
+
   header .region-top-header {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50px 1fr;
-        grid-template-columns: 50px 1fr;
+    grid-template-columns: 50px 1fr;
   }
+
   .default-listing-view .views-row .ds-2col-fluid,
   .default-listing-view .views-row .ds-2col-fluid,
   .default-listing-view .views-row .ds-2col-fluid,
   .default-listing-view .views-row .ds-2col-fluid {
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
+
   .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more {
     position: relative;
   }
+
   .default-listing-view .views-row .ds-2col-fluid .group-right h2 {
     font-family: 'Poppins-Semibold' !important;
     font-weight: normal;
     font-size: 1.2rem;
     margin-top: 10px;
   }
+
   .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more,
   .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more,
   .default-listing-view .views-row .ds-2col-fluid .group-right .default-learn-more {
     position: relative;
   }
-  .forms-listing-view .views-row .form-files > div .file--mime-application-pdf a {
+
+  .forms-listing-view .views-row .form-files>div .file--mime-application-pdf a {
     word-break: break-all;
   }
+
   .search-form-faculty .row {
     padding-right: 0px;
   }
+
   .search-form-faculty .row {
     -ms-grid-columns: 1fr 105px;
-        grid-template-columns: 1fr 105px;
+    grid-template-columns: 1fr 105px;
   }
-  .homepage-news .view-content, .faculty-work-section ul {
+
+  .homepage-news .view-content,
+  .faculty-work-section ul {
     -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr !important;
   }
+
   .apply-iitp-section .block-layout-builder {
     padding: 12px;
   }
+
   .awards-ann-section h2 {
     margin-top: 40px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */

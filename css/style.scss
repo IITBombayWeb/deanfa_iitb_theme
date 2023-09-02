@@ -570,6 +570,7 @@ header {
                             top: 16px;
                             line-height: 0;
                         }
+
                         &:hover {
                             color: #e90000 !important;
                         }
@@ -594,6 +595,9 @@ header {
                 width: 100%;
                 display: block;
                 text-align: center;
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
+
                 &:hover {
                     background-color: #000;
                     color: #fff !important;
@@ -602,7 +606,7 @@ header {
         }
 
     }
-    
+
     .announcement-single {
         .card {
             overflow: hidden;
@@ -1352,16 +1356,19 @@ footer {
                 font-size: 0.8rem;
                 margin: 8px 0px;
                 display: block;
+
                 &:hover {
                     background: #d6d6dd;
                 }
+
                 a {
                     text-decoration: none;
                     padding: 8px;
                     color: #000;
                     word-break: break-all;
+
                     &:hover {
-                        color:red !important;
+                        color: red !important;
                     }
                 }
             }
@@ -1427,7 +1434,8 @@ footer {
     .fac-email {
         float: left;
         margin: 0px 8px;
-        a{
+
+        a {
             text-decoration: none;
         }
     }
@@ -1438,7 +1446,7 @@ footer {
                 content: "\f472";
                 font-family: bootstrap-icons !important;
                 margin-right: 8px;
-                position: relative; 
+                position: relative;
                 top: 2px;
             }
         }
@@ -1684,13 +1692,17 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .search-form-faculty .row {
         grid-template-columns: 1fr 105px;
     }
-    .homepage-news .view-content, .faculty-work-section ul{
-        grid-template-columns: 1fr !important; 
+
+    .homepage-news .view-content,
+    .faculty-work-section ul {
+        grid-template-columns: 1fr !important;
     }
-    .apply-iitp-section .block-layout-builder{
+
+    .apply-iitp-section .block-layout-builder {
         padding: 12px;
     }
-    .awards-ann-section h2{
+
+    .awards-ann-section h2 {
         margin-top: 40px;
     }
 }
