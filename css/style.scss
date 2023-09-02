@@ -571,7 +571,7 @@ header {
                             line-height: 0;
                         }
                         &:hover {
-                            color: #e90000;
+                            color: #e90000 !important;
                         }
                     }
                 }
@@ -596,7 +596,7 @@ header {
                 text-align: center;
                 &:hover {
                     background-color: #000;
-                    color: #fff;
+                    color: #fff !important;
                 }
             }
         }
@@ -1352,12 +1352,17 @@ footer {
                 font-size: 0.8rem;
                 margin: 8px 0px;
                 display: block;
-
+                &:hover {
+                    background: #d6d6dd;
+                }
                 a {
                     text-decoration: none;
                     padding: 8px;
                     color: #000;
                     word-break: break-all;
+                    &:hover {
+                        color:red !important;
+                    }
                 }
             }
         }

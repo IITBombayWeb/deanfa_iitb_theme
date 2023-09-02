@@ -410,7 +410,7 @@ header .dropdown-item:hover a {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4] !important;
-      grid-template-columns: repeat(4, 1fr) !important;
+  grid-template-columns: repeat(4, 1fr) !important;
   margin-bottom: 50px;
 }
 
@@ -590,8 +590,8 @@ header .dropdown-item:hover a {
 }
 
 .awards-ann-section .award-section .view-footer a:hover {
-  background-color: #000;
-  color: #fff;
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
 .awards-ann-section .announcement-single .card {
@@ -1255,7 +1255,12 @@ footer {
   color: #000;
   word-break: break-all;
 }
-
+.horizonal-cards .node--view-mode-image-node-card .node__content .file--mime-application-pdf a:hover {
+  color:red !important;
+}
+.horizonal-cards .node--view-mode-image-node-card .node__content .file--mime-application-pdf:hover {
+    background: #d6d6dd;
+}
 .horizonal-cards .view-footer {
   text-align: center;
   margin-top: 20px;
