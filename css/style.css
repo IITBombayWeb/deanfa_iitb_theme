@@ -556,7 +556,9 @@ header .dropdown-item:hover a {
   text-decoration: none;
   color: #000;
 }
-
+.awards-ann-section .award-section .view-content .views-row .field-content a:hover{
+  color: #e90000 !important;
+}
 .awards-ann-section .award-section .view-content .views-row .field-content a::before {
   content: "\f154";
   position: relative;
@@ -585,6 +587,11 @@ header .dropdown-item:hover a {
   width: 100%;
   display: block;
   text-align: center;
+}
+
+.awards-ann-section .award-section .view-footer a:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .awards-ann-section .announcement-single .card {

@@ -570,6 +570,9 @@ header {
                             top: 16px;
                             line-height: 0;
                         }
+                        &:hover {
+                            color: #e90000;
+                        }
                     }
                 }
 
@@ -591,11 +594,15 @@ header {
                 width: 100%;
                 display: block;
                 text-align: center;
+                &:hover {
+                    background-color: #000;
+                    color: #fff;
+                }
             }
         }
 
     }
-
+    
     .announcement-single {
         .card {
             overflow: hidden;
