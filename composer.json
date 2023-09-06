@@ -20,6 +20,7 @@
         "drupal/quicktabs": "^3.0@alpha",
         "drupal/quick_node_clone": "^1.15",
         "drupal/redirect": "^1.8",
+        "drupal/scroll_top_button": "^2.0",
         "drupal/slick_entityreference": "^2.1",
         "drupal/social_media_links": "^2.9",
         "drupal/total_control": "^3.0",
