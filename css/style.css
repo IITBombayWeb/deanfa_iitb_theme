@@ -758,10 +758,6 @@ header .dropdown-item:hover a {
   color: var(--bs-white);
 }
 
-footer {
-  text-align: center;
-}
-
 .site-footer__top .content li a {
   text-indent: 0;
   border: 0px;
