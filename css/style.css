@@ -542,9 +542,13 @@ header .dropdown-item:hover a {
 }
 
 .awards-ann-section .award-section .view-content .views-row {
-  padding: 10px 0px;
+  padding: 22px 0px;
   border-bottom: 1px solid #ccc;
   padding-left: 32px;
+}
+
+.awards-ann-section .award-section .view-content .views-row:first-child {
+  padding-top: 0px;
 }
 
 .awards-ann-section .award-section .view-content .views-row .group-right h2 {
