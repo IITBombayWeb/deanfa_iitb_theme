@@ -1298,16 +1298,46 @@ footer {
             }
         }
 
-        .node--type-news{
+        .node--type-news {
             display: flex;
             gap: 40px;
-            .group-left{
+
+            .group-left {
                 width: 32%;
-                img{
-                    width: 100%; 
+
+                img {
+                    width: 100%;
                 }
             }
 
+        }
+    }
+}
+
+.job-announcements {
+    .view-content {
+        margin: 0px;
+    }
+
+    .views-row {
+        border: 1px solid #ccc;
+        margin: 15px;
+
+        time {
+            font-style: italic;
+        }
+
+        h5 {
+            a {
+                text-decoration: none;
+                color: var(--bs-primary);
+            }
+        }
+
+        .bs-region--bottom {
+            a {
+                text-decoration: none;
+            }
         }
     }
 }

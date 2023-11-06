@@ -1210,6 +1210,28 @@ footer {
   width: 100%;
 }
 
+.job-announcements .view-content {
+  margin: 0px;
+}
+
+.job-announcements .views-row {
+  border: 1px solid #ccc;
+  margin: 15px;
+}
+
+.job-announcements .views-row time {
+  font-style: italic;
+}
+
+.job-announcements .views-row h5 a {
+  text-decoration: none;
+  color: var(--bs-primary);
+}
+
+.job-announcements .views-row .bs-region--bottom a {
+  text-decoration: none;
+}
+
 .horizonal-cards h2 {
   font-size: 2rem;
   font-family: 'Poppins-Medium';
