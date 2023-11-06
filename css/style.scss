@@ -1273,7 +1273,7 @@ footer {
 
 .global-search-form {
     .views-row {
-        padding: 40px 0px;
+        padding: 20px 0px;
         border-bottom: 1px solid #ccc;
 
         &:last-child {
@@ -1286,8 +1286,28 @@ footer {
                     color: #000;
                     font-family: 'Poppins-Medium';
                     text-decoration: none;
+                    font-style: normal;
                 }
             }
+
+            a {
+                text-decoration: none;
+                font-style: italic;
+                margin-top: 5px;
+                float: left;
+            }
+        }
+
+        .node--type-news{
+            display: flex;
+            gap: 40px;
+            .group-left{
+                width: 30%;
+                img{
+                    width: 100%; 
+                }
+            }
+
         }
     }
 }
@@ -1500,6 +1520,15 @@ footer {
         }
     }
 }
+
+.job-announcements {
+    ul {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+    }
+}
+
 
 
 @media all and (max-width: 768px),
