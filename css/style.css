@@ -758,6 +758,11 @@ header .dropdown-item:hover a {
   color: var(--bs-white);
 }
 
+footer .geo-location a:hover {
+  background-color: #005494;
+  color: #fff;
+}
+
 .site-footer__top .content li a {
   text-indent: 0;
   border: 0px;
