@@ -1686,4 +1686,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .awards-ann-section h2 {
         margin-top: 40px;
     }
+    .homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body{
+        padding-left: 0px;
+    }
 }

@@ -1595,5 +1595,8 @@ footer .geo-location a:hover {
   .awards-ann-section h2 {
     margin-top: 40px;
   }
+  .homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body {
+    padding-left: 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
