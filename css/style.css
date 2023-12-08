@@ -1598,5 +1598,12 @@ footer .geo-location a:hover {
   .homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body {
     padding-left: 0px;
   }
+  .homepage-people-cards .block-layout-builder:nth-child(even) .col-md-8 .card-body,
+  .homepage-people-cards .block-layout-builder:nth-child(even) .col-md-8 .card-body {
+    padding-right: 0px;
+  }
+  .homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body {
+    padding-left: 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
