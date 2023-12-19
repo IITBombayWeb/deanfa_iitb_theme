@@ -1,0 +1,25 @@
+From 35367b92a60352953417dc9c6b9b9b3a2a7927cc Mon Sep 17 00:00:00 2001
+From: Pepe Mestre <60508-Pandepoulus@users.noreply.drupalcode.org>
+Date: Wed, 14 Jun 2023 08:30:44 +0000
+Subject: [PATCH] AuthorizationCodeInterface method signature change
+
+---
+ src/OAuth2Storage.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/OAuth2Storage.php b/src/OAuth2Storage.php
+index 5f5315d..a377ca5 100644
+--- a/src/OAuth2Storage.php
++++ b/src/OAuth2Storage.php
+@@ -533,7 +533,7 @@ class OAuth2Storage implements OAuth2StorageInterface {
+    * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
+    * @throws \Drupal\Core\Entity\EntityStorageException
+    */
+-  public function setAuthorizationCode($code, $client_id, $uid, $redirect_uri, $expires, $scope = NULL, $id_token = NULL) {
++  public function setAuthorizationCode($code, $client_id, $uid, $redirect_uri, $expires, $scope = NULL, $id_token = NULL, $code_challenge = NULL, $code_challenge_method = NULL) {
+     /** @var \Drupal\oauth2_server\ClientInterface $client */
+     $client = $this->getStorageClient($client_id);
+     if (!$client) {
+-- 
+GitLab
+
