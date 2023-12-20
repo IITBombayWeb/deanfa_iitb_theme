@@ -1486,7 +1486,7 @@ footer {
 @media only screen and (max-width: 1200px) and (min-width: 769px) {
     header .navbar-expand-md .menu--main .nav-link {
         font-size: 1rem;
-        padding: 15px 21px;
+        padding: 15px 21px; 
         font-family: 'Poppins-Medium' !important;
     }
 }
@@ -1516,21 +1516,9 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
             font-size: 2rem;
         }
     }
-    header .navbar-expand-md .menu--main .nav-link{
-        color: #fff;
-    }
-    header .navbar-expand-md .menu--main .nav-link.active {
-        color: #ffffff !important;
-        border-bottom: 2px solid #ffffff; 
-    }
+ 
 
-    header .navbar-expand-md .menu--main .nav-link {
-        color: #fff !important;
-    }
-    header .navbar-expand-md .menu--main .nav-link.active{
-        color: #fff !important;
-        border-bottom: 2px solid #ffffff;
-    }
+ 
 
     .homepage-news {
         .views-row {

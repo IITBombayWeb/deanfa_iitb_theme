@@ -1461,20 +1461,6 @@ footer .geo-location a:hover {
     position: absolute;
     font-size: 2rem;
   }
-  header .navbar-expand-md .menu--main .nav-link {
-    color: #fff;
-  }
-  header .navbar-expand-md .menu--main .nav-link.active {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff;
-  }
-  header .navbar-expand-md .menu--main .nav-link {
-    color: #fff !important;
-  }
-  header .navbar-expand-md .menu--main .nav-link.active {
-    color: #fff !important;
-    border-bottom: 2px solid #ffffff;
-  }
   .homepage-news .views-row {
     margin-bottom: 15px;
   }
