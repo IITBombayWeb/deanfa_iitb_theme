@@ -1109,6 +1109,7 @@ footer {
                     text-decoration: none;
                     padding: 8px;
                     color: #000;
+                    font-size: 0.8rem;
                 }
             }
 
@@ -1687,16 +1688,10 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         margin-top: 40px;
     }
 
-    .homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body {
-        padding-left: 0px;
+    .horizonal-cards .list-group{
+        grid-template-columns: 1fr; 
     }
-
-    .homepage-people-cards .block-layout-builder:nth-child(even) .col-md-8 .card-body,
-    .homepage-people-cards .block-layout-builder:nth-child(even) .col-md-8 .card-body {
-        padding-right: 0px;
-    }
-
-    .homepage-people-cards .block-layout-builder:nth-child(odd) .col-md-8 .card-body {
-        padding-left: 0px;
+    .admin-process-listing .ui-accordion-header{
+        font-size: 1rem; 
     }
 }
