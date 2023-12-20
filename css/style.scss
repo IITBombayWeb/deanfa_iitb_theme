@@ -1483,7 +1483,13 @@ footer {
 }
 
 
-
+@media only screen and (max-width: 900px) {
+    header .navbar-expand-md .menu--main .nav-link {
+        font-size: 1rem;
+        padding: 15px 21px;
+        font-family: 'Poppins-Medium' !important;
+    }
+}
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
@@ -1499,6 +1505,21 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         .header-row {
             grid-template-columns: 1fr 71px;
 
+        }
+    }
+    
+    .homepage-news{
+        .views-row{
+            margin-bottom: 15px;
+        }
+
+        .content img{
+            width: 100%;
+        }
+    }
+    .faculty-work-section{
+        .content img{
+            width: 100%;
         }
     }
 
@@ -1694,4 +1715,6 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     .admin-process-listing .ui-accordion-header{
         font-size: 1rem; 
     }
+   
+      
 }
