@@ -27,6 +27,8 @@
         "drupal/social_media_links": "^2.9",
         "drupal/total_control": "^3.0",
         "drupal/views_accordion": "^2.0",
-        "drupal/views_infinite_scroll": "^2.0"
+        "drupal/views_infinite_scroll": "^2.0",
+        "drupal/oauth2_server": "^2.0@beta",
+        "drupal/openid_connect": "^2.0@beta"
     }
 }
