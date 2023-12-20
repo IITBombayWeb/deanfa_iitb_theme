@@ -1435,7 +1435,7 @@ footer .geo-location a:hover {
   list-style-type: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) and (min-width: 769px) {
   header .navbar-expand-md .menu--main .nav-link {
     font-size: 1rem;
     padding: 15px 21px;
@@ -1453,6 +1453,28 @@ footer .geo-location a:hover {
     -ms-grid-columns: 1fr 71px;
         grid-template-columns: 1fr 71px;
   }
+  .offcanvas {
+    width: 250px;
+  }
+  .offcanvas::before {
+    content: 'x';
+    position: absolute;
+    font-size: 2rem;
+  }
+  header .navbar-expand-md .menu--main .nav-link {
+    color: #fff;
+  }
+  header .navbar-expand-md .menu--main .nav-link.active {
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff;
+  }
+  header .navbar-expand-md .menu--main .nav-link {
+    color: #fff !important;
+  }
+  header .navbar-expand-md .menu--main .nav-link.active {
+    color: #fff !important;
+    border-bottom: 2px solid #ffffff;
+  }
   .homepage-news .views-row {
     margin-bottom: 15px;
   }
@@ -1461,6 +1483,12 @@ footer .geo-location a:hover {
   }
   .faculty-work-section .content img {
     width: 100%;
+  }
+  .default-listing-view .content img {
+    width: 100%;
+  }
+  .default-listing-view .views-row .ds-2col-fluid .group-left {
+    text-align: center;
   }
   header .header-row .item-logo .region-top-header {
     -ms-grid-columns: 70px 1fr;
@@ -1619,6 +1647,9 @@ footer .geo-location a:hover {
   }
   .admin-process-listing .ui-accordion-header {
     font-size: 1rem;
+  }
+  .default-sidebar-menu {
+    margin-top: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

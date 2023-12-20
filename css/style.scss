@@ -1483,13 +1483,14 @@ footer {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1200px) and (min-width: 769px) {
     header .navbar-expand-md .menu--main .nav-link {
         font-size: 1rem;
         padding: 15px 21px;
         font-family: 'Poppins-Medium' !important;
     }
 }
+
 @media all and (max-width: 768px),
 only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
 only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
@@ -1507,20 +1508,54 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
         }
     }
-    
-    .homepage-news{
-        .views-row{
+    .offcanvas{
+        width: 250px;
+        &::before{
+            content: 'x';
+            position: absolute;
+            font-size: 2rem;
+        }
+    }
+    header .navbar-expand-md .menu--main .nav-link{
+        color: #fff;
+    }
+    header .navbar-expand-md .menu--main .nav-link.active {
+        color: #ffffff !important;
+        border-bottom: 2px solid #ffffff; 
+    }
+
+    header .navbar-expand-md .menu--main .nav-link {
+        color: #fff !important;
+    }
+    header .navbar-expand-md .menu--main .nav-link.active{
+        color: #fff !important;
+        border-bottom: 2px solid #ffffff;
+    }
+
+    .homepage-news {
+        .views-row {
             margin-bottom: 15px;
         }
 
-        .content img{
+        .content img {
             width: 100%;
         }
     }
-    .faculty-work-section{
-        .content img{
+
+    .faculty-work-section {
+        .content img {
             width: 100%;
         }
+    }
+
+    .default-listing-view {
+        .content img {
+            width: 100%;
+        }
+    }
+
+    .default-listing-view .views-row .ds-2col-fluid .group-left {
+        text-align: center;
     }
 
     header .header-row .item-logo .region-top-header {
@@ -1709,12 +1744,17 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
         margin-top: 40px;
     }
 
-    .horizonal-cards .list-group{
-        grid-template-columns: 1fr; 
+    .horizonal-cards .list-group {
+        grid-template-columns: 1fr;
     }
-    .admin-process-listing .ui-accordion-header{
-        font-size: 1rem; 
+
+    .admin-process-listing .ui-accordion-header {
+        font-size: 1rem;
     }
-   
-      
+
+    .default-sidebar-menu {
+        margin-top: 20px;
+    }
+
+
 }
