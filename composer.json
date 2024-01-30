@@ -19,6 +19,7 @@
         "drupal/layout_builder_restrictions": "^2.17",
         "drupal/layout_library": "^1.0@beta",
         "drupal/metatag": "^1.22",
+        "drupal/nodeaccess": "^2.0@alpha",
         "drupal/quicktabs": "^3.0@alpha",
         "drupal/quick_node_clone": "^1.15",
         "drupal/redirect": "^1.8",
